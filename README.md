@@ -6,8 +6,8 @@ ___
 
 ### Python 3
 
-- [hash table]()
-  - [insert delete get random O(1)]()
-- [linked list]()
-  - [remove nodes from linked list]()
-  - [reverse nodes in even length groups]()
+- [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
+  - [insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
+- [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list)
+  - [remove nodes from linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNodesFromLinkedList.py)
+  - [reverse nodes in even length groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReverseNodesInEvenLengthGroups.py)
