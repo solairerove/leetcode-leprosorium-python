@@ -5,9 +5,18 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def reorder_list(self, head: Optional[ListNode]) -> None:
-    """
-    Do not return anything, modify head in-place instead.
-    """
+    if not head.next:
+        return None
 
-# 1, 5, 2, 4, 3
-def find_middle_node(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    slow, fast = head, head.next
+    while fast and fast.next:
+        slow, fast = slow.next, fast.next.next
+
+    prev, curr = None, slow
+    while curr:
+        curr.next, prev, curr = prev, curr, curr.next
+
+    first, second = head, prev
+    while first and second:
+        first.next, first = second, first.next
+        second.next, second = first, second.next
