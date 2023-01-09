@@ -5,11 +5,8 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def reverse_list(self, head: Optional[ListNode]) -> Optional[ListNode]:
-    prev = None
-    while head:
-        nxt = head.next
-        head.next = prev
-        prev = head
-        head = nxt
+    prev, curr = None, head
+    while curr:
+        curr.next, prev, curr = prev, curr, curr.next
 
     return prev
