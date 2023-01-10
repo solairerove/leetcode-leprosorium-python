@@ -12,6 +12,7 @@ ___
 - [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list)
   - [merge two sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
   - [remove nodes from linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNodesFromLinkedList.py)
+  - [remove nth node from end of list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNthNodeFromEndOfList.py)
   - [reorder list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReorderList.py)
   - [reverse linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReverseLinkedList.py)
   - [reverse nodes in even length groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReverseNodesInEvenLengthGroups.py)
