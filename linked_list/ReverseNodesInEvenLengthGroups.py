@@ -10,11 +10,9 @@ def reverse_even_length_groups(head: Optional[ListNode]) -> Optional[ListNode]:
         cnt += 1
         if cnt == group:
             if group % 2 == 0:
-                curr = prev.next
-                prev.next = reverse_k_nodes(prev.next, cnt)
+                curr, prev.next = prev.next, reverse_k_nodes(prev.next, cnt)
             prev = curr
-            cnt = 0
-            group += 1
+            cnt, group = 0, group + 1
 
         curr = curr.next
 
@@ -25,13 +23,9 @@ def reverse_even_length_groups(head: Optional[ListNode]) -> Optional[ListNode]:
 
 
 def reverse_k_nodes(head: Optional[ListNode], k: int) -> Optional[ListNode]:
-    curr = head
-    prev = None
+    prev, curr = None, head
     for i in range(k):
-        tmp = curr.next
-        curr.next = prev
-        prev = curr
-        curr = tmp
+        curr.next, prev, curr = prev, curr, curr.next
 
     head.next = curr
 
