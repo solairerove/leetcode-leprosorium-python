@@ -12,6 +12,7 @@ ___
 - [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list)
   - [add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - [copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
+  - [find the duplicate number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/FindTheDuplicateNumber.py)
   - [linked list cycle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycle.py)
   - [linked list cycle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycleII.py)
   - [merge two sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
