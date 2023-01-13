@@ -8,21 +8,16 @@ def reverse_k_group(self, head: Optional[ListNode], k: int) -> Optional[ListNode
     sentinel = ListNode(-1, head)
     group_prev = sentinel
     while True:
-        kth = find_kth(group_prev, k)
+        kth = find_kth(self, group_prev, k)
         if not kth:
             break
         group_next = kth.next
 
         prev, curr = kth.next, group_prev.next
         while curr != group_next:
-            tmp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = tmp
+            curr.next, prev, curr = prev, curr, curr.next
 
-        tmp = group_prev.next
-        group_prev.next = kth
-        group_prev = tmp
+        group_prev.next, group_prev = kth, group_prev.next
 
     return sentinel.next
 
