@@ -15,6 +15,7 @@ ___
   - [find the duplicate number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/FindTheDuplicateNumber.py)
   - [linked list cycle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycle.py)
   - [linked list cycle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycleII.py)
+  - [lru cache](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LRUCache.py)
   - [merge k sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeKSortedLists.py)
   - [merge two sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
   - [remove nodes from linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNodesFromLinkedList.py)
