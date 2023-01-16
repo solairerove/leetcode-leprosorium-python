@@ -1,3 +1,4 @@
+# O(n) time || O(1) space
 def climb_stairs(self, n: int) -> int:
     if n <= 3:
         return n
