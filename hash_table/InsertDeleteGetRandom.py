@@ -4,7 +4,7 @@ from random import choice
 class RandomizedSet:
 
     def __init__(self):
-        self.dict = {}
+        self.dict = {}  # value to index dict
         self.list = []
 
     def insert(self, val: int) -> bool:
