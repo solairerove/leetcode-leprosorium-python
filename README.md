@@ -7,6 +7,7 @@ ___
 ### Python 3
 
 - [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming)
+  - [climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - [fibonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/FibonacciNumber.py)
 - [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
   - [insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
