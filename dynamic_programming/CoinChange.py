@@ -1,7 +1,7 @@
 from typing import List
 
 
-# O(n) time || O(1) space
+# O(c * a) time || O(a) space
 def coin_change(self, coins: List[int], amount: int) -> int:
     if amount == 0:
         return 0

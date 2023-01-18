@@ -8,6 +8,7 @@ ___
 
 - [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming)
   - [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
+  - [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
   - [91. decode ways](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DecodeWays.py)
   - [509. fibonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/FibonacciNumber.py)
   - [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
