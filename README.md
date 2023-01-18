@@ -13,6 +13,7 @@ ___
   - [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
+  - [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
   - [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
