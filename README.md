@@ -14,6 +14,7 @@ ___
   - [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
+  - [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
   - [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
   - [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
