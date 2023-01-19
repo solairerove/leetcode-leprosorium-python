@@ -18,7 +18,7 @@ class MyTestCase(unittest.TestCase):
 
         res = detect_cycle(__name__, node1)
 
-        self.assertEqual(2, res.val)  # add assertion here
+        self.assertEqual(2, res.val)  
 
     def test_detect_cycle_1(self):
         node1 = ListNode(1)
@@ -29,14 +29,14 @@ class MyTestCase(unittest.TestCase):
 
         res = detect_cycle(__name__, node1)
 
-        self.assertEqual(1, res.val)  # add assertion here
+        self.assertEqual(1, res.val)  
 
     def test_detect_cycle_2(self):
         node1 = ListNode(1)
 
         res = detect_cycle(__name__, node1)
 
-        self.assertEqual(None, res)  # add assertion here
+        self.assertEqual(None, res)  
 
     def test_detect_cycle_6(self):
         node1 = ListNode(1)
@@ -46,7 +46,7 @@ class MyTestCase(unittest.TestCase):
 
         res = detect_cycle(__name__, node1)
 
-        self.assertEqual(None, res)  # add assertion here
+        self.assertEqual(None, res)  
 
 
 if __name__ == '__main__':

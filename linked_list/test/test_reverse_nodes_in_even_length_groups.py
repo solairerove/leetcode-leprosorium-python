@@ -42,7 +42,7 @@ class MyTestCase(unittest.TestCase):
         while res:
             arr.append(res.val)
             res = res.next
-        self.assertEqual([5, 6, 2, 3, 9, 1, 4, 8, 3, 7], arr)  # add assertion here
+        self.assertEqual([5, 6, 2, 3, 9, 1, 4, 8, 3, 7], arr)  
 
 
 if __name__ == '__main__':

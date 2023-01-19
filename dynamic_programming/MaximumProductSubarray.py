@@ -14,7 +14,7 @@ def max_product(self, nums: List[int]) -> int:
     return res
 
 
-# O(n) time || O(1) space
+# O(n) time || O(n) space
 def max_product_from_smarter_guy(self, nums: List[int]) -> int:
     reverse = nums[::-1]
     for i in range(1, len(nums)):

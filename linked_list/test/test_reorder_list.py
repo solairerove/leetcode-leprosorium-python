@@ -25,7 +25,7 @@ class MyTestCase(unittest.TestCase):
             arr.append(head.val)
             head = head.next
 
-        self.assertEqual([1, 4, 2, 3], arr)  # add assertion here
+        self.assertEqual([1, 4, 2, 3], arr)  
 
     def test_reorder_list_2(self):
         head = ListNode(
@@ -48,7 +48,7 @@ class MyTestCase(unittest.TestCase):
             arr.append(head.val)
             head = head.next
 
-        self.assertEqual([1, 5, 2, 4, 3], arr)  # add assertion here
+        self.assertEqual([1, 5, 2, 4, 3], arr)  
 
 
 if __name__ == '__main__':

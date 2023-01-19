@@ -28,7 +28,7 @@ class MyTestCase(unittest.TestCase):
             arr.append(res.val)
             res = res.next
 
-        self.assertEqual([2, 1, 4, 3, 5], arr)  # add assertion here
+        self.assertEqual([2, 1, 4, 3, 5], arr)  
 
     def test_reverse_k_group_1(self):
         head = ListNode(
@@ -53,7 +53,7 @@ class MyTestCase(unittest.TestCase):
             arr.append(res.val)
             res = res.next
 
-        self.assertEqual([3, 2, 1, 4, 5], arr)  # add assertion here
+        self.assertEqual([3, 2, 1, 4, 5], arr)  
 
 
 if __name__ == '__main__':
