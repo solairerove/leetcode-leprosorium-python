@@ -13,6 +13,7 @@ ___
   - [509. fibonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/FibonacciNumber.py)
   - [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
+  - [300. longest increasing subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestIncreasingSubsequence.py)
   - [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
   - [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
