@@ -12,3 +12,13 @@ def max_product(self, nums: List[int]) -> int:
         res = max(res, curr_max)
 
     return res
+
+
+# O(n) time || O(1) space
+def max_product_from_smarter_guy(self, nums: List[int]) -> int:
+    reverse = nums[::-1]
+    for i in range(1, len(nums)):
+        nums[i] *= nums[i - 1] or 1
+        reverse[i] *= reverse[i - 1] or 1
+
+    return max(nums + reverse)
