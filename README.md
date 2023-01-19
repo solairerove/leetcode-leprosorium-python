@@ -17,6 +17,7 @@ ___
   - [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
   - [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
   - [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
+  - [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
   - [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
