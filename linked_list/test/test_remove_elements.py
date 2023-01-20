@@ -1,65 +1,26 @@
 import unittest
 
-from linked_list.ListNode import ListNode
 from linked_list.RemoveLinkedListElements import remove_elements
+from linked_list.test.utils import transform_array_to_list_node, transform_list_node_to_array
 
 
 class MyTestCase(unittest.TestCase):
     def test_remove_elements(self):
-        head = ListNode(
-            val=1,
-            next=ListNode(
-                val=2,
-                next=ListNode(
-                    val=6,
-                    next=ListNode(
-                        val=3,
-                        next=ListNode(
-                            val=4,
-                            next=ListNode(
-                                val=5,
-                                next=ListNode(
-                                    val=6
-                                )
-                            )
-                        )
-                    )
-                )
-            )
-        )
-
+        head = transform_array_to_list_node(self, [1, 2, 6, 3, 4, 5, 6])
         res = remove_elements(self, head, 6)
-        arr = []
-        while res:
-            arr.append(res.val)
-            res = res.next
+        actual = transform_list_node_to_array(self, res)
 
-        self.assertEqual([1, 2, 3, 4, 5], arr)
+        self.assertEqual([1, 2, 3, 4, 5], actual)
 
     def test_remove_elements_1(self):
         self.assertEqual(None, remove_elements(self, None, 1))
 
     def test_remove_elements_2(self):
-        head = ListNode(
-            val=7,
-            next=ListNode(
-                val=7,
-                next=ListNode(
-                    val=7,
-                    next=ListNode(
-                        val=7
-                    )
-                )
-            )
-        )
-
+        head = transform_array_to_list_node(self, [7, 7, 7, 7])
         res = remove_elements(self, head, 7)
-        arr = []
-        while res:
-            arr.append(res.val)
-            res = res.next
+        actual = transform_list_node_to_array(self, res)
 
-        self.assertEqual([], arr)
+        self.assertEqual([], actual)
 
 
 if __name__ == '__main__':

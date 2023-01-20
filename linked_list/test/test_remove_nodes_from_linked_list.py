@@ -1,34 +1,16 @@
 import unittest
 
-from linked_list.ListNode import ListNode
 from linked_list.RemoveNodesFromLinkedList import remove_nodes
+from linked_list.test.utils import transform_array_to_list_node, transform_list_node_to_array
 
 
 class MyTestCase(unittest.TestCase):
     def test_remove_nodes_from_linked_list(self):
-        head = ListNode(
-            val=5,
-            next=ListNode(
-                val=2,
-                next=ListNode(
-                    val=13,
-                    next=ListNode(
-                        val=3,
-                        next=ListNode(
-                            val=8
-                        )
-                    )
-                )
-            )
-        )
+        head = transform_array_to_list_node(self, [5, 2, 13, 3, 8])
+        res = remove_nodes(self, head)
+        actual = transform_list_node_to_array(self, res)
 
-        res = remove_nodes(__name__, head)
-        arr = []
-        while res:
-            arr.append(res.val)
-            res = res.next
-
-        self.assertEqual([13, 8], arr)  
+        self.assertEqual([13, 8], actual)
 
 
 if __name__ == '__main__':

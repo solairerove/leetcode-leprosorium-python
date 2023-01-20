@@ -1,38 +1,17 @@
 import unittest
 
 from linked_list.AddTwoNumbers import add_two_numbers
-from linked_list.ListNode import ListNode
+from linked_list.test.utils import transform_array_to_list_node, transform_list_node_to_array
 
 
 class MyTestCase(unittest.TestCase):
     def test_add_two_numbers(self):
-        list1 = ListNode(
-            val=2,
-            next=ListNode(
-                val=4,
-                next=ListNode(
-                    val=3
-                )
-            )
-        )
+        list1 = transform_array_to_list_node(self, [2, 4, 3])
+        list2 = transform_array_to_list_node(self, [5, 6, 4])
+        res = add_two_numbers(self, list1, list2)
+        actual = transform_list_node_to_array(self, res)
 
-        list2 = ListNode(
-            val=5,
-            next=ListNode(
-                val=6,
-                next=ListNode(
-                    val=4
-                )
-            )
-        )
-
-        res = add_two_numbers(__name__, list1, list2)
-        arr = []
-        while res:
-            arr.append(res.val)
-            res = res.next
-
-        self.assertEqual([7, 0, 8], arr)  
+        self.assertEqual([7, 0, 8], actual)
 
 
 if __name__ == '__main__':

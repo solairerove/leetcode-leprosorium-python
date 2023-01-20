@@ -1,22 +1,18 @@
 import unittest
 
-from linked_list.ListNode import ListNode
 from linked_list.MergeKSortedLists import merge_k_lists
+from linked_list.test.utils import transform_list_node_to_array, transform_array_to_list_node
 
 
 class MyTestCase(unittest.TestCase):
     def test_merge_k_lists(self):
-        node1 = ListNode(val=1, next=ListNode(val=4, next=ListNode(val=5)))
-        node2 = ListNode(val=1, next=ListNode(val=3, next=ListNode(val=4)))
-        node3 = ListNode(val=2, next=ListNode(val=6))
+        list1 = transform_array_to_list_node(self, [1, 4, 5])
+        list2 = transform_array_to_list_node(self, [1, 3, 4])
+        list3 = transform_array_to_list_node(self, [2, 6])
+        res = merge_k_lists(self, [list1, list2, list3])
+        actual = transform_list_node_to_array(self, res)
 
-        res = merge_k_lists(__name__, [node1, node2, node3])
-        arr = []
-        while res:
-            arr.append(res.val)
-            res = res.next
-
-        self.assertEqual([1, 1, 2, 3, 4, 4, 5, 6], arr)  
+        self.assertEqual([1, 1, 2, 3, 4, 4, 5, 6], actual)
 
 
 if __name__ == '__main__':
