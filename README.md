@@ -38,6 +38,7 @@ ___
   - :congratulations: [23. merge k sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeKSortedLists.py)
   - :four_leaf_clover: [21. merge two sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
   - :four_leaf_clover: [234. palindrome linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/PalindromeLinkedList.py)
+  - :four_leaf_clover: [203. remove linked list elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveLinkedListElements.py)
   - :accept: [2487. remove nodes from linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNodesFromLinkedList.py)
   - :accept: [19. remove nth node from end of list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveNthNodeFromEndOfList.py)
   - :accept: [143. reorder list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReorderList.py)
