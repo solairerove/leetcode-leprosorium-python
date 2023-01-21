@@ -1,6 +1,6 @@
 import unittest
 
-from linked_list.RemoveDuplicatesfromSortedList import delete_duplicates
+from linked_list.RemoveDuplicatesFromSortedList import delete_duplicates
 from linked_list.test.utils import transform_array_to_list_node, transform_list_node_to_array
 
 
