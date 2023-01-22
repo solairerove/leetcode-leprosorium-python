@@ -32,7 +32,7 @@ ___
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
   - :accept: [287. find the duplicate number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/FindTheDuplicateNumber.py)
-  - :accept: [160. intersection of two linked lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/IntersectionOfTwoLinkedLists.py)
+  - :four_leaf_clover: [160. intersection of two linked lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/IntersectionOfTwoLinkedLists.py)
   - :four_leaf_clover: [141. linked list cycle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycle.py)
   - :accept: [142. linked list cycle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycleII.py)
   - :accept: [146. lru cache](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LRUCache.py)
