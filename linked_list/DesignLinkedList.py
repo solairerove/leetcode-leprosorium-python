@@ -71,11 +71,8 @@ class MyLinkedList:
         prev = self.get_prev_node_to(index)
         nxt = prev.nxt
 
-        node.prev = prev
-        node.nxt = nxt
-
-        prev.nxt = node
-        nxt.prev = node
+        node.prev, node.nxt = prev, nxt
+        prev.nxt = nxt.prev = node
 
         self.size += 1
 
