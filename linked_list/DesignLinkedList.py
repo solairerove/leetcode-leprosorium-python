@@ -19,18 +19,17 @@ class MyLinkedList:
         if index > self.size:
             return None
 
-        curr, res, i = self.head, None, 0
         if self.size - index >= self.size // 2:
-            while curr and i < index:
-                curr, i = curr.nxt, i + 1
-            res = curr
+            curr = self.head
+            for i in range(index):
+                curr = curr.nxt
         else:
             curr = self.tail
-            while curr and i < self.size - index:
-                curr, i = curr.prev, i + 1
-            res = curr.prev
+            for i in range(self.size - index):
+                curr = curr.prev
+            curr = curr.prev
 
-        return res
+        return curr
 
     def get(self, index: int) -> int:
         if index > self.size:
