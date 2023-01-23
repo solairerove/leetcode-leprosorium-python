@@ -34,7 +34,7 @@ class MyLinkedList:
             while curr and i < self.size - index:
                 curr = curr.prev
                 i += 1
-            res = curr.prev.prev
+            res = curr.prev
 
         return res
 
@@ -66,6 +66,13 @@ class MyLinkedList:
         if index > self.size:
             return None
 
+        if index == self.size:
+            self.add_at_tail(val)
+            return None
+        elif index == 0:
+            self.add_at_head(val)
+            return None
+
         node = Node(val)
         prev = self.get_prev_node_to(index)
         nxt = prev.nxt
@@ -79,7 +86,7 @@ class MyLinkedList:
         self.size += 1
 
     def delete_at_index(self, index: int) -> None:
-        if index > self.size:
+        if index >= self.size:
             return None
 
         prev = self.get_prev_node_to(index)
