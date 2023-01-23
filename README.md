@@ -4,14 +4,14 @@ Leetcode playground using python3
 
 ___
 
-:four_leaf_clover: easy \
-:accept: medium \
-:congratulations: hard \
-:goberserk: you should skip interview
+:four_leaf_clover: 9 easy \
+:accept: 23 medium \
+:congratulations: 2 hard \
+:goberserk: 0 you should skip interview
 
 ### Python 3
 
-- [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming)
+- [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 13
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
   - :accept: [91. decode ways](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DecodeWays.py)
@@ -25,10 +25,10 @@ ___
   - :accept: [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
   - :accept: [416. partition equal subset sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PartitionEqualSubsetSum.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table)
+- [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list)
+- [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 19
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
   - :accept: [707. design linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignLinkedList.py)
