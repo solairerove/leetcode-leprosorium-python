@@ -4,36 +4,30 @@ from typing import Optional
 class Node:
     def __init__(self, val: int):
         self.val = val
-        self.prev = None
-        self.nxt = None
+        self.prev, self.nxt = None, None
 
 
 class MyLinkedList:
 
     def __init__(self):
-        self.head = Node(-1)
-        self.tail = Node(-1)
+        self.head, self.tail = Node(-1), Node(-1)
         self.size = 0
 
-        self.head.nxt = self.tail
-        self.tail.prev = self.head
+        self.head.nxt, self.tail.prev = self.tail, self.head
 
     def get_prev_node_to(self, index: int) -> Optional[Node]:
         if index > self.size:
             return None
 
-        # head -> 1 -> 2 -> 3 -> 4 -> 5 -> tail
         curr, res, i = self.head, None, 0
         if self.size - index >= self.size // 2:
             while curr and i < index:
-                curr = curr.nxt
-                i += 1
+                curr, i = curr.nxt, i + 1
             res = curr
         else:
             curr = self.tail
             while curr and i < self.size - index:
-                curr = curr.prev
-                i += 1
+                curr, i = curr.prev, i + 1
             res = curr.prev
 
         return res
