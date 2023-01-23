@@ -28,7 +28,7 @@ ___
 - [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 19
+- [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 20
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
   - :accept: [1472. design browser history](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignBrowserHistory.py)
