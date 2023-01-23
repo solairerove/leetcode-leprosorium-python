@@ -5,7 +5,7 @@ Leetcode playground using python3
 ___
 
 :four_leaf_clover: 9 easy \
-:accept: 23 medium \
+:accept: 24 medium \
 :congratulations: 2 hard \
 :goberserk: 0 you should skip interview
 
@@ -31,6 +31,7 @@ ___
 - [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 19
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
+  - :accept: [1472. design browser history](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignBrowserHistory.py)
   - :accept: [707. design linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignLinkedList.py)
   - :accept: [287. find the duplicate number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/FindTheDuplicateNumber.py)
   - :four_leaf_clover: [160. intersection of two linked lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/IntersectionOfTwoLinkedLists.py)
