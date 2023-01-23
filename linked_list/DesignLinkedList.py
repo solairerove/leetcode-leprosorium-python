@@ -1,3 +1,6 @@
+from typing import Optional
+
+
 class Node:
     def __init__(self, val: int):
         self.val = val
@@ -15,24 +18,31 @@ class MyLinkedList:
         self.head.nxt = self.tail
         self.tail.prev = self.head
 
-    def get(self, index: int) -> int:
+    def get_prev_node_to(self, index: int) -> Optional[Node]:
         if index > self.size:
-            return -1
+            return None
 
+        # head -> 1 -> 2 -> 3 -> 4 -> 5 -> tail
         curr, res, i = self.head, None, 0
-        if self.size - index > self.size // 2:
+        if self.size - index >= self.size // 2:
             while curr and i < index:
                 curr = curr.nxt
                 i += 1
-            res = curr.nxt
+            res = curr
         else:
             curr = self.tail
             while curr and i < self.size - index:
                 curr = curr.prev
                 i += 1
-            res = curr.prev
+            res = curr.prev.prev
 
-        return res.val if res else -1
+        return res
+
+    def get(self, index: int) -> int:
+        if index > self.size:
+            return -1
+
+        return self.get_prev_node_to(index).nxt.val
 
     def add_at_head(self, val: int) -> None:
         node = Node(val)
@@ -57,23 +67,14 @@ class MyLinkedList:
             return None
 
         node = Node(val)
-        curr, i = self.head, 0
-        if self.size - index > self.size // 2:
-            while curr and i < index:
-                curr = curr.nxt
-                i += 1
-            nxt = curr.nxt
-            node.prev, node.nxt = curr, nxt
-            curr.nxt, nxt.prev = node
+        prev = self.get_prev_node_to(index)
+        nxt = prev.nxt
 
-        else:
-            curr = self.tail
-            while curr and i < self.size - index:
-                curr = curr.prev
-                i += 1
-            prev = curr.prev
-            node.prev, node.nxt = prev, curr
-            prev.nxt = curr.prev = node
+        node.prev = prev
+        node.nxt = nxt
+
+        prev.nxt = node
+        nxt.prev = node
 
         self.size += 1
 
@@ -81,22 +82,10 @@ class MyLinkedList:
         if index > self.size:
             return None
 
-        curr, i = self.head, 0
-        if self.size - index > self.size // 2:
-            while curr and i < index:
-                curr = curr.nxt
-                i += 1
-            prev, nxt = curr, curr.nxt.nxt
-            prev.nxt = nxt
-            nxt.prev = prev
+        prev = self.get_prev_node_to(index)
+        nxt = prev.nxt.nxt
 
-        else:
-            curr = self.tail
-            while curr and i < self.size - index:
-                curr = curr.prev
-                i += 1
-            prev, nxt = curr.prev.prev, curr
-            prev.nxt = nxt
-            nxt.prev = prev
+        prev.nxt = nxt
+        nxt.prev = prev
 
         self.size -= 1
