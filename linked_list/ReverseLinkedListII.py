@@ -10,20 +10,18 @@ def reverse_between(self, head: Optional[ListNode], left: int, right: int) -> Op
 
     sentinel = ListNode(-1)
     prev, curr = sentinel, head
-    low = high = 1
+    i = 1
     while curr:
-        if low == left:
-            prev.next = reverse_k_times(self, curr, right - left + 1)  #
-            break  # change to high += 1 iterations
+        if i == left:
+            prev.next = reverse_k_times(self, curr, right - left + 1)
+            break
         prev.next = curr
         prev = prev.next
         curr = curr.next
-        low += 1
+        i += 1
 
     return sentinel.next
 
-
-# 1, 4, 3, 2, 5
 
 def reverse_k_times(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
     prev, curr = None, head
