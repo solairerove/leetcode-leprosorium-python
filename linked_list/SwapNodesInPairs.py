@@ -9,8 +9,8 @@ def swap_pairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
     prev, curr = sentinel, head
 
     while curr and curr.next:
-        nxt, sec = curr.next.next, curr.next
-        sec.next, curr.next, prev.next = curr, nxt, sec
-        prev, curr = curr, nxt
+        nxt_pair, sec = curr.next.next, curr.next
+        sec.next, curr.next, prev.next = curr, nxt_pair, sec
+        prev, curr = curr, nxt_pair
 
     return sentinel.next
