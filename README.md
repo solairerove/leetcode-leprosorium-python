@@ -4,6 +4,12 @@ Leetcode playground using python3
 
 ___
 
+### Links
+
+https://dp-book.com/Dynamic_Programming.pdf
+
+### Problems
+
 :four_leaf_clover: 9 easy \
 :accept: 24 medium \
 :congratulations: 2 hard \
