@@ -16,12 +16,10 @@ def swap_pairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
     i = 0
     while curr:
         if i % 2 == 0:
-            prev.next = reverse_two_nodes(self, prev.next)
-            prev = curr
-            curr = curr.next
+            prev.next, prev = reverse_two_nodes(self, prev.next), curr
         else:
             i += 1
-            curr = curr.next
+        curr = curr.next
 
     return sentinel.next
 
