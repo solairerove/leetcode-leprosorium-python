@@ -18,10 +18,7 @@ def sort_list(self, head: Optional[ListNode]) -> Optional[ListNode]:
 def get_mid(self, head: Optional[ListNode]) -> Optional[ListNode]:
     mid_prev = None
     while head and head.next:
-        if mid_prev:
-            mid_prev = mid_prev.next
-        else:
-            mid_prev = head
+        mid_prev = mid_prev.next if mid_prev else head
         head = head.next.next
 
     mid = mid_prev.next
