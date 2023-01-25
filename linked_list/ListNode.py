@@ -4,8 +4,8 @@ class ListNode:
         self.next = next
 
 
-class Node:
-    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+class RandomListNode:
+    def __init__(self, x: int, next: 'RandomListNode' = None, random: 'RandomListNode' = None):
         self.val = int(x)
         self.next = next
         self.random = random

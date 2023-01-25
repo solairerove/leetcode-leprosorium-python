@@ -1,13 +1,13 @@
 from typing import Optional
 
-from linked_list.ListNode import Node
+from linked_list.ListNode import RandomListNode
 
 
 # O(3n) time || O(1) space
-def copy_random_list(self, head: 'Optional[Node]') -> 'Optional[Node]':
+def copy_random_list(self, head: 'Optional[RandomListNode]') -> 'Optional[RandomListNode]':
     curr = head
     while curr:
-        curr.next, curr = Node(curr.val, curr.next), curr.next
+        curr.next, curr = RandomListNode(curr.val, curr.next), curr.next
 
     curr = head
     while curr:
@@ -16,7 +16,7 @@ def copy_random_list(self, head: 'Optional[Node]') -> 'Optional[Node]':
         curr = curr.next.next
 
     curr = head
-    copy_head = Node(-1)
+    copy_head = RandomListNode(-1)
     copy = copy_head
     while curr:
         copy.next = curr.next

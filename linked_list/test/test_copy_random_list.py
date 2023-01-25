@@ -1,16 +1,16 @@
 import unittest
 
 from linked_list.CopyListWithRandomPointer import copy_random_list
-from linked_list.ListNode import Node
+from linked_list.ListNode import RandomListNode
 
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        node1 = Node(7)
-        node2 = Node(13)
-        node3 = Node(11)
-        node4 = Node(10)
-        node5 = Node(1)
+        node1 = RandomListNode(7)
+        node2 = RandomListNode(13)
+        node3 = RandomListNode(11)
+        node4 = RandomListNode(10)
+        node5 = RandomListNode(1)
 
         node1.next = node2
         node2.next = node3
