@@ -25,17 +25,13 @@ def add_two_numbers_stack_ii(self, l1: Optional[ListNode], l2: Optional[ListNode
 
     head = None
     carry = 0
-    while s1 or s2:
+    while s1 or s2 or carry != 0:
         x = s1.pop() if s1 else 0
         y = s2.pop() if s2 else 0
         sm = x + y + carry
         carry = sm // 10
 
         curr = ListNode(sm % 10)
-        curr.next, head = head, curr
-
-    if carry == 1:
-        curr = ListNode(1)
         curr.next, head = head, curr
 
     return head
