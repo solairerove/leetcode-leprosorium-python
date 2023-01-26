@@ -3,7 +3,7 @@ from typing import Optional
 from linked_list.ListNode import ChildListNode
 
 
-# O(n) time || O(1) space
+# O(n) time || O(n) space
 def flatten(self, head: Optional[ChildListNode]) -> Optional[ChildListNode]:
     if not head or (not head.next and not head.prev and not head.child):
         return head
