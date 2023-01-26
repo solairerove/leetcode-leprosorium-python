@@ -11,14 +11,8 @@ def odd_even_list(self, head: Optional[ListNode]) -> Optional[ListNode]:
     odd_head, even_head = head, head.next
     odd, even = odd_head, even_head
     while odd.next and even.next:
-        if odd.next:
-            odd.next = odd.next.next
-
-        if even.next:
-            even.next = even.next.next
-
-        even = even.next
-        odd = odd.next
+        odd.next, even.next = odd.next.next, even.next.next
+        even, odd = even.next, odd.next
 
     odd.next = even_head
 
