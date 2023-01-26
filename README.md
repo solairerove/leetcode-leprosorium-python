@@ -11,7 +11,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 ### Problems
 
 :four_leaf_clover: 10 easy \
-:accept: 33 medium \
+:accept: 34 medium \
 :congratulations: 2 hard \
 :goberserk: 0 you should skip interview
 
@@ -34,7 +34,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 30
+- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 31
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
@@ -51,6 +51,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :congratulations: [23. merge k sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeKSortedLists.py)
   - :four_leaf_clover: [21. merge two sorted lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
   - :four_leaf_clover: [876. middle of the linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/MergeTwoSortedLists.py)
+  - :accept: [328. odd even linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/OddEvenLinkedList.py)
   - :four_leaf_clover: [234. palindrome linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/PalindromeLinkedList.py)
   - :accept: [86. partition list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/PartitionList.py)
   - :four_leaf_clover: [83. remove duplicates from  sorted list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RemoveDuplicatesFromSortedList.py)
