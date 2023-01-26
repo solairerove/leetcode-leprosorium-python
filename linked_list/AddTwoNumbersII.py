@@ -5,6 +5,55 @@ from linked_list.ListNode import ListNode
 from linked_list.ReverseLinkedList import reverse_list
 
 
+# O(n + m) time || O(1) and O(max(n,m)) for res space
+def add_two_numbers_ii(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    n1 = n2 = 0
+    curr1, curr2 = l1, l2
+
+    while curr1:
+        curr1, n1 = curr1.next, n1 + 1
+
+    while curr2:
+        curr2, n2 = curr2.next, n2 + 1
+
+    curr1, curr2 = l1, l2
+    head = None
+    while n1 > 0 and n2 > 0:
+        val = 0
+        if n1 >= n2:
+            val += curr1.val
+            curr1, n1 = curr1.next, n1 - 1
+
+        if n1 < n2:
+            val += curr2.val
+            curr2, n2 = curr2.next, n2 - 1
+
+        curr = ListNode(val)
+        curr.next = head
+        head = curr
+
+    curr1 = head
+    head = None
+    carry = 0
+    while curr1:
+        sm = curr1.val + carry
+        val = sm % 10
+        carry = sm // 10
+
+        curr = ListNode(val)
+        curr.next = head
+        head = curr
+
+        curr1 = curr1.next
+
+    if carry != 0:
+        curr = ListNode(carry)
+        curr.next = head
+        head = curr
+
+    return head
+
+
 # O(n + m) time || O(n + m) space
 def add_two_numbers_stack_ii(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
     if not l1 and not l2:
