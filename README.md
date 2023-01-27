@@ -12,7 +12,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 :four_leaf_clover: 10 easy \
 :accept: 37 medium \
-:congratulations: 2 hard \
+:congratulations: 3 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
@@ -34,7 +34,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 34
+- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 35
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
@@ -47,6 +47,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [430. flatten a multilevel doubly linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/FlattenAMultilevelDoublyLinkedList.py)
   - :accept: [147. insertion sort list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/InsertionSortList.py)
   - :four_leaf_clover: [160. intersection of two linked lists](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/IntersectionOfTwoLinkedLists.py)
+  - :congratulations: [460. lfu cache](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LFUCache.py)
   - :four_leaf_clover: [141. linked list cycle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycle.py)
   - :accept: [142. linked list cycle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LinkedListCycleII.py)
   - :accept: [146. lru cache](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/LRUCache.py)
