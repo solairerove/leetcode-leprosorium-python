@@ -11,12 +11,14 @@ https://dp-book.com/Dynamic_Programming.pdf
 ### Problems
 
 :four_leaf_clover: 10 easy \
-:accept: 38 medium \
+:accept: 39 medium \
 :congratulations: 3 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
 
+- [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
+  - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
 - :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 13
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
