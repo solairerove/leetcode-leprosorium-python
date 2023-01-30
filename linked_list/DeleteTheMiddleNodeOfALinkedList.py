@@ -8,10 +8,15 @@ def delete_middle(self, head: Optional[ListNode]) -> Optional[ListNode]:
     if not head.next:
         return None
 
-    prev, slow, fast = None, head, head
+    slow = fast = head
     while fast and fast.next:
-        prev, slow, fast = slow, slow.next, fast.next.next
+        slow, fast = slow.next, fast.next.next
 
-    prev.next = prev.next.next
+    if not slow.next:
+        head.next = None
+        return head
+
+    slow.val = slow.next.val
+    slow.next = slow.next.next
 
     return head
