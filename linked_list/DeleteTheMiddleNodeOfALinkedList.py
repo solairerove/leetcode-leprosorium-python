@@ -1,22 +1,20 @@
 from typing import Optional
 
+from linked_list.DeleteNodeInALinkedList import delete_node
 from linked_list.ListNode import ListNode
+from linked_list.MiddleOfTheLinkedList import middle_node
 
 
 # O(n) time || O(1) space
 def delete_middle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-    if not head.next:
+    if not head or not head.next:
         return None
 
-    slow = fast = head
-    while fast and fast.next:
-        slow, fast = slow.next, fast.next.next
-
-    if not slow.next:
+    if not head.next.next:
         head.next = None
         return head
 
-    slow.val = slow.next.val
-    slow.next = slow.next.next
+    node = middle_node(self, head)
+    delete_node(self, node)
 
     return head
