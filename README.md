@@ -11,7 +11,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 ### Problems
 
 :four_leaf_clover: 10 easy \
-:accept: 42 medium \
+:accept: 43 medium \
 :congratulations: 3 hard \
 :goberserk: 0 you should skip interview
 
@@ -36,11 +36,12 @@ https://dp-book.com/Dynamic_Programming.pdf
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 39
+- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 40
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
   - :accept: [237. delete node in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DeleteNodeInALinkedList.py)
+  - :accept: [2095. delete the middle node of a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DeleteNodeInALinkedList.py)
   - :accept: [1472. design browser history](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignBrowserHistory.py)
   - :accept: [622. design circular queue](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignCircularQueue.py)
   - :accept: [707. design linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignLinkedList.py)
