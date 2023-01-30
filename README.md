@@ -41,7 +41,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
   - :accept: [237. delete node in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DeleteNodeInALinkedList.py)
-  - :accept: [2095. delete the middle node of a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DeleteNodeInALinkedList.py)
+  - :accept: [2095. delete the middle node of a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DeleteTheMiddleNodeOfALinkedList.py)
   - :accept: [1472. design browser history](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignBrowserHistory.py)
   - :accept: [622. design circular queue](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignCircularQueue.py)
   - :accept: [707. design linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/DesignLinkedList.py)
