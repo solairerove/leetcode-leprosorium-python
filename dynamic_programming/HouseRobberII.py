@@ -9,7 +9,6 @@ def rob(self, nums: List[int]) -> int:
 def helper(self, nums: List[int]) -> int:
     rob1 = rob2 = 0
     for n in nums:
-        tmp = max(rob1 + n, rob2)
-        rob1, rob2 = rob2, tmp
+        rob1, rob2 = rob2, max(rob1 + n, rob2)
 
     return rob2
