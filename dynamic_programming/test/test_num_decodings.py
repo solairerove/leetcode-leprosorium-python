@@ -11,7 +11,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(3, num_decodings(self, "226"))  
 
     def test_num_decodings_2(self):
-        self.assertEqual(0, num_decodings(self, "06"))  
+        self.assertEqual(0, num_decodings(self, "06"))
+
+    def test_num_decodings_3(self):
+        self.assertEqual(5, num_decodings(self, "2125"))
 
 
 if __name__ == '__main__':
