@@ -1,7 +1,7 @@
-# O(n) time || O(1) space
 from functools import lru_cache
 
 
+# O(n) time || O(1) space
 def num_decodings(self, s: str) -> int:
     if s[0] == "0":
         return 0
@@ -44,10 +44,10 @@ def num_decodings_recursive(self, s: str) -> int:
 
 # O(n) time || O(1) space
 def num_decodings_this_is_python(self, s: str) -> int:
-    prev_ways, curr_ways, prev_digit = 0, int(s > ''), ''
+    prev_ways, curr_ways, prev_digit = 0, 1, ''
     for curr_digit in s:
         tmp = curr_ways
-        curr_ways = (curr_digit > '0') * curr_ways + (9 < int(prev_digit + curr_digit) < 27) * prev_ways
+        curr_ways = (curr_digit > '0') * curr_ways + (10 <= int(prev_digit + curr_digit) <= 26) * prev_ways
         prev_ways, prev_digit = tmp, curr_digit
 
     return curr_ways
