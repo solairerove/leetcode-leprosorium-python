@@ -14,4 +14,4 @@ def coin_change(self, coins: List[int], amount: int) -> int:
             if c <= a:
                 dp[a] = min(dp[a], dp[a - c] + 1)
 
-    return dp[amount] if dp[amount] != amount + 1 else -1
+    return [dp[amount], -1][dp[amount] == amount + 1]
