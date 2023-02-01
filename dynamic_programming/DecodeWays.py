@@ -40,3 +40,14 @@ def num_decodings_recursive(self, s: str) -> int:
         return ans
 
     return helper_with_memo(0, s)
+
+
+# O(n) time || O(1) space
+def num_decodings_this_is_python(self, s: str) -> int:
+    prev_ways, curr_ways, prev_digit = 0, int(s > ''), ''
+    for curr_digit in s:
+        tmp = curr_ways
+        curr_ways = (curr_digit > '0') * curr_ways + (9 < int(prev_digit + curr_digit) < 27) * prev_ways
+        prev_ways, prev_digit = tmp, curr_digit
+
+    return curr_ways
