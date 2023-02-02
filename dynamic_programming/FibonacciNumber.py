@@ -11,9 +11,14 @@ def fib(self, n: int) -> int:
 
 
 # O(n) time || O(n) space
-@lru_cache(None)
 def fib_rec(self, n: int) -> int:
-    if n <= 1:
-        return n
+    @lru_cache(None)
+    def helper(ith: int) -> int:
+        if ith == 0:
+            return 0
+        if ith == 1:
+            return 1
 
-    return fib_rec(self, n - 1) + fib_rec(self, n - 2)
+        return helper(ith - 1) + helper(ith - 2)
+
+    return helper(n)

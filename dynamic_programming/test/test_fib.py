@@ -16,6 +16,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(3, fib(self, 4))  
         self.assertEqual(3, fib_rec(self, 4))
 
+    def test_fib_3(self):
+        self.assertEqual(5, fib(self, 5))
+        self.assertEqual(5, fib_rec(self, 5))
+
+    def test_fib_4(self):
+        self.assertEqual(8, fib(self, 6))
+        self.assertEqual(8, fib_rec(self, 6))
+
 
 if __name__ == '__main__':
     unittest.main()
