@@ -11,16 +11,30 @@ def climb_stairs(self, n: int) -> int:
     return a
 
 
-# O(n) time || O(1) space
-def climb_stairs_rec(self, n: int) -> int:
+# O(n) time || O(n) space
+def climb_stairs_rec_bottom_up(self, n: int) -> int:
     @lru_cache(None)
-    def helper(s) -> int:
-        if s > n:
+    def helper(ith: int) -> int:
+        if ith > n:
             return 0
 
-        if s == n:
+        if ith == n:
             return 1
 
-        return helper(s + 1) + helper(s + 2)
+        return helper(ith + 1) + helper(ith + 2)
 
     return helper(0)
+
+
+# O(n) time || O(n) space
+def climb_stairs_rec_top_down(self, n: int) -> int:
+    @lru_cache(None)
+    def helper(ith: int) -> int:
+        if ith == 0:
+            return 0
+        if ith == 1:
+            return 1
+
+        return helper(ith - 1) + helper(ith - 2)
+
+    return helper(n + 1)
