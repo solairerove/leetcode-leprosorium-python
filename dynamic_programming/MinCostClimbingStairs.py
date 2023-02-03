@@ -11,10 +11,10 @@ def min_cost_climbing_stairs(self, cost: List[int]) -> int:
 
 
 # O(n) time || O(n) space
-def min_cost_climbing_stairs_rec(self, cost: List[int]) -> int:
+def min_cost_climbing_stairs_rec_bottom_up(self, cost: List[int]) -> int:
     @lru_cache(None)
     def helper(s) -> int:
-        if s <= 1:
+        if s < 2:
             return 0
 
         return min(cost[s - 1] + helper(s - 1), cost[s - 2] + helper(s - 2))
