@@ -24,6 +24,11 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(5, num_decodings_recursive(self, "2125"))
         self.assertEqual(5, num_decodings_this_is_python(self, "2125"))
 
+    def test_num_decodings_4(self):
+        self.assertEqual(2, num_decodings(self, "11106"))
+        self.assertEqual(2, num_decodings_recursive(self, "11106"))
+        self.assertEqual(2, num_decodings_this_is_python(self, "11106"))
+
 
 if __name__ == '__main__':
     unittest.main()

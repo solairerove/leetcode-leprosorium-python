@@ -23,23 +23,23 @@ def num_decodings(self, s: str) -> int:
 # O(n) time || O(n) space
 def num_decodings_recursive(self, s: str) -> int:
     @lru_cache(maxsize=None)
-    def helper_with_memo(index: int, s: str) -> int:
-        if index == len(s):
+    def helper(ith: int) -> int:
+        if ith == len(s):
             return 1
 
-        if s[index] == "0":
+        if s[ith] == "0":
             return 0
 
-        if index == len(s) - 1:
+        if ith == len(s) - 1:
             return 1
 
-        ans = helper_with_memo(index + 1, s)
-        if int(s[index: index + 2]) <= 26:
-            ans += helper_with_memo(index + 2, s)
+        res = helper(ith + 1)
+        if 9 < int(s[ith: ith + 2]) < 27:
+            res += helper(ith + 2)
 
-        return ans
+        return res
 
-    return helper_with_memo(0, s)
+    return helper(0)
 
 
 # O(n) time || O(1) space
