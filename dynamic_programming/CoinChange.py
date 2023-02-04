@@ -21,19 +21,19 @@ def coin_change(self, coins: List[int], amount: int) -> int:
 # O(c * a) time || O(a) space
 def coin_change_rec(self, coins: List[int], amount: int) -> int:
     @lru_cache(None)
-    def dfs(a):
-        if a < 0:
+    def dfs(amount_to_find: int) -> int:
+        if amount_to_find < 0:
             return -1
 
-        if a == 0:
+        if amount_to_find == 0:
             return 0
 
-        min_cost = float(a + 1)
-        for c in coins:
-            res = dfs(a - c)
-            if res != -1:
-                min_cost = min(min_cost, res + 1)
+        min_cost = amount_to_find + 1
+        for coin in coins:
+            amount_of_coins = dfs(amount_to_find - coin)
+            if amount_of_coins != -1:
+                min_cost = min(min_cost, amount_of_coins + 1)
 
-        return [min_cost, -1][min_cost == float(a + 1)]
+        return [min_cost, -1][min_cost == amount_to_find + 1]
 
     return dfs(amount)
