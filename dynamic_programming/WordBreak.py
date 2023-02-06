@@ -1,4 +1,5 @@
-from typing import List
+from functools import lru_cache
+from typing import List, FrozenSet
 
 
 # O(n^2 * m) time || O(1) space
@@ -27,3 +28,18 @@ def word_break(self, s: str, word_dict: List[str]) -> bool:
                 break
 
     return dp[len(s)]
+
+
+# O(n^3) time || O(n) space
+def word_break_rec(self, s: str, word_dict: List[str]) -> bool:
+    @lru_cache(None)
+    def helper(words: FrozenSet[str], low: int):
+        if low == len(s):
+            return True
+
+        for high in range(low + 1, len(s) + 1):
+            if s[low: high] in words and helper(words, high):
+                return True
+        return False
+
+    return helper(frozenset(word_dict), 0)
