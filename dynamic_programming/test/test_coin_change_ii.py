@@ -13,6 +13,9 @@ class MyTestCase(unittest.TestCase):
     def test_coin_change_2(self):
         self.assertEqual(1, change(self, 10, [10]))
 
+    def test_coin_change_3(self):
+        self.assertEqual(1, change(self, 100, [1, 101, 102, 103]))
+
 
 if __name__ == '__main__':
     unittest.main()
