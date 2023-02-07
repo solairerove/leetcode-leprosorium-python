@@ -13,6 +13,9 @@ class MyTestCase(unittest.TestCase):
     def test_knapsack_2(self):
         self.assertEqual(220, knapsack_recursion(self, [60, 100, 120], [10, 20, 30], 3, 50))
 
+    def test_knapsack_3(self):
+        self.assertEqual(5, knapsack_recursion(self, [2, 3, 1, 4], [3, 4, 6, 5], 4, 8))
+
 
 if __name__ == '__main__':
     unittest.main()
