@@ -4,14 +4,14 @@ from typing import List
 
 # O(n) time || O(1) space
 def rob(self, nums: List[int]) -> int:
-    def helper(arr: List[int]) -> int:
-        rob1 = rob2 = 0
+    def classic_rob(arr: List[int]) -> int:
+        prev_rob_1 = prev_rob_2 = 0
         for n in arr:
-            rob1, rob2 = rob2, max(rob1 + n, rob2)
+            prev_rob_1, prev_rob_2 = prev_rob_2, max(prev_rob_2, prev_rob_1 + n)
 
-        return rob2
+        return prev_rob_2
 
-    return max(nums[0], helper(nums[1:]), helper(nums[:-1]))
+    return max(nums[0], classic_rob(nums[1:]), classic_rob(nums[:-1]))
 
 
 # O(n) time || O(n) space
