@@ -10,7 +10,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 ### Problems
 
-:four_leaf_clover: 12 easy \
+:four_leaf_clover: 13 easy \
 :accept: 47 medium \
 :congratulations: 3 hard \
 :goberserk: 0 you should skip interview
@@ -19,7 +19,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 - [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 16
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 17
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
   - :accept: [518. coin change II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChangeII.py)
@@ -35,6 +35,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
   - :accept: [416. partition equal subset sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PartitionEqualSubsetSum.py)
   - :four_leaf_clover: [118. pascal's triangle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangle.py)
+  - :four_leaf_clover: [119. pascal's triangle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangleII.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
