@@ -28,6 +28,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - :accept: [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - :accept: [337. house robber III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberIII.py)
+  - [0-1 knapsack problem](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/KnapsackProblem.py)
   - :accept: [300. longest increasing subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestIncreasingSubsequence.py)
   - :accept: [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - :accept: [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
