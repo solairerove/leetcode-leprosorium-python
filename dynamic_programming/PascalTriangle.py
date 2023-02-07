@@ -2,7 +2,7 @@ from operator import add
 from typing import List
 
 
-# O(n ^ 2) time || O(1) space
+# O(n^2) time || O(1) space
 def generate(self, num_rows: int) -> List[List[int]]:
     triangle = []
     for row_idx in range(num_rows):
