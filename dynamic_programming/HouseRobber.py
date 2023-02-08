@@ -14,10 +14,13 @@ def rob(self, nums: List[int]) -> int:
 # O(n) time || O(n) space
 def rob_rec(self, nums: List[int]) -> int:
     @lru_cache(None)
-    def helper(ith: int) -> int:
-        if ith >= len(nums):
-            return 0
+    def dp(i: int) -> int:
+        if i == 0:
+            return nums[0]
 
-        return max(helper(ith + 1), helper(ith + 2) + nums[ith])
+        if i == 1:
+            return max(nums[0], nums[1])
 
-    return helper(0)
+        return max(dp(i - 1), dp(i - 2) + nums[i])
+
+    return dp(len(nums) - 1)
