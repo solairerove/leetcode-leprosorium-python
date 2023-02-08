@@ -21,7 +21,7 @@ def knapsack_recursion(self, items: List[int], weights: List[int], n: int, capac
 
 
 # O(n * capacity) time || O(n * capacity) space
-def knapsack_matrix(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
+def knapsack_2d_dp(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
     dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]
 
     for item_id in range(1, n + 1):
@@ -38,7 +38,7 @@ def knapsack_matrix(self, items: List[int], weights: List[int], n: int, capacity
 
 
 # O(n * capacity) time || O(capacity) space
-def knapsack_1_dp(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
+def knapsack_1d_dp(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
     dp = [0 for _ in range(capacity + 1)]
 
     for item_id in range(1, n + 1):
