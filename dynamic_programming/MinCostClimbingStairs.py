@@ -20,3 +20,13 @@ def min_cost_climbing_stairs_rec(self, cost: List[int]) -> int:
         return cost[i] + min(dp(i + 1), dp(i + 2))
 
     return min(dp(0), dp(1))
+
+
+# O(n) time || O(n) space
+def min_cost_climbing_stairs_bottom_up(self, cost: List[int]) -> int:
+    dp = [0] * (len(cost) + 2)
+
+    for i in range(len(cost) - 1, -1, -1):
+        dp[i] = cost[i] + min(dp[i + 1], dp[i + 2])
+
+    return min(dp[0], dp[1])
