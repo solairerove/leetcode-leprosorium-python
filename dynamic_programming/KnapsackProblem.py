@@ -26,14 +26,26 @@ def knapsack_matrix(self, items: List[int], weights: List[int], n: int, capacity
 
     for item_id in range(1, n + 1):
         for weight in range(1, capacity + 1):
+            curr_weight = weights[item_id - 1]
             curr_max = dp[item_id - 1][weight]
 
-            if weights[item_id - 1] <= weight:
-                curr_weight = weights[item_id - 1]
-                remaining_capacity_id = weight - curr_weight
-
-                dp[item_id][weight] = max(curr_max, dp[item_id - 1][remaining_capacity_id] + items[item_id - 1])
+            if curr_weight <= weight:
+                dp[item_id][weight] = max(curr_max, dp[item_id - 1][weight - curr_weight] + items[item_id - 1])
             else:
                 dp[item_id][weight] = curr_max
 
     return dp[n][capacity]
+
+
+# O(n * capacity) time || O(capacity) space
+def knapsack_1_dp(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
+    dp = [0 for _ in range(capacity + 1)]
+
+    for item_id in range(1, n + 1):
+        for weight in range(capacity, 0, -1):
+            curr_weight = weights[item_id - 1]
+
+            if curr_weight <= weight:
+                dp[weight] = max(dp[weight], dp[weight - curr_weight] + items[item_id - 1])
+
+    return dp[capacity]
