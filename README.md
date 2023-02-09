@@ -12,14 +12,14 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 :four_leaf_clover: 14 easy \
 :accept: 48 medium \
-:congratulations: 3 hard \
+:congratulations: 4 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
 
 - [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 19
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 20
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
   - :accept: [518. coin change II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChangeII.py)
@@ -33,6 +33,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [300. longest increasing subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestIncreasingSubsequence.py)
   - :accept: [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - :accept: [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
+  - :congratulations: [1770. maximum score from performing multiplication operations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumScoreFromPerformingMultiplicationOperations.py)
   - :four_leaf_clover: [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
   - :four_leaf_clover: [1137. n-th tribonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NthTribonacciNumber.py)
   - :accept: [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
