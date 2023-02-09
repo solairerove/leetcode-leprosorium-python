@@ -4,11 +4,11 @@ from typing import List
 
 # O(n) time || O(1) space
 def rob(self, nums: List[int]) -> int:
-    prev_rob1 = prev_rob2 = 0
+    prev = curr = 0
     for n in nums:
-        prev_rob1, prev_rob2 = prev_rob2, max(prev_rob2, prev_rob1 + n)
+        prev, curr = curr, max(curr, prev + n)
 
-    return prev_rob2
+    return curr
 
 
 # O(n) time || O(n) space
