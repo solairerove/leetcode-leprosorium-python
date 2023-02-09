@@ -1,18 +1,12 @@
+from collections import Counter
 from typing import List
 
 
 # O(max(n)) time || O(max(n)) space
 def delete_and_earn(self, nums: List[int]) -> int:
-    if not nums:
-        return 0
+    points, prev, curr = Counter(nums), 0, 0
 
-    freq = [0] * (max(nums) + 1)
-    for n in nums:
-        freq[n] += n
+    for value in range(max(points.keys()) + 1):
+        prev, curr = curr, max(prev + value * points[value], curr)
 
-    dp = [0] * len(freq)
-    dp[1] = 1
-    for i in range(2, len(freq)):
-        dp[i] = max(freq[i - 1], freq[i - 2] + freq[i])
-
-    return dp[-1]
+    return curr
