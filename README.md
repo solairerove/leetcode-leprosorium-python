@@ -10,7 +10,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 ### Problems
 
-:four_leaf_clover: 14 easy \
+:four_leaf_clover: 15 easy \
 :accept: 50 medium \
 :congratulations: 4 hard \
 :goberserk: 0 you should skip interview
@@ -90,3 +90,5 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [148. sort list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SortList.py)
   - :accept: [24. swap nodes in pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwapNodesInPairs.py)
   - :accept: [1721. swapping nodes in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwappingNodesInALinkedList.py)
+- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 1
+  - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
