@@ -1,0 +1,24 @@
+# O(n) time || O(1) space
+def add_binary(self, a: str, b: str) -> str:
+    res = ""
+    n, m = len(a) - 1, len(b) - 1
+    carry = 0
+    while n >= 0 or m >= 0:
+        total = (int(a[n]) if n >= 0 else 0) + (int(b[m]) if m >= 0 else 0) + carry
+        if total <= 1:
+            res = str(total) + res
+            carry = 0
+        else:
+            if total % 2 == 0:
+                res = "0" + res
+                carry = 1
+            else:
+                res = "1" + res
+                carry = 1
+
+        n, m = n - 1, m - 1
+
+    if carry == 1:
+        res = str(carry) + res
+
+    return res
