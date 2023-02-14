@@ -1,4 +1,4 @@
-# O(n) time || O(1) space
+# O(max(n, m)) time || O(max(n, m)) space
 def add_binary(self, a: str, b: str) -> str:
     res = ""
     n, m = len(a) - 1, len(b) - 1
@@ -11,10 +11,9 @@ def add_binary(self, a: str, b: str) -> str:
         else:
             if total % 2 == 0:
                 res = "0" + res
-                carry = 1
             else:
                 res = "1" + res
-                carry = 1
+            carry = 1
 
         n, m = n - 1, m - 1
 
