@@ -10,7 +10,6 @@ def max_profit_top_down(self, k: int, prices: List[int]) -> int:
             return 0
 
         do_nothing = dp(i + 1, transactions_remaining, holding)
-        do_something = 0
 
         if holding:
             do_something = prices[i] + dp(i + 1, transactions_remaining - 1, 0)
