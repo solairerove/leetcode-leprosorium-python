@@ -1,6 +1,6 @@
 import unittest
 
-from trees.MaximumDepthOfBinaryTree import max_depth
+from trees.MaximumDepthOfBinaryTree import max_depth_rec, max_depth
 from trees.TreeNode import TreeNode
 
 
@@ -18,6 +18,7 @@ class MyTestCase(unittest.TestCase):
         root.left = left
         root.right = right
 
+        self.assertEqual(3, max_depth_rec(self, root))
         self.assertEqual(3, max_depth(self, root))
 
     def test_max_depth_1(self):
@@ -27,6 +28,7 @@ class MyTestCase(unittest.TestCase):
 
         root.right = right
 
+        self.assertEqual(2, max_depth_rec(self, root))
         self.assertEqual(2, max_depth(self, root))
 
 
