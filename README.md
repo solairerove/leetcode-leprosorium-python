@@ -11,7 +11,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 ### Problems
 
 :four_leaf_clover: 21 easy \
-:accept: 50 medium \
+:accept: 51 medium \
 :congratulations: 6 hard \
 :goberserk: 0 you should skip interview
 
@@ -19,7 +19,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 - [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 24
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 25
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
@@ -37,6 +37,7 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :accept: [221. maximal square](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximalSquare.py)
   - :accept: [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
   - :congratulations: [1770. maximum score from performing multiplication operations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumScoreFromPerformingMultiplicationOperations.py)
+  - :accept: [53. maximum subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumSubarray.py)
   - :four_leaf_clover: [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
   - :congratulations: [1335. minimum difficulty of a job schedule](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumDifficultyOfAJobSchedule.py)
   - :four_leaf_clover: [1137. n-th tribonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NthTribonacciNumber.py)
