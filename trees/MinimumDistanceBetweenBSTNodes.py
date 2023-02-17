@@ -17,3 +17,20 @@ def min_diff_in_bst(self, root: Optional[TreeNode]) -> int:
     inorder(root, prev, result)
 
     return int(result[0])
+
+
+# O(n) time || O(h) space
+def min_diff_in_bst_iterative(self, root: Optional[TreeNode]) -> int:
+    prev, res = -float('inf'), float('inf')
+    stack = [root]
+    curr = root.left
+    while curr or stack:
+        while curr:
+            stack.append(curr)
+            curr = curr.left
+        curr = stack.pop()
+        res = min(res, curr.val - prev)
+        prev = curr.val
+        curr = curr.right
+
+    return res

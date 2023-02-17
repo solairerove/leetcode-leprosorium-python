@@ -1,6 +1,6 @@
 import unittest
 
-from trees.MinimumDistanceBetweenBSTNodes import min_diff_in_bst
+from trees.MinimumDistanceBetweenBSTNodes import min_diff_in_bst, min_diff_in_bst_iterative
 from trees.TreeNode import TreeNode
 
 
@@ -16,6 +16,7 @@ class MyTestCase(unittest.TestCase):
         root.right = right
 
         self.assertEqual(1, min_diff_in_bst(self, root))
+        self.assertEqual(1, min_diff_in_bst_iterative(self, root))
 
     def test_min_diff_in_bst_1(self):
         root = TreeNode(1)
@@ -29,6 +30,7 @@ class MyTestCase(unittest.TestCase):
         root.right = right
 
         self.assertEqual(1, min_diff_in_bst(self, root))
+        self.assertEqual(1, min_diff_in_bst_iterative(self, root))
 
 
 if __name__ == '__main__':
