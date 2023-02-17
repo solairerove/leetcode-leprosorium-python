@@ -10,7 +10,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 ### Problems
 
-:four_leaf_clover: 21 easy \
+:four_leaf_clover: 22 easy \
 :accept: 51 medium \
 :congratulations: 6 hard \
 :goberserk: 0 you should skip interview
@@ -19,7 +19,8 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 - [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 25
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 26
+  - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
