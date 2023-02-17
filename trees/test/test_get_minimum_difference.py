@@ -1,6 +1,6 @@
 import unittest
 
-from trees.MinimumAbsoluteDifferenceInBST import get_minimum_difference
+from trees.MinimumAbsoluteDifferenceInBST import get_minimum_difference, get_minimum_difference_rec
 from trees.TreeNode import TreeNode
 
 
@@ -18,6 +18,7 @@ class MyTestCase(unittest.TestCase):
         root.left = left
         root.right = right
         self.assertEqual(1, get_minimum_difference(self, root))
+        self.assertEqual(1, get_minimum_difference_rec(self, root))
 
     def test_get_minimum_difference_1(self):
         root = TreeNode(1)
@@ -32,6 +33,7 @@ class MyTestCase(unittest.TestCase):
         root.left = left
         root.right = right
         self.assertEqual(1, get_minimum_difference(self, root))
+        self.assertEqual(1, get_minimum_difference_rec(self, root))
 
 
 if __name__ == '__main__':
