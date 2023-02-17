@@ -10,7 +10,7 @@ https://dp-book.com/Dynamic_Programming.pdf
 
 ### Problems
 
-:four_leaf_clover: 20 easy \
+:four_leaf_clover: 21 easy \
 :accept: 50 medium \
 :congratulations: 6 hard \
 :goberserk: 0 you should skip interview
@@ -96,7 +96,8 @@ https://dp-book.com/Dynamic_Programming.pdf
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 3
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 4
+  - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :four_leaf_clover: [104. maximum depth of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MaximumDepthOfBinaryTree.py)
   - :four_leaf_clover: [530. minimum absolute difference in bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumAbsoluteDifferenceInBST.py)
   - :four_leaf_clover: [783. minimum distance between bst nodes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDistanceBetweenBSTNodes.py)
