@@ -7,8 +7,10 @@ ___
 ### Attempts
 
 - Yandex February 20 (fail :x: , graphs, dp)
+- German eco smart house Summer 21 (fail :x:, arrays, dp)
+- Ennabl Irish insurance invoices bigdata Autumn 21 (pass :white_check_mark:, greedy and number of islands dfs from leetcode)
 - Sporty Group April 22 (pass :white_check_mark: , linked lists, count sort kinda problem)
-- Amazon June 22 (fail :x: , don't remember)
+- Amazon June 22 (fail :x: , arrays, dp)
 - Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
 - French tele company January 23 (fail :x: , two med dp, have those here)
 
