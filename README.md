@@ -29,14 +29,15 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 25 easy \
+:four_leaf_clover: 26 easy \
 :accept: 54 medium \
 :congratulations: 6 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 1
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 2
+  - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 3
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
