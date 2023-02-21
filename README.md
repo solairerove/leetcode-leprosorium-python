@@ -4,9 +4,26 @@ Leetcode playground using python3
 
 ___
 
+### Attempts
+
+- Yandex February 20 (fail :x: , graphs, dp)
+- Sporty Group April 22 (pass :white_check_mark: , linked lists, count sort kinda problem)
+- Amazon June 22 (fail :x: , don't remember)
+- Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
+- French tele company January 23 (fail :x: , two med dp, have those here)
+
+### How to solve
+
+1) 1 problem from leetcode daily challenge
+2) 1 problem from leetcode patterns
+3) 1..n problems from category that i'm learning
+
 ### Links
 
-https://dp-book.com/Dynamic_Programming.pdf
+[some dp book from nerds](https://dp-book.com/Dynamic_Programming.pdf) \
+[leetcode patterns](https://seanprashad.com/leetcode-patterns/) \
+[leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
+[neetcode](https://neetcode.io/practice)
 
 ### Problems
 
