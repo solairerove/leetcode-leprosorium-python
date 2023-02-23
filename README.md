@@ -30,7 +30,7 @@ ___
 ### Problems
 
 :four_leaf_clover: 29 easy \
-:accept: 58 medium \
+:accept: 59 medium \
 :congratulations: 7 hard \
 :goberserk: 0 you should skip interview
 
@@ -48,7 +48,7 @@ ___
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 29
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 30
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :accept: [309. best time to buy and sell stock with cooldown](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockWithCooldown.py)
@@ -78,6 +78,7 @@ ___
   - :four_leaf_clover: [118. pascal's triangle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangle.py)
   - :four_leaf_clover: [119. pascal's triangle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangleII.py)
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
+  - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
