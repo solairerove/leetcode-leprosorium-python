@@ -29,18 +29,19 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 29 easy \
+:four_leaf_clover: 30 easy \
 :accept: 59 medium \
 :congratulations: 8 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 4
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 5
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
+  - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 6
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
