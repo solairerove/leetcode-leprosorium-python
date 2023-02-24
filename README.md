@@ -31,7 +31,7 @@ ___
 
 :four_leaf_clover: 29 easy \
 :accept: 59 medium \
-:congratulations: 7 hard \
+:congratulations: 8 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
@@ -83,8 +83,9 @@ ___
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 1
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 2
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
+  - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
 - :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 43
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
