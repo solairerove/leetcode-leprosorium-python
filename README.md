@@ -42,6 +42,7 @@ ___
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
+  - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 6
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
