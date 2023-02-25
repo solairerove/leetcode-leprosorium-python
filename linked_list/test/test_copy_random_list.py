@@ -5,7 +5,7 @@ from linked_list.ListNode import RandomListNode
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
+    def test_copy_random_list(self):
         node1 = RandomListNode(7)
         node2 = RandomListNode(13)
         node3 = RandomListNode(11)
