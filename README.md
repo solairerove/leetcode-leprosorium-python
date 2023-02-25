@@ -31,7 +31,7 @@ ___
 
 :four_leaf_clover: 30 easy \
 :accept: 59 medium \
-:congratulations: 8 hard \
+:congratulations: 9 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
@@ -43,11 +43,12 @@ ___
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 6
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 7
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
   - :accept: [875. koko eating bananas](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KokoEatingBananas.py)
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
+  - :congratulations: [774. minimize max distance to gas station](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimizeMaxDistanceToGasStation.py)
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
 - :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 30
