@@ -1,11 +1,6 @@
 from typing import List
 
 
-# O(n * log(n)) time || O(n) space
-def split_array_top_down(self, nums: List[int], k: int) -> int:
-    return -1
-
-
 # O(n * log(sum)) time || O(1) space
 def split_array_bs(self, nums: List[int], k: int) -> int:
     low, high = max(nums), sum(nums)
