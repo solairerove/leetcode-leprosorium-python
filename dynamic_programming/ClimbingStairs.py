@@ -12,7 +12,7 @@ def climb_stairs(self, n: int) -> int:
 
 
 # O(n) time || O(n) space
-def climb_stairs_rec(self, n: int) -> int:
+def climb_stairs_top_down(self, n: int) -> int:
     @lru_cache(None)
     def dp(i: int) -> int:
         if i <= 2:
