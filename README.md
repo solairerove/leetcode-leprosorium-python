@@ -31,7 +31,7 @@ ___
 
 :four_leaf_clover: 31 easy \
 :accept: 59 medium \
-:congratulations: 10 hard \
+:congratulations: 11 hard \
 :goberserk: 0 you should skip interview
 
 ### Python 3
@@ -52,7 +52,7 @@ ___
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 31
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 32
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :accept: [309. best time to buy and sell stock with cooldown](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockWithCooldown.py)
@@ -61,6 +61,7 @@ ___
   - :accept: [518. coin change II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChangeII.py)
   - :accept: [91. decode ways](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DecodeWays.py)
   - :accept: [740. delete and earn](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DeleteAndEarn.py)
+  - :congratulations: [72. edit distance](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/EditDistance.py)
   - :accept: [509. fibonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/FibonacciNumber.py)
   - :accept: [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - :accept: [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
