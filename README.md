@@ -29,10 +29,11 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 31 easy \
+:four_leaf_clover: 32 easy \
 :accept: 59 medium \
 :congratulations: 11 hard \
-:goberserk: 0 you should skip interview
+:goberserk: 0 you should skip interview \
+total 102
 
 ### Python 3
 
