@@ -29,11 +29,11 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 32 easy \
+:four_leaf_clover: 33 easy \
 :accept: 59 medium \
 :congratulations: 11 hard \
 :goberserk: 0 you should skip interview \
-total 102
+total 103
 
 ### Python 3
 
@@ -53,13 +53,14 @@ total 102
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 32
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 33
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :accept: [309. best time to buy and sell stock with cooldown](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockWithCooldown.py)
   - :four_leaf_clover: [70. climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ClimbingStairs.py)
   - :accept: [322. coin change](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChange.py)
   - :accept: [518. coin change II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChangeII.py)
+  - :four_leaf_clover: [338. counting bits](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CountingBits.py)
   - :accept: [91. decode ways](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DecodeWays.py)
   - :accept: [740. delete and earn](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DeleteAndEarn.py)
   - :congratulations: [72. edit distance](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/EditDistance.py)
