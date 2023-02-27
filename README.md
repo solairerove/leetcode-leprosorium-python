@@ -26,6 +26,7 @@ ___
 [leetcode patterns](https://seanprashad.com/leetcode-patterns/) \
 [leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
 [neetcode](https://neetcode.io/practice)
+[blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 
 ### Problems
 
