@@ -5,7 +5,7 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def middle_node(self, head: Optional[ListNode]) -> Optional[ListNode]:
-    if not head or not head.next:
+    if not head.next:
         return head
 
     slow = fast = head
