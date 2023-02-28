@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 33 easy \
-:accept: 60 medium \
+:accept: 61 medium \
 :congratulations: 11 hard \
 :goberserk: 0 you should skip interview \
-total 104
+total 105
 
 ### Python 3
 
@@ -143,10 +143,11 @@ total 104
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 7
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 8
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
   - :accept: [427. construct quad tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConstructQuadTree.py)
+  - :accept: [652. find duplicates subtrees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/FindDuplicateSubtrees.py)
   - :four_leaf_clover: [226. invert binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/InvertBinaryTree.py)
   - :four_leaf_clover: [104. maximum depth of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MaximumDepthOfBinaryTree.py)
   - :four_leaf_clover: [530. minimum absolute difference in bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumAbsoluteDifferenceInBST.py)
