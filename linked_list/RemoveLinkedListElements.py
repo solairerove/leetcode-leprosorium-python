@@ -8,7 +8,7 @@ def remove_elements(self, head: Optional[ListNode], val: int) -> Optional[ListNo
     sentinel = ListNode()
     prev, curr = sentinel, head
     while curr:
-        if curr.val != val:
+        if val != curr.val:
             prev.next = curr
             prev = prev.next
 
