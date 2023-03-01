@@ -13,16 +13,20 @@ def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) 
 
     sentinel = ListNode()
     prev = sentinel
-    while list1 and list2:
-        if list1.val <= list2.val:
-            prev.next = list1
-            list1 = list1.next
+    curr1, curr2 = list1, list2
+    while curr1 and curr2:
+        if curr1.val < curr2.val:
+            prev.next = curr1
+            curr1 = curr1.next
         else:
-            prev.next = list2
-            list2 = list2.next
+            prev.next = curr2
+            curr2 = curr2.next
 
         prev = prev.next
 
-    prev.next = list1 if list1 else list2
+    if curr1:
+        prev.next = curr1
+    elif curr2:
+        prev.next = curr2
 
     return sentinel.next
