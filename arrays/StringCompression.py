@@ -12,16 +12,14 @@ def compress(self, chars: List[str]) -> int:
         while high < len(chars) and chars[low] == chars[high]:
             chars.pop(high)
             cnt += 1
-# insert at high and change // with %
+
         if cnt > 1:
             position_to_insert = 1
-            while cnt >= 10:
-                chars.insert(low + position_to_insert, str(cnt // 10))
-                cnt %= 10
+            for c in str(cnt):
+                chars.insert(low + position_to_insert, c)
                 position_to_insert += 1
-
-            chars.insert(low + position_to_insert, str(cnt))
-            low, high = low + 1, high + 1
+                high = high + 1
+            low = high - 1
 
         low, high = low + 1, high + 1
 
