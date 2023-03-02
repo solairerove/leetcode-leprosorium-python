@@ -30,15 +30,15 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 33 easy \
+:four_leaf_clover: 34 easy \
 :accept: 63 medium \
 :congratulations: 11 hard \
 :goberserk: 0 you should skip interview \
-total 107
+total 108
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 8
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 9
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
@@ -47,6 +47,7 @@ total 107
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
+  - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 8
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
