@@ -1,4 +1,4 @@
-# O(n) time || O(1) space
+# O(n * m) time || O(1) space
 def str_str(self, haystack: str, needle: str) -> int:
     if len(needle) > len(haystack):
         return -1
@@ -17,5 +17,18 @@ def str_str(self, haystack: str, needle: str) -> int:
             low += 1
 
         high = low
+
+    return -1
+
+
+# O(n * m) time || O(1) space
+def str_str_sliding_window(self, haystack: str, needle: str) -> int:
+    m, n = len(needle), len(haystack)
+    for window_start in range(n - m + 1):
+        for i in range(m):
+            if needle[i] != haystack[window_start + i]:
+                break
+            if i == m - 1:
+                return window_start
 
     return -1
