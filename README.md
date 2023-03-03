@@ -31,18 +31,19 @@ ___
 ### Problems
 
 :four_leaf_clover: 35 easy \
-:accept: 64 medium \
+:accept: 65 medium \
 :congratulations: 11 hard \
 :goberserk: 0 you should skip interview \
-total 110
+total 111
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 11
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 12
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
+  - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
