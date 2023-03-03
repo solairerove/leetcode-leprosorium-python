@@ -1,7 +1,7 @@
 from typing import List
 
 
-# O(n) time || O(1) space
+# O(n * log(n)) time || O(1) space
 def can_attend_meetings(self, intervals: List[List[int]]) -> bool:
     intervals.sort()
     for i in range(len(intervals) - 1):
@@ -9,3 +9,9 @@ def can_attend_meetings(self, intervals: List[List[int]]) -> bool:
             return False
 
     return True
+
+
+# O(n * log(n)) time || O(1) space
+def can_attend_meetings_short(self, intervals: List[List[int]]) -> bool:
+    intervals.sort()
+    return all(intervals[i][0] >= intervals[i - 1][1] for i in range(1, len(intervals)))
