@@ -7,10 +7,10 @@ def search(self, nums: List[int], target: int) -> int:
     while low <= high:
         mid = low + (high - low) // 2
 
-        if target > nums[mid]:
-            low = mid + 1
-        elif target < nums[mid]:
+        if target < nums[mid]:
             high = mid - 1
+        elif target > nums[mid]:
+            low = mid + 1
         else:
             return mid
 
