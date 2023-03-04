@@ -30,11 +30,11 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 35 easy \
+:four_leaf_clover: 36 easy \
 :accept: 65 medium \
 :congratulations: 12 hard \
 :goberserk: 0 you should skip interview \
-total 112
+total 113
 
 ### Python 3
 
@@ -52,9 +52,10 @@ total 112
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 8
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 9
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
+  - :four_leaf_clover: [744. find smallest letter greater than target](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/FindSmallestLetterGreaterThanTarget.py)
   - :accept: [875. koko eating bananas](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KokoEatingBananas.py)
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
   - :congratulations: [774. minimize max distance to gas station](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimizeMaxDistanceToGasStation.py)
