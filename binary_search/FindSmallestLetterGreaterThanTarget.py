@@ -1,4 +1,12 @@
+import bisect
 from typing import List
+
+
+# O(log(n)) time || O(1) space
+def next_greatest_letter(self, letters: List[str], target: str) -> str:
+    idx = bisect.bisect(letters, target)
+
+    return letters[idx % len(letters)]
 
 
 # O(n) time || O(1) space
