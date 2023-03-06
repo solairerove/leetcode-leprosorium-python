@@ -16,8 +16,8 @@ def find_kth_positive(self, arr: List[int], k: int) -> int:
 
 # O(n) time || O(1) space
 def find_kth_positive_smart(self, arr: List[int], k: int) -> int:
-    kth_missed, i = k, 0
-    while i < len(arr) and arr[i] <= kth_missed:
-        kth_missed, i = kth_missed + 1, i + 1
+    i = 0
+    while i < len(arr) and arr[i] <= k:
+        k, i = k + 1, i + 1
 
-    return kth_missed
+    return k
