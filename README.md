@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 37 easy \
-:accept: 65 medium \
+:accept: 66 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 115
+total 116
 
 ### Python 3
 
@@ -98,13 +98,15 @@ total 115
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 1
+  - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
 - :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 2
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
-- :arrow_right: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 43
+- :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 43
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
