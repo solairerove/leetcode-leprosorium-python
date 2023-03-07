@@ -1,3 +1,4 @@
+from collections import deque
 from typing import Optional
 
 from trees.TreeNode import TreeNode
@@ -38,3 +39,21 @@ def min_depth_dfs(self, root: Optional[TreeNode]) -> int:
                 stack.append((depth + 1, node))
 
     return min_depth
+
+
+# O(n) time || O(n) space
+def min_depth_bfs(self, root: Optional[TreeNode]) -> int:
+    if not root:
+        return 0
+    else:
+        dq = deque([(1, root)])
+
+    while dq:
+        depth, root = dq.popleft()
+        nodes = [root.left, root.right]
+        if not any(nodes):
+            return depth
+
+        for node in nodes:
+            if node:
+                dq.append((depth + 1, node))

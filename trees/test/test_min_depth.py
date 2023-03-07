@@ -1,6 +1,6 @@
 import unittest
 
-from trees.MinimumDepthOfBinaryTree import min_depth_recursive, min_depth_dfs
+from trees.MinimumDepthOfBinaryTree import min_depth_recursive, min_depth_dfs, min_depth_bfs
 from trees.TreeNode import TreeNode
 
 
@@ -14,6 +14,7 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(2, min_depth_recursive(self, root))
         self.assertEqual(2, min_depth_dfs(self, root))
+        self.assertEqual(2, min_depth_bfs(self, root))
 
 
 if __name__ == '__main__':
