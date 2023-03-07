@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 38 easy \
-:accept: 67 medium \
+:accept: 68 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 118
+total 119
 
 ### Python 3
 
@@ -53,13 +53,14 @@ total 118
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 9
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 10
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
   - :four_leaf_clover: [744. find smallest letter greater than target](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/FindSmallestLetterGreaterThanTarget.py)
   - :accept: [875. koko eating bananas](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KokoEatingBananas.py)
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
   - :congratulations: [774. minimize max distance to gas station](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimizeMaxDistanceToGasStation.py)
+  - :accept: [2187. minimum time to complete trips](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimumTimeToCompleteTrips.py)
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
