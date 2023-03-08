@@ -27,3 +27,21 @@ def is_same_tree_dfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool
             stack.append((node1.left, node2.left))
 
     return True
+
+
+# O(n) time || O(h) space
+def is_same_tree_bfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+    queue = [(p, q)]
+    while queue:
+        node1, node2 = queue.pop(0)
+        if not node1 and not node2:
+            continue
+        elif None in [node1, node2]:
+            return False
+        else:
+            if node1.val != node2.val:
+                return False
+            queue.append((node1.left, node2.left))
+            queue.append((node1.right, node2.right))
+
+    return True
