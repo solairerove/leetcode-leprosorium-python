@@ -1,3 +1,4 @@
+import collections
 from typing import Optional
 
 from trees.TreeNode import TreeNode
@@ -31,9 +32,9 @@ def is_same_tree_dfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool
 
 # O(n) time || O(h) space
 def is_same_tree_bfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-    queue = [(p, q)]
-    while queue:
-        node1, node2 = queue.pop(0)
+    dq = collections.deque([(p, q)])
+    while dq:
+        node1, node2 = dq.popleft()
         if not node1 and not node2:
             continue
         elif None in [node1, node2]:
@@ -41,7 +42,7 @@ def is_same_tree_bfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool
         else:
             if node1.val != node2.val:
                 return False
-            queue.append((node1.left, node2.left))
-            queue.append((node1.right, node2.right))
+            dq.append((node1.left, node2.left))
+            dq.append((node1.right, node2.right))
 
     return True
