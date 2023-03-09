@@ -1,6 +1,6 @@
 import unittest
 
-from trees.PathSum import has_path_sum_recursive
+from trees.PathSum import has_path_sum_recursive, has_path_sum_dfs
 from trees.TreeNode import TreeNode
 
 
@@ -16,6 +16,7 @@ class MyTestCase(unittest.TestCase):
         l_left.left, l_left.right, r_right.right = l_l_left, l_l_right, r_r_right
 
         self.assertEqual(True, has_path_sum_recursive(self, root, 22))
+        self.assertEqual(True, has_path_sum_dfs(self, root, 22))
 
     def test_has_path_sum_1(self):
         root = TreeNode(1)
@@ -24,6 +25,7 @@ class MyTestCase(unittest.TestCase):
         root.left, root.right = left, right
 
         self.assertEqual(False, has_path_sum_recursive(self, root, 5))
+        self.assertEqual(False, has_path_sum_dfs(self, root, 5))
 
 
 if __name__ == '__main__':
