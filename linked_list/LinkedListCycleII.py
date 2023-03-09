@@ -5,19 +5,22 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def detect_cycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    if not head or not head.next:
+        return None
+
     slow = fast = head
-    has_cycle = False
+    have_cycle = False
     while fast and fast.next:
         slow, fast = slow.next, fast.next.next
         if slow == fast:
-            has_cycle = True
+            have_cycle = True
             break
 
-    if not has_cycle:
-        return None
+    if have_cycle:
+        slow = head
+        while slow != fast:
+            slow, fast = slow.next, fast.next
 
-    slow = head
-    while slow != fast:
-        slow, fast = slow.next, fast.next
+        return slow
 
-    return slow
+    return None
