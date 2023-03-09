@@ -30,11 +30,11 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 39 easy \
+:four_leaf_clover: 40 easy \
 :accept: 69 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 121
+total 122
 
 ### Python 3
 
@@ -157,7 +157,7 @@ total 121
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 11
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 12
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
@@ -168,4 +168,5 @@ total 121
   - :four_leaf_clover: [111. minimum depth of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDepthOfBinaryTree.py)
   - :four_leaf_clover: [530. minimum absolute difference in bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumAbsoluteDifferenceInBST.py)
   - :four_leaf_clover: [783. minimum distance between bst nodes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDistanceBetweenBSTNodes.py)
+  - :four_leaf_clover: [112. path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/PathSum.py)
   - :four_leaf_clover: [100. same tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SameTree.py)
