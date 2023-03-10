@@ -1,4 +1,4 @@
-from collections import deque
+import collections
 from typing import Optional
 
 from trees.TreeNode import TreeNode
@@ -46,11 +46,11 @@ def min_depth_bfs(self, root: Optional[TreeNode]) -> int:
     if not root:
         return 0
     else:
-        dq = deque([(1, root)])
+        dq = collections.deque([(1, root)])
 
     while dq:
-        depth, root = dq.popleft()
-        nodes = [root.left, root.right]
+        depth, node = dq.popleft()
+        nodes = [node.left, node.right]
         if not any(nodes):
             return depth
 
