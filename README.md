@@ -31,16 +31,17 @@ ___
 ### Problems
 
 :four_leaf_clover: 40 easy \
-:accept: 70 medium \
+:accept: 71 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 123
+total 124
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 16
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 17
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
+  - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
