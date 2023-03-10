@@ -11,13 +11,11 @@ class Solution:
 
     # O(n) time | O(1) space
     def get_random(self) -> int:
-        scope = 1
-        chosen_value = 0
-
-        curr = self.head
+        res, scope, curr = 0, 1, self.head
         while curr:
             if random.random() < 1 / scope:
-                chosen_value = curr.val
+                res = curr.val
+
             curr, scope = curr.next, scope + 1
 
-        return chosen_value
+        return res
