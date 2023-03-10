@@ -29,8 +29,8 @@ def diameter_of_binary_tree_dfs(self, root: Optional[TreeNode]) -> int:
         node, visited = stack.pop()
         if node:
             if visited:
-                left_path = 0 if node.left is None else dic.pop(node.left)
-                right_path = 0 if node.right is None else dic.pop(node.right)
+                left_path = dic.pop(node.left) if node.left else 0
+                right_path = dic.pop(node.right) if node.right else 0
                 res = max(res, left_path + right_path)
                 dic[node] = max(left_path, right_path) + 1
             else:
