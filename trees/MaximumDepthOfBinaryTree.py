@@ -4,17 +4,19 @@ from trees.TreeNode import TreeNode
 
 
 # O(n) time || O(log(n)) space
-def max_depth(self, root: Optional[TreeNode]) -> int:
-    stack = [[root, 1]]
-    res = 0
+def max_depth_dfs(self, root: Optional[TreeNode]) -> int:
+    if not root:
+        return 0
+    else:
+        stack = [[1, root]]
+        res = 0
 
     while stack:
-        node, depth = stack.pop()
-
+        depth, node = stack.pop()
         if node:
             res = max(res, depth)
-            stack.append([node.left, depth + 1])
-            stack.append([node.right, depth + 1])
+            stack.append([depth + 1, node.left])
+            stack.append([depth + 1, node.right])
 
     return res
 
