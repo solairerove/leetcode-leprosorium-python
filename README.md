@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 41 easy \
-:accept: 71 medium \
+:accept: 72 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 125
+total 126
 
 ### Python 3
 
@@ -159,11 +159,12 @@ total 125
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 13
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 14
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
   - :accept: [427. construct quad tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConstructQuadTree.py)
+  - :accept: [109. convert sorted list to binary search tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConvertSortedListToBinarySearchTree.py)
   - :four_leaf_clover: [543. diameter of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/DiameterOfBinaryTree.py)
   - :accept: [652. find duplicates subtrees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/FindDuplicateSubtrees.py)
   - :four_leaf_clover: [226. invert binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/InvertBinaryTree.py)
