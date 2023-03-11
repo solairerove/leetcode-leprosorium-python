@@ -31,14 +31,14 @@ ___
 ### Problems
 
 :four_leaf_clover: 42 easy \
-:accept: 72 medium \
+:accept: 73 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 127
+total 128
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 17
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 18
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
@@ -47,6 +47,7 @@ total 127
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
   - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
+  - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
