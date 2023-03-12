@@ -18,9 +18,6 @@ def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) 
 
         prev = prev.next
 
-    if curr1:
-        prev.next = curr1
-    elif curr2:
-        prev.next = curr2
+    prev.next = curr1 or curr2
 
     return sentinel.next
