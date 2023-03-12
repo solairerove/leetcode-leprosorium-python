@@ -20,6 +20,6 @@ def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         while i + interval < len(lists):
             lists[i] = merge_two_lists(self, lists[i], lists[i + interval])
             i += interval * 2
-        interval = interval * 2
+        interval *= 2
 
     return lists[0]
