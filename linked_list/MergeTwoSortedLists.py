@@ -12,11 +12,9 @@ def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) 
     prev, curr1, curr2 = sentinel, list1, list2
     while curr1 and curr2:
         if curr1.val < curr2.val:
-            prev.next = curr1
-            curr1 = curr1.next
+            prev.next, curr1 = curr1, curr1.next
         else:
-            prev.next = curr2
-            curr2 = curr2.next
+            prev.next, curr2 = curr2, curr2.next
 
         prev = prev.next
 
