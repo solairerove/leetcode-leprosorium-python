@@ -4,6 +4,30 @@ from trees.TreeNode import TreeNode
 
 
 # O(n) time || O(n) space
+def is_symmetric(self, root: Optional[TreeNode]) -> bool:
+    if not root:
+        return True
+
+    stack = [(root.left, root.right)]
+    while stack:
+        left, right = stack.pop()
+
+        if not left and not right:
+            continue
+
+        if not left or not right:
+            return False
+
+        if left.val == right.val:
+            stack.append((left.left, right.right))
+            stack.append((left.right, right.left))
+        else:
+            return False
+
+    return True
+
+
+# O(n) time || O(n) space
 def is_symmetric_rec(self, root: Optional[TreeNode]) -> bool:
     if not root:
         return True
