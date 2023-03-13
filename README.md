@@ -30,15 +30,15 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 43 easy \
+:four_leaf_clover: 44 easy \
 :accept: 73 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 129
+total 130
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 18
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 19
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
@@ -57,6 +57,7 @@ total 129
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
+  - :four_leaf_clover: [125. valid palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidPalindrome.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 10
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
