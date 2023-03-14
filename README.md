@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 45 easy \
-:accept: 74 medium \
+:accept: 75 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 132
+total 133
 
 ### Python 3
 
@@ -163,7 +163,7 @@ total 132
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 1
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 17
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 18
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
@@ -180,4 +180,5 @@ total 132
   - :four_leaf_clover: [112. path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/PathSum.py)
   - :four_leaf_clover: [100. same tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SameTree.py)
   - :four_leaf_clover: [572. subtree of another tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SubtreeOfAnotherTree.py)
+  - :accept: [129. sum root to leaf numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SumRootToLeafNumbers.py)
   - :four_leaf_clover: [101. symmetric tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SymmetricTree.py)
