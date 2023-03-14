@@ -37,3 +37,37 @@ def sum_numbers_rec(self, root: Optional[TreeNode]) -> int:
     preorder(root, 0)
 
     return root_to_leaf
+
+
+# O(n) time || O(1) space
+def sum_numbers_morris(self, root: Optional[TreeNode]) -> int:
+    root_to_leaf = curr_num = 0
+    while root:
+        if root.left:
+            predecessor = root.left
+            steps = 1
+            while predecessor.right and predecessor.right is not root:
+                predecessor = predecessor.right
+                steps += 1
+
+            if not predecessor.right:
+                curr_num = curr_num * 10 + root.val
+
+                predecessor.right, root = root, root.left
+            else:
+                if not predecessor.left:
+                    root_to_leaf += curr_num
+
+                for _ in range(steps):
+                    curr_num //= 10
+
+                predecessor.right, root = None, root.right
+        else:
+            curr_num = curr_num * 10 + root.val
+
+            if not root.right:
+                root_to_leaf += curr_num
+
+            root = root.right
+
+    return root_to_leaf
