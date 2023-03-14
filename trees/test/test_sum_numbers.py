@@ -1,6 +1,6 @@
 import unittest
 
-from trees.SumRootToLeafNumbers import sum_numbers
+from trees.SumRootToLeafNumbers import sum_numbers, sum_numbers_rec
 from trees.TreeNode import TreeNode
 
 
@@ -13,6 +13,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(25, sum_numbers(self, root))
+        self.assertEqual(25, sum_numbers_rec(self, root))
 
     def test_sum_numbers_1(self):
         root = TreeNode(
@@ -26,6 +27,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(1026, sum_numbers(self, root))
+        self.assertEqual(1026, sum_numbers_rec(self, root))
 
 
 if __name__ == '__main__':
