@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 45 easy \
-:accept: 76 medium \
+:accept: 77 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 134
+total 135
 
 ### Python 3
 
@@ -163,11 +163,12 @@ total 134
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 1
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 19
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 20
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
   - :accept: [958. check completeness of a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/CheckCompletenessOfABinaryTree.py)
+  - :accept: [106. construct binary tree from inorder and postorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.py)
   - :accept: [427. construct quad tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConstructQuadTree.py)
   - :accept: [109. convert sorted list to binary search tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/ConvertSortedListToBinarySearchTree.py)
   - :four_leaf_clover: [543. diameter of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/DiameterOfBinaryTree.py)
