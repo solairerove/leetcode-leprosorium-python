@@ -31,14 +31,14 @@ ___
 ### Problems
 
 :four_leaf_clover: 45 easy \
-:accept: 77 medium \
+:accept: 78 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 135
+total 136
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 19
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 20
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
@@ -56,6 +56,7 @@ total 135
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
+  - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
   - :four_leaf_clover: [125. valid palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidPalindrome.py)
 - :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 10
