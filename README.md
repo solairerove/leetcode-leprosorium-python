@@ -31,14 +31,14 @@ ___
 ### Problems
 
 :four_leaf_clover: 45 easy \
-:accept: 79 medium \
+:accept: 80 medium \
 :congratulations: 13 hard \
 :goberserk: 0 you should skip interview \
-total 137
+total 138
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 20
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 21
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
@@ -54,6 +54,7 @@ total 137
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
+  - :accept: [15. tree sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ThreeSum.py)
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
   - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
