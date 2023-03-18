@@ -33,8 +33,8 @@ ___
 :four_leaf_clover: 46 easy \
 :accept: 80 medium \
 :congratulations: 13 hard \
-:goberserk: 0 you should skip interview \
-total 139
+:goberserk: 1 you should skip interview \
+total 140
 
 ### Python 3
 
@@ -160,10 +160,11 @@ total 139
   - :accept: [148. sort list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SortList.py)
   - :accept: [24. swap nodes in pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwapNodesInPairs.py)
   - :accept: [1721. swapping nodes in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwappingNodesInALinkedList.py)
-- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 3
+- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 4
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
+  - :goberserk: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 1
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
 - :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 20
