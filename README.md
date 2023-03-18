@@ -30,15 +30,16 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 46 easy \
+:four_leaf_clover: 47 easy \
 :accept: 80 medium \
 :congratulations: 13 hard \
 :goberserk: 1 you should skip interview \
-total 140
+total 141
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 22
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 23
+  - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
