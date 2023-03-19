@@ -31,10 +31,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 47 easy \
-:accept: 80 medium \
+:accept: 81 medium \
 :congratulations: 13 hard \
 :goberserk: 1 you should skip interview \
-total 141
+total 142
 
 ### Python 3
 
@@ -189,5 +189,6 @@ total 141
   - :four_leaf_clover: [572. subtree of another tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SubtreeOfAnotherTree.py)
   - :accept: [129. sum root to leaf numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SumRootToLeafNumbers.py)
   - :four_leaf_clover: [101. symmetric tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SymmetricTree.py)
-- ::trident:: [tries](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/tries) 1
+- ::trident:: [tries](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/tries) 2
+  - :accept: [211. design add and search words data structure](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/tries/DesignAddAndSearchWordsDataStructure.py)
   - :accept: [208. implement trie (prefix tree)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/tries/ImplementTrie.py)
