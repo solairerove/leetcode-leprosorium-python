@@ -5,8 +5,7 @@ from typing import List
 def max_area(self, height: List[int]) -> int:
     area, low, high = 0, 0, len(height) - 1
     while low < high:
-        width = high - low
-        area = max(area, min(height[low], height[high]) * width)
+        area = max(area, min(height[low], height[high]) * (high - low))
         if height[low] <= height[high]:
             low += 1
         else:
