@@ -30,19 +30,20 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 50 easy \
+:four_leaf_clover: 51 easy \
 :accept: 83 medium \
 :congratulations: 13 hard \
 :goberserk: 1 you should skip interview \
-total 147
+total 148
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 27
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 28
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
   - :accept: [11. container with most water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainerWithMostWater.py)
   - :four_leaf_clover: [217. contains duplicate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainsDuplicate.py)
+  - :four_leaf_clover: [2022. convert 1d array into 2d array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Convert1DArrayInto2DArray.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
