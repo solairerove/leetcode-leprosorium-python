@@ -2,6 +2,11 @@ from typing import List
 
 
 # O(n) time || O(1) space
+def construct_2d_array_one_liner(self, original: List[int], m: int, n: int) -> List[List[int]]:
+    return [original[i:i + n] for i in range(0, len(original), n)] if len(original) == m * n else []
+
+
+# O(n) time || O(1) space
 def construct_2d_array_smart(self, original: List[int], m: int, n: int) -> List[List[int]]:
     if len(original) != n * m:
         return []
