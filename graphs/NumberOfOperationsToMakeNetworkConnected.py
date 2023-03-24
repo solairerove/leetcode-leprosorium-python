@@ -7,26 +7,26 @@ def make_connected_dfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
-    adj = [[] for _ in range(n)]
+    graph = [[] for _ in range(n)]
     for connection in connections:
-        adj[connection[0]].append(connection[1])
-        adj[connection[1]].append(connection[0])
+        graph[connection[0]].append(connection[1])
+        graph[connection[1]].append(connection[0])
 
-    number_of_connected_components = 0
+    res = 0
     visit = [False] * n
     for i in range(n):
         if not visit[i]:
-            number_of_connected_components += 1
-            dfs(self, i, adj, visit)
+            res += 1
+            dfs(self, i, graph, visit)
 
-    return number_of_connected_components - 1
+    return res - 1
 
 
-def dfs(self, node, adj, visit):
+def dfs(self, node, graph, visit):
     visit[node] = True
-    for neighbor in adj[node]:
+    for neighbor in graph[node]:
         if not visit[neighbor]:
-            dfs(self, neighbor, adj, visit)
+            dfs(self, neighbor, graph, visit)
 
 
 # O(n + e) time || O(n) space
