@@ -7,6 +7,12 @@ def make_connected_dfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
+    def dfs(node):
+        visit[node] = True
+        for neighbor in graph[node]:
+            if not visit[neighbor]:
+                dfs(neighbor)
+
     graph = [[] for _ in range(n)]
     for connection in connections:
         graph[connection[0]].append(connection[1])
@@ -17,16 +23,9 @@ def make_connected_dfs(self, n: int, connections: List[List[int]]) -> int:
     for i in range(n):
         if not visit[i]:
             res += 1
-            dfs(self, i, graph, visit)
+            dfs(i)
 
     return res - 1
-
-
-def dfs(self, node, graph, visit):
-    visit[node] = True
-    for neighbor in graph[node]:
-        if not visit[neighbor]:
-            dfs(self, neighbor, graph, visit)
 
 
 # O(n + e) time || O(n) space
