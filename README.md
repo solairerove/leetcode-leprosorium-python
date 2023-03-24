@@ -26,15 +26,16 @@ ___
 [leetcode patterns](https://seanprashad.com/leetcode-patterns/) \
 [leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
 [neetcode](https://neetcode.io/practice)
-[blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+[blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) \
+[python debug visualization](https://pythontutor.com/visualize.html#mode=display)
 
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 86 medium \
+:accept: 87 medium \
 :congratulations: 13 hard \
 :goberserk: 1 you should skip interview \
-total 151
+total 152
 
 ### Python 3
 
@@ -114,11 +115,12 @@ total 151
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 4
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 5
   - :accept: [2492. minimum score of a path between two cities](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumScoreOfAPathBetweenTwoCities.py)
   - :accept: [323. number of connected components in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfConnectedComponentsInAnUndirectedGraph.py)
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
+  - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
