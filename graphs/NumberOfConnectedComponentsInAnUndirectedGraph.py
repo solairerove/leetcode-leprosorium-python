@@ -30,3 +30,22 @@ def dfs(self, n, g, visited):
     visited[n] = 1
     for x in g[n]:
         dfs(self, x, g, visited)
+
+
+# O(n + e) time || O(n + e) space
+def count_components_bfs(self, n: int, edges: List[List[int]]) -> int:
+    g = {x: [] for x in range(n)}
+    for x, y in edges:
+        g[x].append(y)
+        g[y].append(x)
+
+    res = 0
+    for i in range(n):
+        queue = [i]
+        res += 1 if i in g else 0
+        for j in queue:
+            if j in g:
+                queue += g[j]
+                del g[j]
+
+    return res
