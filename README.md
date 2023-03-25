@@ -32,10 +32,10 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 87 medium \
+:accept: 88 medium \
 :congratulations: 13 hard \
 :goberserk: 1 you should skip interview \
-total 152
+total 153
 
 ### Python 3
 
@@ -115,7 +115,8 @@ total 152
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 5
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 6
+  - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
   - :accept: [2492. minimum score of a path between two cities](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumScoreOfAPathBetweenTwoCities.py)
   - :accept: [323. number of connected components in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfConnectedComponentsInAnUndirectedGraph.py)
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
