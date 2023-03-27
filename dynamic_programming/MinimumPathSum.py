@@ -5,7 +5,7 @@ from typing import List
 # O(n * m) time || O(n * m) space
 # dp(i, j) = grid[i][j] + min(dp(i + 1, j), dp(i, j + 1))
 def min_path_sum_rec(self, grid: List[List[int]]) -> int:
-    @lru_cache
+    @lru_cache(None)
     def dp(i, j):
         if i == len(grid) or j == len(grid[0]):
             return float('inf')
