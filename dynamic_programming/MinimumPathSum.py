@@ -54,3 +54,18 @@ def min_path_sum_1d_bottom_up(self, grid: List[List[int]]) -> int:
                 dp[j] = grid[i][j]
 
     return dp[0]
+
+
+# O(n * m) time || O(1) space
+def min_path_sum_bottom_up_constant_space(self, grid: List[List[int]]) -> int:
+    m, n = len(grid), len(grid[0])
+    for i in range(m - 1, -1, -1):
+        for j in range(n - 1, -1, -1):
+            if i == m - 1 and j != n - 1:
+                grid[i][j] = grid[i][j] + grid[i][j + 1]
+            elif j == n - 1 and i != m - 1:
+                grid[i][j] = grid[i][j] + grid[i + 1][j]
+            elif i != m - 1 and j != n - 1:
+                grid[i][j] = grid[i][j] + min(grid[i + 1][j], grid[i][j + 1])
+
+    return grid[0][0]
