@@ -7,10 +7,10 @@ def make_connected_dfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
-    adj = [[] for _ in range(n)]
-    for connection in connections:
-        adj[connection[0]].append(connection[1])
-        adj[connection[1]].append(connection[0])
+    adj = {x: [] for x in range(n)}
+    for x, y in connections:
+        adj[x].append(y)
+        adj[y].append(x)
 
     res = 0
     visit = [False] * n
@@ -34,10 +34,10 @@ def make_connected_bfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
-    adj = [[] for _ in range(n)]
-    for connection in connections:
-        adj[connection[0]].append(connection[1])
-        adj[connection[1]].append(connection[0])
+    adj = {x: [] for x in range(n)}
+    for x, y in connections:
+        adj[x].append(y)
+        adj[y].append(x)
 
     res = 0
     visit = [False] * n
