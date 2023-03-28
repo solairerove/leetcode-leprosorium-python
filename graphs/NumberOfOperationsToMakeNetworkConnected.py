@@ -7,25 +7,26 @@ def make_connected_dfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
-    def dfs(node):
-        visit[node] = True
-        for neighbor in graph[node]:
-            if not visit[neighbor]:
-                dfs(neighbor)
-
-    graph = [[] for _ in range(n)]
+    adj = [[] for _ in range(n)]
     for connection in connections:
-        graph[connection[0]].append(connection[1])
-        graph[connection[1]].append(connection[0])
+        adj[connection[0]].append(connection[1])
+        adj[connection[1]].append(connection[0])
 
     res = 0
     visit = [False] * n
     for i in range(n):
         if not visit[i]:
             res += 1
-            dfs(i)
+            dfs(self, i, adj, visit)
 
     return res - 1
+
+
+def dfs(self, node, adj, visit):
+    visit[node] = True
+    for neighbor in adj[node]:
+        if not visit[neighbor]:
+            dfs(self, neighbor, adj, visit)
 
 
 # O(n + e) time || O(n) space
@@ -33,29 +34,30 @@ def make_connected_bfs(self, n: int, connections: List[List[int]]) -> int:
     if len(connections) < n - 1:
         return -1
 
-    def bfs(node):
-        dq = collections.deque([node])
-        visit[node] = True
-        while dq:
-            node = dq.popleft()
-            for neighbor in graph[node]:
-                if not visit[neighbor]:
-                    visit[neighbor] = True
-                    dq.append(neighbor)
-
-    graph = [[] for _ in range(n)]
+    adj = [[] for _ in range(n)]
     for connection in connections:
-        graph[connection[0]].append(connection[1])
-        graph[connection[1]].append(connection[0])
+        adj[connection[0]].append(connection[1])
+        adj[connection[1]].append(connection[0])
 
     res = 0
     visit = [False] * n
     for i in range(n):
         if not visit[i]:
             res += 1
-            bfs(i)
+            bfs(self, i, adj, visit)
 
     return res - 1
+
+
+def bfs(self, node, adj, visit):
+    dq = collections.deque([node])
+    visit[node] = True
+    while dq:
+        node = dq.popleft()
+        for neighbor in adj[node]:
+            if not visit[neighbor]:
+                visit[neighbor] = True
+                dq.append(neighbor)
 
 
 # O(n + e) time || O(n) space
