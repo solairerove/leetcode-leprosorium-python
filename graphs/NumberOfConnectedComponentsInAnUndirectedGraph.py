@@ -1,3 +1,4 @@
+import collections
 from typing import List
 
 
@@ -8,44 +9,51 @@ from typing import List
 
 # O(n + e) time || O(n + e) space
 def count_components_dfs(self, n: int, edges: List[List[int]]) -> int:
-    visited = [0] * n
-    g = {x: [] for x in range(n)}
+    adj = {x: [] for x in range(n)}
     for x, y in edges:
-        g[x].append(y)
-        g[y].append(x)
+        adj[x].append(y)
+        adj[y].append(x)
 
     res = 0
+    visit = [False] * n
     for i in range(n):
-        if not visited[i]:
-            dfs(self, i, g, visited)
+        if not visit[i]:
             res += 1
+            dfs(self, i, adj, visit)
 
     return res
 
 
-def dfs(self, n, g, visited):
-    if visited[n]:
-        return
-
-    visited[n] = 1
-    for x in g[n]:
-        dfs(self, x, g, visited)
+def dfs(self, node, adj, visit):
+    visit[node] = True
+    for neighbor in adj[node]:
+        if not visit[neighbor]:
+            dfs(self, neighbor, adj, visit)
 
 
 # O(n + e) time || O(n + e) space
 def count_components_bfs(self, n: int, edges: List[List[int]]) -> int:
-    g = {x: [] for x in range(n)}
+    adj = {x: [] for x in range(n)}
     for x, y in edges:
-        g[x].append(y)
-        g[y].append(x)
+        adj[x].append(y)
+        adj[y].append(x)
 
     res = 0
+    visit = [False] * n
     for i in range(n):
-        queue = [i]
-        res += 1 if i in g else 0
-        for j in queue:
-            if j in g:
-                queue += g[j]
-                del g[j]
+        if not visit[i]:
+            res += 1
+            bfs(self, i, adj, visit)
 
     return res
+
+
+def bfs(self, node, adj, visit):
+    dq = collections.deque([node])
+    visit[node] = True
+    while dq:
+        node = dq.popleft()
+        for neighbor in adj[node]:
+            if not visit[neighbor]:
+                visit[neighbor] = True
+                dq.append(neighbor)
