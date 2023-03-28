@@ -21,6 +21,33 @@
 from typing import List
 
 
+# O(n) time | O(1) space
+def get_distinct_pair(self, arr: List[int]) -> int:
+    n = len(arr)
+
+    if n == 1:
+        return 0
+
+    if n == 2:
+        # [][]
+        return 1 if (arr[0] + arr[1]) % 2 == 0 else 0
+
+    cnt, slow, fast = 0, 0, n - 1
+    if (arr[slow] + arr[fast]) % 2 == 0:
+        cnt, slow, fast = cnt + 1, 1, 2
+    else:
+        fast = 1
+
+    end_idx = n - 2 if cnt == 1 else n - 1
+    while fast <= end_idx:
+        if (arr[slow] + arr[fast]) % 2 == 0:
+            slow, fast, cnt = slow + 2, fast + 2, cnt + 1
+        else:
+            slow, fast = slow + 1, fast + 1
+
+    return cnt
+
+
 # O(n) time | O(n) space
 def get_distinct_pair_using_set(self, arr: List[int]) -> int:
     indices = set()
