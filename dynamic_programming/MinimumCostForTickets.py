@@ -3,7 +3,7 @@ from typing import List
 
 
 # O(w) time || O(w) space, where w - 365
-def min_cost_tickets(self, days: List[int], costs: List[int]) -> int:
+def min_cost_tickets_all_days(self, days: List[int], costs: List[int]) -> int:
     day_set = set(days)
     durations = [1, 7, 30]
 
@@ -17,3 +17,25 @@ def min_cost_tickets(self, days: List[int], costs: List[int]) -> int:
             return dp(i + 1)
 
     return dp(1)
+
+
+# O(n) time || O(n) space, where n - unique days
+def min_cost_tickets_window(self, days: List[int], costs: List[int]) -> int:
+    n = len(days)
+    durations = [1, 7, 30]
+
+    @lru_cache(None)
+    def dp(i):
+        if i >= n:
+            return 0
+
+        res = float('inf')
+        j = i
+        for c, d in zip(costs, durations):
+            while j < n and days[j] < days[i] + d:
+                j += 1
+            res = min(res, dp(j) + c)
+
+        return res
+
+    return dp(0)
