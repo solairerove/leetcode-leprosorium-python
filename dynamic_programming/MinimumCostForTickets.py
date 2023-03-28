@@ -44,7 +44,6 @@ def min_cost_tickets_window(self, days: List[int], costs: List[int]) -> int:
 # O(n) time || O(n) space, where n - unique days
 def min_cost_tickets_bottom_up(self, days: List[int], costs: List[int]) -> int:
     dp = [0] * (days[-1] + 1)
-    day_set = set(days)
     for i in range(1, len(dp)):
         if i in days:
             dp[i] = min(
