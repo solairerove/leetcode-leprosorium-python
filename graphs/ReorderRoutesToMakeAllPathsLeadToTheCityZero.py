@@ -4,24 +4,28 @@ from typing import List
 
 # O(n + e) time || O(n) space
 def min_reorder_bfs(self, n: int, connections: List[List[int]]) -> int:
-    graph = collections.defaultdict(list)
+    adj = {x: [] for x in range(n)}
+    for x, y in connections:
+        adj[x].append((y, 1))
+        adj[y].append((x, 0))
 
-    for u, v in connections:
-        graph[u].append((v, 1))
-        graph[v].append((u, 0))
+    res = [0]
+    visit = [False] * n
+    bfs(self, 0, adj, visit, res)
 
-    dq = collections.deque([0])
-    visited = {0}
-    res = 0
+    return res[0]
+
+
+def bfs(self, node, adj, visit, res):
+    dq = collections.deque([node])
+    visit[node] = True
     while dq:
-        city = dq.popleft()
-        for neighbor, cost in graph[city]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                res += cost
+        node = dq.popleft()
+        for neighbor, cost in adj[node]:
+            if not visit[neighbor]:
+                visit[neighbor] = True
+                res[0] += cost
                 dq.append(neighbor)
-
-    return res
 
 
 # O(n + e) time || O(n + e) space
