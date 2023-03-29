@@ -14,3 +14,15 @@ def max_satisfaction(self, satisfaction: List[int]) -> int:
         return max(dp(i + 1, t), satisfaction[i] * t + dp(i + 1, t + 1))
 
     return dp(0, 1)
+
+
+# O(n * log(n)) time || O(1) space
+def max_satisfaction_greedy(self, satisfaction: List[int]) -> int:
+    satisfaction.sort()
+
+    res = total = 0
+    while satisfaction and satisfaction[-1] + total > 0:
+        total += satisfaction.pop()
+        res += total
+
+    return res
