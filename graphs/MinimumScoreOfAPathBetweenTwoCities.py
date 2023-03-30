@@ -1,32 +1,25 @@
-import sys
 from typing import List
 
 
-class Solution:
-    def __init__(self):
-        self.answer = sys.maxsize
+# O(n + e) time || O(n + e) space
+# n - number of nodes
+# e - number of edges
+def min_score(self, n: int, roads: List[List[int]]) -> int:
+    adj = {x: [] for x in range(1, n + 1)}
+    for x, y, z in roads:
+        adj[x].append((y, z))
+        adj[y].append((x, z))
 
-    def dfs(self, node, adj, visit):
-        visit[node] = True
+    res = [float('inf')]
+    visit = [False] * (n + 1)
+    dfs(self, 1, adj, visit, res)
 
-        if node not in adj:
-            return
+    return int(res[0])
 
-        for edge in adj[node]:
-            self.answer = min(self.answer, edge[1])
-            if not visit[edge[0]]:
-                self.dfs(edge[0], adj, visit)
 
-    # O(n + e) time || O(n + e) space
-    # n - number of nodes
-    # e - number of edges
-    def min_score(self, n: int, roads: List[List[int]]) -> int:
-        adj = {}
-        for road in roads:
-            adj.setdefault(road[0], []).append([road[1], road[2]])
-            adj.setdefault(road[1], []).append([road[0], road[2]])
-
-        visit = [False] * (n + 1)
-        self.dfs(1, adj, visit)
-
-        return self.answer
+def dfs(self, node, adj, visit, res):
+    visit[node] = True
+    for neighbor, score in adj[node]:
+        res[0] = min(res[0], score)
+        if not visit[neighbor]:
+            dfs(self, neighbor, adj, visit, res)
