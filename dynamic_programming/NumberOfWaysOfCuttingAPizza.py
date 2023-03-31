@@ -2,7 +2,7 @@ from functools import lru_cache
 from typing import List
 
 
-# O(n*m) time || O(n*m) space
+# O(k*m*n*(m+n)) time || O(k*m*n) space
 def ways(self, pizza: List[str], K: int) -> int:
     m, n, MOD = len(pizza), len(pizza[0]), 10 ** 9 + 7
     preSum = [[0] * (n + 1) for _ in range(m + 1)]
