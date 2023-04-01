@@ -114,7 +114,7 @@ total 159
   - :accept: [416. partition equal subset sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PartitionEqualSubsetSum.py)
   - :four_leaf_clover: [118. pascal's triangle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangle.py)
   - :four_leaf_clover: [119. pascal's triangle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangleII.py)
-  - :four_leaf_clover: [303. range sum query](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RangeSumQuery.py)
+  - :four_leaf_clover: NOT DP [303. range sum query](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RangeSumQuery.py)
   - :congratulations: [1402. reducing dishes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ReducingDishes.py)
   - :congratulations: [87. scramble string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ScrambleString.py)
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
