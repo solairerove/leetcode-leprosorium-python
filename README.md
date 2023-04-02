@@ -32,10 +32,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 91 medium \
-:congratulations: 16 hard \
-:goberserk: 2 you should skip interview \
-total 160
+:accept: 92 medium \
+:congratulations: 18 hard \
+total 161
 
 ### Python 3
 
@@ -68,7 +67,7 @@ total 160
   - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
   - :four_leaf_clover: [125. valid palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidPalindrome.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 10
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 11
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
   - :four_leaf_clover: [744. find smallest letter greater than target](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/FindSmallestLetterGreaterThanTarget.py)
@@ -79,6 +78,7 @@ total 160
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
+  - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
 - :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 40
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
@@ -108,7 +108,7 @@ total 160
   - :congratulations: [1335. minimum difficulty of a job schedule](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumDifficultyOfAJobSchedule.py)
   - :accept: [64. minimum path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumPathSum.py)
   - :four_leaf_clover: [1137. n-th tribonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NthTribonacciNumber.py)
-  - :goberserk: [1444. number of ways of cutting a pizza](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfWaysOfCuttingAPizza.py)
+  - :congratulations: [1444. number of ways of cutting a pizza](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfWaysOfCuttingAPizza.py)
   - :accept: [474. ones and zeros](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/OnesAndZeroes.py)
   - :accept: [647. palindromic substrings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
   - :accept: [416. partition equal subset sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PartitionEqualSubsetSum.py)
@@ -183,7 +183,7 @@ total 160
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
-  - :goberserk: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
+  - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 1
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
 - :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 20
