@@ -3,9 +3,10 @@ from typing import List
 
 # O(n) time || O(1) space
 def can_jump(self, nums: List[int]) -> bool:
-    high = len(nums) - 1
-    for i in range(len(nums) - 1, -1, -1):
-        if i + nums[i] >= high:
-            high = i
+    high = 0
+    for i, n in enumerate(nums):
+        if i > high:
+            return False
+        high = max(high, i + n)
 
-    return high == 0
+    return True
