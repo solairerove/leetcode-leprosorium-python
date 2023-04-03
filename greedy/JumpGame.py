@@ -2,7 +2,7 @@ from typing import List
 
 
 # O(n) time || O(1) space
-def can_jump_greedy(self, nums: List[int]) -> bool:
+def can_jump(self, nums: List[int]) -> bool:
     high = 0
     for i, n in enumerate(nums):
         if i > high:
