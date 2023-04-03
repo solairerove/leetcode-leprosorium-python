@@ -1,26 +1,16 @@
 from typing import List
 
 
-# O(n * log(n)) time || O(1) space
-def num_rescue_boats_naive(self, people: List[int], limit: int) -> int:
-    if len(people) == 2 and sum(people) <= limit:
-        return 1
-
+# O(n * log(n)) time || O(n) space
+def num_rescue_boats(self, people: List[int], limit: int) -> int:
     people.sort()
-
-    res = 0
     low, high = 0, len(people) - 1
+    res = 0
     while low <= high:
-        hold = limit - people[high]
-        if hold == 0:
-            res += 1
-            high -= 1
-        elif people[low] - hold <= 0:
-            res += 1
+        res += 1
+        if people[low] + people[high] <= limit:
             low += 1
-            high -= 1
-        else:
-            high -= 1
-            res += 1
+
+        high -= 1
 
     return res
