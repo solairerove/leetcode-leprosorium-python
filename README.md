@@ -32,9 +32,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 96 medium \
+:accept: 97 medium \
 :congratulations: 18 hard \
-total 165
+total 166
 
 ### Python 3
 
@@ -129,10 +129,11 @@ total 165
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
-- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 4
+- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 5
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
   - :accept: [55. jump game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGame.py)
+  - :accept: [2178. maximum split of positive even integers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MaximumSplitOfPositiveEvenIntegers.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
