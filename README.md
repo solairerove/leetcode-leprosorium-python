@@ -32,9 +32,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 98 medium \
+:accept: 99 medium \
 :congratulations: 18 hard \
-total 167
+total 168
 
 ### Python 3
 
@@ -122,7 +122,7 @@ total 167
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 7
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 8
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
   - :congratulations: [2360. longest cycle in a graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/LongestCycleInAGraph.py)
   - :accept: [2492. minimum score of a path between two cities](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumScoreOfAPathBetweenTwoCities.py)
@@ -130,6 +130,7 @@ total 167
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
+  - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
 - :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 5
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
