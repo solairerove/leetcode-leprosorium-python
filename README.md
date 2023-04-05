@@ -32,13 +32,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 100 medium \
+:accept: 101 medium \
 :congratulations: 18 hard \
-total 169
+total 170
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 28
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 29
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
   - :accept: [11. container with most water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainerWithMostWater.py)
@@ -54,6 +54,7 @@ total 169
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
+  - :accept: [2439. minimize maximum of array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MinimizeMaximumOfArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
