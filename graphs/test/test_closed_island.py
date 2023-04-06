@@ -1,6 +1,6 @@
 import unittest
 
-from graphs.NumberOfClosedIslands import closed_island_dfs
+from graphs.NumberOfClosedIslands import closed_island_dfs, closed_island_bfs
 
 
 class MyTestCase(unittest.TestCase):
@@ -12,7 +12,9 @@ class MyTestCase(unittest.TestCase):
             [1, 0, 0, 0, 0, 1, 0, 1],
             [1, 1, 1, 1, 1, 1, 1, 0]
         ]
-        self.assertEqual(2, closed_island_dfs(self, grid))
+
+        self.assertEqual(2, closed_island_dfs(self, [row[:] for row in grid]))
+        self.assertEqual(2, closed_island_bfs(self, [row[:] for row in grid]))
 
     def test_closed_island_1(self):
         grid = [
@@ -20,7 +22,8 @@ class MyTestCase(unittest.TestCase):
             [0, 1, 0, 1, 0],
             [0, 1, 1, 1, 0]
         ]
-        self.assertEqual(1, closed_island_dfs(self, grid))
+        self.assertEqual(1, closed_island_dfs(self, [row[:] for row in grid]))
+        self.assertEqual(1, closed_island_bfs(self, [row[:] for row in grid]))
 
     def test_closed_island_2(self):
         grid = [
@@ -32,7 +35,8 @@ class MyTestCase(unittest.TestCase):
             [1, 0, 0, 0, 0, 0, 1],
             [1, 1, 1, 1, 1, 1, 1]
         ]
-        self.assertEqual(2, closed_island_dfs(self, grid))
+        self.assertEqual(2, closed_island_dfs(self, [row[:] for row in grid]))
+        self.assertEqual(2, closed_island_bfs(self, [row[:] for row in grid]))
 
 
 if __name__ == '__main__':
