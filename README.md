@@ -32,9 +32,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 51 easy \
-:accept: 103 medium \
+:accept: 104 medium \
 :congratulations: 18 hard \
-total 172
+total 173
 
 ### Python 3
 
@@ -124,13 +124,14 @@ total 172
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 10
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 11
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
   - :congratulations: [2360. longest cycle in a graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/LongestCycleInAGraph.py)
   - :accept: [2477. minimum fuel cost to report to the capital](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumFuelCostToReportToTheCapital.py)
   - :accept: [2492. minimum score of a path between two cities](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumScoreOfAPathBetweenTwoCities.py)
   - :accept: [1254. number of closed islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfClosedIslands.py)
   - :accept: [323. number of connected components in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfConnectedComponentsInAnUndirectedGraph.py)
+  - :accept: [1020. number of enclaves](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfEnclaves.py)
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
