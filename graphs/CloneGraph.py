@@ -1,3 +1,6 @@
+import collections
+
+
 class Node:
     def __init__(self, val=0, neighbors=None):
         self.val = val
@@ -27,3 +30,28 @@ def clone_graph_dfs(self, root: 'Node') -> 'Node':
         return clone_node
 
     return dfs(root)
+
+
+# O(n + e) time || O(n) space
+# n - number of nodes
+# e - number of edges
+def clone_graph_bfs(self, root: 'Node') -> 'Node':
+    visit = {}
+    dq = collections.deque([root])
+
+    def bfs(node):
+        if not node:
+            return node
+
+        visit[node] = Node(node.val, [])
+        while dq:
+            n = dq.popleft()
+            for neighbor in n.neighbors:
+                if neighbor not in visit:
+                    visit[neighbor] = Node(neighbor.val, [])
+                    dq.append(neighbor)
+                visit[n].neighbors.append(visit[neighbor])
+
+        return visit[node]
+
+    return bfs(root)
