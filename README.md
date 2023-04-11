@@ -32,9 +32,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 52 easy \
-:accept: 105 medium \
+:accept: 106 medium \
 :congratulations: 19 hard \
-total 176
+total 177
 
 ### Python 3
 
@@ -199,8 +199,9 @@ total 176
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
-- :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 2
+- :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 3
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
+  - :accept: [2390. removing stars from a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/RemovingStarsFromAString.py)
   - :four_leaf_clover: [20. valid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidParentheses.py)
 - :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 20
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
