@@ -13,14 +13,17 @@ def climb_stairs(self, n: int) -> int:
 
 # O(n) time || O(n) space
 def climb_stairs_top_down(self, n: int) -> int:
-    @lru_cache(None)
-    def dp(i: int) -> int:
-        if i <= 2:
-            return i
+    @lru_cache(n)
+    def dp(i):
+        if i == 0:
+            return 0
+
+        if i == 1:
+            return 1
 
         return dp(i - 1) + dp(i - 2)
 
-    return dp(n)
+    return dp(n + 1)
 
 
 # O(n) time || O(n) space
