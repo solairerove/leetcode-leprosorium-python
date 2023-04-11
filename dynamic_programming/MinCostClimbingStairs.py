@@ -11,7 +11,7 @@ def min_cost_climbing_stairs(self, cost: List[int]) -> int:
 
 
 # O(n) time || O(n) space
-def min_cost_climbing_stairs_rec(self, cost: List[int]) -> int:
+def min_cost_climbing_stairs_top_down(self, cost: List[int]) -> int:
     @lru_cache(None)
     def dp(i) -> int:
         if i >= len(cost):
