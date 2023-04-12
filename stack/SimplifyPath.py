@@ -1,3 +1,6 @@
+from os.path import normpath
+
+
 # O(n) time || O(n) space
 def simplify_path(self, path: str) -> str:
     stack = []
@@ -11,3 +14,8 @@ def simplify_path(self, path: str) -> str:
             stack.append(p)
 
     return "/" + "/".join(stack)
+
+
+# O(n) time || O(n) space
+def simplify_path_os(self, path: str) -> str:
+    return normpath(path)
