@@ -12,7 +12,7 @@ def rob(self, nums: List[int]) -> int:
 
 
 # O(n) time || O(n) space
-def rob_rec(self, nums: List[int]) -> int:
+def rob_top_down(self, nums: List[int]) -> int:
     @lru_cache(None)
     def dp(i: int) -> int:
         if i == 0:
