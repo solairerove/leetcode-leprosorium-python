@@ -15,15 +15,15 @@ def rob(self, nums: List[int]) -> int:
 
 
 # O(n) time || O(n) space
-def rob_rec(self, nums: List[int]) -> int:
-    def classic_rob_rec(arr: List[int]) -> int:
+def rob_top_down(self, nums: List[int]) -> int:
+    def classic_rob(arr: List[int]) -> int:
         @lru_cache(None)
-        def helper(ith: int) -> int:
-            if ith >= len(arr):
+        def dp(i: int) -> int:
+            if i >= len(arr):
                 return 0
 
-            return max(helper(ith + 1), helper(ith + 2) + arr[ith])
+            return max(dp(i + 1), dp(i + 2) + arr[i])
 
-        return helper(0)
+        return dp(0)
 
-    return max(nums[0], classic_rob_rec(nums[1:]), classic_rob_rec(nums[:-1]))
+    return max(nums[0], classic_rob(nums[1:]), classic_rob(nums[:-1]))
