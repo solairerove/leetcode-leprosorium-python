@@ -14,12 +14,6 @@ ___
 - Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
 - French tele company January 23 (fail :x: , two med dp, have those here)
 
-### How to solve
-
-1) 1 problem from leetcode daily challenge
-2) 1 problem from leetcode patterns
-3) 1..n problems from category that i'm learning
-
 ### Links
 
 [some dp book from nerds](https://dp-book.com/Dynamic_Programming.pdf) \
@@ -81,7 +75,7 @@ total 178
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 41
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 40
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :congratulations: [188. best time to buy and sell stock IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockIV.py)
   - :accept: [309. best time to buy and sell stock with cooldown](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockWithCooldown.py)
@@ -96,7 +90,6 @@ total 178
   - :accept: [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - :accept: [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - :accept: [337. house robber III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberIII.py)
-  - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/JumpGameII.py)
   - :congratulations: [1345. jump game IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/JumpGameIV.py)
   - [0-1 knapsack problem](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/KnapsackProblem.py)
   - :accept: [1143. longest common subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestCommonSubsequence.py)
@@ -138,10 +131,11 @@ total 178
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
   - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
-- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 5
+- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 6
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
   - :accept: [55. jump game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGame.py)
+  - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/JumpGameII.py)
   - :accept: [2178. maximum split of positive even integers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MaximumSplitOfPositiveEvenIntegers.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
@@ -225,7 +219,7 @@ total 178
   - :four_leaf_clover: [572. subtree of another tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SubtreeOfAnotherTree.py)
   - :accept: [129. sum root to leaf numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SumRootToLeafNumbers.py)
   - :four_leaf_clover: [101. symmetric tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SymmetricTree.py)
-- ::trident:: [tries](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/tries) 3
+- :trident: [tries](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/tries) 3
   - :accept: [211. design add and search words data structure](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/tries/DesignAddAndSearchWordsDataStructure.py)
   - :accept: [208. implement trie (prefix tree)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/tries/ImplementTrie.py)
   - :four_leaf_clover: [1065. index pairs of a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/tries/IndexPairsOfAString.py)

@@ -6,14 +6,13 @@ def jump(self, nums: List[int]) -> int:
     if len(nums) == 1:
         return 0
 
-    jumps, reach, steps = 0, nums[0], nums[0]
-    for i in range(1, len(nums) - 1):
-        reach = max(reach, nums[i] + i)
-        steps -= 1
-        if steps == 0:
-            jumps, steps = jumps + 1, reach - i
+    res, curr_end, curr_far = 0, 0, 0
+    for i in range(len(nums) - 1):
+        curr_far = max(curr_far, i + nums[i])
+        if i == curr_end:
+            res, curr_end = res + 1, curr_far
 
-    return jumps + 1
+    return res
 
 
 # O(n) time || O(n) space

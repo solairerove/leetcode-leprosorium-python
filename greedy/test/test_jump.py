@@ -1,6 +1,6 @@
 import unittest
 
-from dynamic_programming.JumpGameII import jump, jump_bottom_up
+from greedy.JumpGameII import jump, jump_bottom_up
 
 
 class MyTestCase(unittest.TestCase):
