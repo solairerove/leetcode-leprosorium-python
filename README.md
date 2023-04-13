@@ -135,7 +135,7 @@ total 178
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
   - :accept: [55. jump game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGame.py)
-  - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/JumpGameII.py)
+  - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGameII.py)
   - :accept: [2178. maximum split of positive even integers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MaximumSplitOfPositiveEvenIntegers.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
