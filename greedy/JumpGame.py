@@ -3,10 +3,11 @@ from typing import List
 
 # O(n) time || O(1) space
 def can_jump(self, nums: List[int]) -> bool:
-    high = 0
+    last_pos = 0
     for i, n in enumerate(nums):
-        if i > high:
+        if i > last_pos:
             return False
-        high = max(high, i + n)
+
+        last_pos = max(last_pos, i + n)
 
     return True
