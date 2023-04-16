@@ -5,9 +5,7 @@ from typing import List
 def max_profit(self, prices: List[int]) -> int:
     profit, min_price = 0, prices[0]
     for i in range(1, len(prices)):
-        price = prices[i]
-
-        profit = max(profit, price - min_price)
-        min_price = min(min_price, price)
+        profit = max(profit, prices[i] - min_price)
+        min_price = min(min_price, prices[i])
 
     return profit
