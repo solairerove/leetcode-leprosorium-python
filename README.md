@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 52 easy \
+:four_leaf_clover: 53 easy \
 :accept: 113 medium \
 :congratulations: 21 hard \
-total 186
+total 187
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 30
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 31
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
   - :accept: [11. container with most water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainerWithMostWater.py)
@@ -45,6 +45,7 @@ total 186
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
   - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :accept: [1306. jump game III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/JumpGameIII.py)
+  - :four_leaf_clover: [1431. kids with the greatest number of candies](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KidsWithTheGreatestNumberOfCandies.py)
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
