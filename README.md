@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 54 easy \
 :accept: 115 medium \
-:congratulations: 22 hard \
-total 191
+:congratulations: 23 hard \
+total 192
 
 ### Python 3
 
@@ -78,7 +78,7 @@ total 191
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 49
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 50
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
   - :accept: [122. best time to buy and sell stock II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStockII.py)
@@ -127,6 +127,7 @@ total 191
   - :congratulations: [1402. reducing dishes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ReducingDishes.py)
   - :congratulations: [87. scramble string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ScrambleString.py)
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
+  - :congratulations: [42. trapping rain water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TrappingRainWater.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 13
