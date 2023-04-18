@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 53 easy \
+:four_leaf_clover: 54 easy \
 :accept: 115 medium \
 :congratulations: 22 hard \
-total 190
+total 191
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 32
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 33
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
   - :accept: [11. container with most water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainerWithMostWater.py)
@@ -51,6 +51,7 @@ total 190
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
   - :accept: [56. merge intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeIntervals.py)
+  - :four_leaf_clover: [1768. merge strings alternately](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeStringsAlternately.py)
   - :accept: [2439. minimize maximum of array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MinimizeMaximumOfArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
