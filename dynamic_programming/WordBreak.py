@@ -2,6 +2,22 @@ from functools import lru_cache
 from typing import List, FrozenSet
 
 
+# O(n^3) time || O(n) space
+def word_break_top_down(self, s: str, word_dict: List[str]) -> bool:
+    @lru_cache(None)
+    def dp(words: FrozenSet[str], i: int):
+        if i == len(s):
+            return True
+
+        for j in range(i + 1, len(s) + 1):
+            if s[i: j] in words and dp(words, j):
+                return True
+
+        return False
+
+    return dp(frozenset(word_dict), 0)
+
+
 # O(n^2 * m) time || O(1) space
 def word_break_constant(self, s: str, word_dict: List[str]) -> bool:
     dp = [False] * (len(s) + 1)
@@ -28,18 +44,3 @@ def word_break(self, s: str, word_dict: List[str]) -> bool:
                 break
 
     return dp[len(s)]
-
-
-# O(n^3) time || O(n) space
-def word_break_rec(self, s: str, word_dict: List[str]) -> bool:
-    @lru_cache(None)
-    def helper(words: FrozenSet[str], low: int):
-        if low == len(s):
-            return True
-
-        for high in range(low + 1, len(s) + 1):
-            if s[low: high] in words and helper(words, high):
-                return True
-        return False
-
-    return helper(frozenset(word_dict), 0)
