@@ -1,6 +1,6 @@
 import unittest
 
-from trees.LongestZigZagPathInABinaryTree import longest_zig_zag
+from trees.LongestZigZagPathInABinaryTree import longest_zig_zag, longest_zig_zag_dfs
 from trees.TreeNode import TreeNode
 
 
@@ -31,6 +31,7 @@ class MyTestCase(unittest.TestCase):
             )
         )
         self.assertEqual(3, longest_zig_zag(self, root))
+        self.assertEqual(3, longest_zig_zag_dfs(self, root))
 
     def test_longest_zig_zag_1(self):
         root = TreeNode(
@@ -49,6 +50,7 @@ class MyTestCase(unittest.TestCase):
             right=TreeNode(1)
         )
         self.assertEqual(4, longest_zig_zag(self, root))
+        self.assertEqual(4, longest_zig_zag_dfs(self, root))
 
 
 if __name__ == '__main__':
