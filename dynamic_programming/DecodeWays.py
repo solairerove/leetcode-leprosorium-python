@@ -12,8 +12,8 @@ def num_decodings(self, s: str) -> int:
         if s[i] != "0":
             curr = one_back
 
-        two_digit = int(s[i - 1: i + 1])
-        if 10 <= two_digit <= 26:
+        two_digits = int(s[i - 1: i + 1])
+        if 9 < two_digits < 27:
             curr += two_back
         two_back, one_back = one_back, curr
 
