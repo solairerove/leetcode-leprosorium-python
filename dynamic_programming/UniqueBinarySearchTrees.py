@@ -1,4 +1,5 @@
 from functools import lru_cache
+from math import factorial
 
 
 # O(n ^ 2) time || O(n) space
@@ -19,3 +20,8 @@ def num_trees_bottom_up(self, n: int) -> int:
             dp[i] += dp[j - 1] * dp[i - j]
 
     return dp[-1]
+
+
+# O(n) time || O(1) space
+def num_trees_catalan_numbers(self, n: int) -> int:
+    return factorial(2 * n) // (factorial(n) * factorial(n + 1))
