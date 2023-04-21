@@ -7,7 +7,6 @@ def generate(self, num_rows: int) -> List[List[int]]:
     triangle = []
     for row_idx in range(num_rows):
         row = [1 for _ in range(row_idx + 1)]
-
         for i in range(1, len(row) - 1):
             row[i] = triangle[row_idx - 1][i - 1] + triangle[row_idx - 1][i]
 
