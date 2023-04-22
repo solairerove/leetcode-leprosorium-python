@@ -28,3 +28,18 @@ def min_insertions_bottom_up(self, s: str) -> int:
                 dp[i][j] = 1 + min(dp[i][j - 1], dp[i + 1][j])
 
     return dp[0][n - 1]
+
+
+# O(n^2) time || O(n) space
+def min_insertions(self, s: str) -> int:
+    n = len(s)
+    dp, dp_prev = [0] * n, [0] * n
+    for i in range(n - 1, -1, -1):
+        for j in range(i + 1, n):
+            if s[i] == s[j]:
+                dp[j] = dp_prev[j - 1]
+            else:
+                dp[j] = 1 + min(dp[j - 1], dp_prev[j])
+        dp, dp_prev = dp_prev, dp
+
+    return dp_prev[n - 1]
