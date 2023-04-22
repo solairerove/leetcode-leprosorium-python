@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 54 easy \
 :accept: 120 medium \
-:congratulations: 24 hard \
-total 198
+:congratulations: 25 hard \
+total 199
 
 ### Python 3
 
@@ -78,7 +78,7 @@ total 198
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 54
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 55
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -113,6 +113,7 @@ total 198
   - :four_leaf_clover: [746. min cost climbing stairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinCostClimbingStairs.py)
   - :accept: [983. minimum cost for tickets](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumCostForTickets.py)
   - :congratulations: [1335. minimum difficulty of a job schedule](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumDifficultyOfAJobSchedule.py)
+  - :congratulations: [1312. minimum insertion steps to make a string palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumInsertionStepsToMakeAStringPalindrome.py)
   - :congratulations: [1553. minimum number of days to eat n oranges](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumNumberOfDaysToEatNOranges.py)
   - :accept: [64. minimum path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MinimumPathSum.py)
   - :four_leaf_clover: [1137. n-th tribonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NthTribonacciNumber.py)
