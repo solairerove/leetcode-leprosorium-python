@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 54 easy \
-:accept: 122 medium \
+:accept: 123 medium \
 :congratulations: 26 hard \
-total 202
+total 203
 
 ### Python 3
 
@@ -78,7 +78,7 @@ total 202
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 58
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 59
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -127,6 +127,7 @@ total 202
   - :four_leaf_clover: [119. pascal's triangle II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PascalTriangleII.py)
   - :congratulations: [879. profitable schemes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ProfitableSchemes.py)
   - :four_leaf_clover: NOT DP [303. range sum query](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RangeSumQuery.py)
+  - :accept: NOT DP [304. range sum query 2d immutable](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RangeSumQuery2DImmutable.py)
   - :accept: NOT DP [307. range sum query mutable](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RangeSumQueryMutable.py)
   - :congratulations: [1402. reducing dishes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ReducingDishes.py)
   - :congratulations: [1416. restore the array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RestoreTheArray.py)
