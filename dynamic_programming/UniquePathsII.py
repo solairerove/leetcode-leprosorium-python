@@ -8,15 +8,15 @@ def unique_paths_with_obstacles(self, obstacle_grid: List[List[int]]) -> int:
 
     @lru_cache(None)
     def dp(i, j):
-        if i >= m or j >= n:
+        if i < 1 or j < 1:
             return 0
 
-        if obstacle_grid[i][j] == 1:
+        if obstacle_grid[i - 1][j - 1] == 1:
             return 0
 
-        if i == m - 1 and j == n - 1:
+        if i == 1 and j == 1:
             return 1
 
-        return dp(i, j + 1) + dp(i + 1, j)
+        return dp(i, j - 1) + dp(i - 1, j)
 
-    return dp(0, 0)
+    return dp(m, n)
