@@ -1,19 +1,22 @@
+import math
 from functools import lru_cache
 from typing import List
 
 
 # O(n * m) time || O(n * m) space
-# dp(i, j) = grid[i][j] + min(dp(i + 1, j), dp(i, j + 1))
-def min_path_sum_rec(self, grid: List[List[int]]) -> int:
+# dp(i, j) = grid[i][j] + min(dp(i, j + 1), dp(i + 1, j))
+def min_path_sum_top_down(self, grid: List[List[int]]) -> int:
+    m, n = len(grid), len(grid[0])
+
     @lru_cache(None)
     def dp(i, j):
-        if i == len(grid) or j == len(grid[0]):
-            return float('inf')
+        if i == m or j == n:
+            return math.inf
 
-        if i == len(grid) - 1 and j == len(grid[0]) - 1:
+        if i == m - 1 and j == n - 1:
             return grid[i][j]
 
-        return grid[i][j] + min(dp(i + 1, j), dp(i, j + 1))
+        return grid[i][j] + min(dp(i, j + 1), dp(i + 1, j))
 
     return dp(0, 0)
 
