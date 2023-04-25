@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 55 easy \
-:accept: 125 medium \
+:accept: 126 medium \
 :congratulations: 26 hard \
-total 206
+total 207
 
 ### Python 3
 
@@ -165,10 +165,11 @@ total 206
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 3
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 4
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
   - :four_leaf_clover: [1046. last stone weight](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/LastStoneWeight.py)
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
+  - :accept: [2336. smallest number infinite set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/SmallestNumberInInfiniteSet.py)
 - :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 43
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
