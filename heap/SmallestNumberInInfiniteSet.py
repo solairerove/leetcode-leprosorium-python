@@ -1,16 +1,16 @@
+import heapq
+
+
 # O(n) time || O(n) space
 class SmallestInfiniteSet:
 
     def __init__(self):
         self.cnt = 1
-        self.added = set()
+        self.heap = []
 
     def pop_smallest(self) -> int:
-        if len(self.added) != 0:
-            res = min(self.added)
-            self.added.remove(res)
-
-            return res
+        if self.heap:
+            return heapq.heappop(self.heap)
 
         res = self.cnt
         self.cnt += 1
@@ -18,5 +18,5 @@ class SmallestInfiniteSet:
         return res
 
     def add_back(self, num: int) -> None:
-        if num < self.cnt:
-            self.added.add(num)
+        if num < self.cnt and num not in self.heap:
+            heapq.heappush(self.heap, num)
