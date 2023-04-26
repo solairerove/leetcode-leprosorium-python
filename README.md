@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 55 easy \
+:four_leaf_clover: 56 easy \
 :accept: 126 medium \
 :congratulations: 26 hard \
-total 207
+total 208
 
 ### Python 3
 
@@ -214,8 +214,9 @@ total 207
   - :accept: [148. sort list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SortList.py)
   - :accept: [24. swap nodes in pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwapNodesInPairs.py)
   - :accept: [1721. swapping nodes in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwappingNodesInALinkedList.py)
-- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 4
+- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 5
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
+  - :four_leaf_clover: [258. add digits](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddDigits.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
   - :four_leaf_clover: [1523. count odd numbers in an interval range](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/CountOddNumbersInAnIntervalRange.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
