@@ -1,17 +1,16 @@
 # O(n^2) time || O(1) space
 def longest_palindrome(self, s: str) -> str:
-    longest = ""
+    if s == s[::-1]:
+        return s
 
-    def get_palindrome_from(res: str, low: int, high: int) -> str:
-        while low >= 0 and high < len(s) and s[low] == s[high]:
-            if high - low + 1 > len(res):
-                res = s[low: high + 1]
-            low, high = low - 1, high + 1
+    def get_palindrome_from(i, j):
+        while i >= 0 and j < len(s) and s[i] == s[j]:
+            i, j = i - 1, j + 1
 
-        return res
+        return s[i + 1: j]
 
-    for i in range(len(s)):
-        longest = get_palindrome_from(longest, i, i)
-        longest = get_palindrome_from(longest, i, i + 1)
+    res = s[0]
+    for i in range(1, len(s)):
+        res = max([res, get_palindrome_from(i - 1, i), get_palindrome_from(i - 1, i + 1)], key=len)
 
-    return longest
+    return res
