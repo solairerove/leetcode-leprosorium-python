@@ -1,20 +1,20 @@
 from functools import lru_cache
 
 
-# O(n^2) time || O(n^2) space
+# O(n^2) time || O(n^2) space, TLE
 def longest_palindrome_subseq_top_down(self, s: str) -> int:
     @lru_cache(None)
-    def dp(low, high):
-        if low > high:
+    def dp(i, j):
+        if i > j:
             return 0
 
-        if low == high:
+        if i == j:
             return 1
 
-        if s[low] == s[high]:
-            return dp(low + 1, high - 1) + 2
+        if s[i] == s[j]:
+            return dp(i + 1, j - 1) + 2
 
-        return max(dp(low, high - 1), dp(low + 1, high))
+        return max(dp(i, j - 1), dp(i + 1, j))
 
     return dp(0, len(s) - 1)
 
@@ -35,7 +35,7 @@ def longest_palindrome_subseq_bottom_up(self, s: str) -> int:
 
 
 # O(n^2) time || O(n) space
-def longest_palindrome_subseq_space_optimized(self, s: str) -> int:
+def longest_palindrome_subseq(self, s: str) -> int:
     n = len(s)
     dp, dp_prev = [0] * n, [0] * n
     for i in range(n - 1, -1, -1):
@@ -47,4 +47,4 @@ def longest_palindrome_subseq_space_optimized(self, s: str) -> int:
                 dp[j] = max(dp_prev[j], dp[j - 1])
         dp, dp_prev = dp_prev, dp
 
-    return dp_prev[n - 1]
+    return dp_prev[-1]
