@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 56 easy \
-:accept: 126 medium \
+:accept: 127 medium \
 :congratulations: 26 hard \
-total 208
+total 209
 
 ### Python 3
 
@@ -78,7 +78,7 @@ total 208
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 61
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 62
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -140,6 +140,7 @@ total 208
   - :accept: [96. unique binary search trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniqueBinarySearchTrees.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
+  - :accept: [376. wiggle subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/WiggleSubsequence.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
 - :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 13
   - :accept: [133. clone graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CloneGraph.py)
