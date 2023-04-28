@@ -1,67 +1,43 @@
-# O(n * m) time || O(n * m) space
-def min_distance_naive_recursive(self, word1: str, word2: str) -> int:
-    if not word1 and not word2:
-        return 0
-
-    if not word1:
-        return len(word2)
-
-    if not word2:
-        return len(word1)
-
-    if word1[0] == word2[0]:
-        return min_distance_naive_recursive(self, word1[1:], word2[1:])
-
-    insert = 1 + min_distance_naive_recursive(self, word1, word2[1:])
-    delete = 1 + min_distance_naive_recursive(self, word1[1:], word2)
-    replace = 1 + min_distance_naive_recursive(self, word1[1:], word2[1:])
-
-    return min(insert, delete, replace)
+from functools import lru_cache
 
 
-# O(n * m) time || O(n * m) space
-def min_distance_top_down(self, word1: str, word2: str) -> int:
-    def dp(i, j, dic):
-        if i == len(word1) and j == len(word2):
+# O(m * n) time || O(m * n) space
+def min_distance_top_down(self, s1: str, s2: str) -> int:
+    m, n = len(s1), len(s2)
+
+    @lru_cache(None)
+    def dp(i, j):
+        if i == m and j == n:
             return 0
 
-        if i == len(word1):
-            return len(word2) - j
+        if i == m:
+            return n - j
 
-        if j == len(word2):
-            return len(word1) - i
+        if j == n:
+            return m - i
 
-        if (i, j) not in dic:
-            if word1[i] == word2[j]:
-                ans = dp(i + 1, j + 1, dic)
-            else:
-                insert = 1 + dp(i, j + 1, dic)
-                delete = 1 + dp(i + 1, j, dic)
-                replace = 1 + dp(i + 1, j + 1, dic)
+        if s1[i] == s2[j]:
+            return dp(i + 1, j + 1)
 
-                ans = min(insert, delete, replace)
-            dic[(i, j)] = ans
+        return 1 + min(dp(i, j + 1), dp(i + 1, j), dp(i + 1, j + 1))
 
-        return dic[(i, j)]
-
-    return dp(0, 0, {})
+    return dp(0, 0)
 
 
-# O(n * m) time || O(n * m) space
-def min_distance_bottom_up(self, word1: str, word2: str) -> int:
-    m = len(word1)
-    n = len(word2)
+# O(m * n) time || O(m * n) space
+def min_distance_bottom_up(self, s1: str, s2: str) -> int:
+    m, n = len(s1), len(s2)
     dp = [[0] * (n + 1) for _ in range(m + 1)]
 
     for i in range(m + 1):
         dp[i][0] = i
 
-    for i in range(n + 1):
-        dp[0][i] = i
+    for j in range(n + 1):
+        dp[0][j] = j
 
     for i in range(1, m + 1):
         for j in range(1, n + 1):
-            if word1[i - 1] == word2[j - 1]:
+            if s1[i - 1] == s2[j - 1]:
                 dp[i][j] = dp[i - 1][j - 1]
             else:
                 dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
