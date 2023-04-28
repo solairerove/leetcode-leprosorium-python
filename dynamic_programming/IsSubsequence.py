@@ -19,3 +19,16 @@ def is_subsequence_top_down(self, s1: str, s2: str) -> bool:
         return dp(i, j + 1)
 
     return dp(0, 0)
+
+
+# O(min(m, n)) time || O(1) space
+def is_subsequence(self, s1: str, s2: str) -> bool:
+    m, n = len(s1), len(s2)
+    i, j = 0, 0
+    while i < m and j < n:
+        if s1[i] == s2[j]:
+            i += 1
+
+        j += 1
+
+    return i == m if 1 else 0
