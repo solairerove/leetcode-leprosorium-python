@@ -15,7 +15,6 @@ def num_similar_groups_bfs(self, strs: List[str]) -> int:
     visit = set()
     for i in range(len(strs)):
         if strs[i] not in visit:
-            visit.add(strs[i])  # ?
             res += 1
             bfs(self, strs[i], adj, visit)
 
@@ -33,6 +32,7 @@ def are_neighbors(self, a, b):
 
 def bfs(self, node, adj, visit):
     dq = collections.deque([node])
+    visit.add(node)
     while dq:
         node = dq.popleft()
         for neighbor in adj[node]:
