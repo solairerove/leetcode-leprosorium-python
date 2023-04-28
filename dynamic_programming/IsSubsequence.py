@@ -32,3 +32,10 @@ def is_subsequence(self, s1: str, s2: str) -> bool:
         j += 1
 
     return i == m if 1 else 0
+
+
+# O(m + n) time || O(1) space
+def is_subsequence_liner(self, s1: str, s2: str) -> bool:
+    s2 = iter(s2)
+
+    return all(c in s2 for c in s1)
