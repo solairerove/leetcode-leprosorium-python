@@ -9,7 +9,7 @@ def longest_common_subsequence_top_down(self, s1: str, s2: str) -> int:
             return 0
 
         if s1[i] == s2[j]:
-            return dp(i - 1, j - 1) + 1
+            return 1 + dp(i - 1, j - 1)
 
         return max(dp(i, j - 1), dp(i - 1, j))
 
