@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 57 easy \
 :accept: 128 medium \
-:congratulations: 27 hard \
-total 212
+:congratulations: 28 hard \
+total 213
 
 ### Python 3
 
@@ -143,7 +143,8 @@ total 212
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
   - :accept: [376. wiggle subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/WiggleSubsequence.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 14
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 15
+  - :congratulations: [1697. checking existence of edge length limited paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CheckingExistenceOfEdgeLengthLimitedPaths.py)
   - :accept: [133. clone graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CloneGraph.py)
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
   - :congratulations: [1857. largest color value in a directed graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/LargestColorValueInADirectedGraph.py)
