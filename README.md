@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 57 easy \
-:accept: 130 medium \
+:accept: 131 medium \
 :congratulations: 29 hard \
-total 216
+total 217
 
 ### Python 3
 
@@ -78,7 +78,7 @@ total 216
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 65
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 66
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -98,6 +98,7 @@ total 216
   - :accept: [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - :accept: [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - :accept: [337. house robber III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberIII.py)
+  - :accept: [343. integer break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/IntegerBreak.py)
   - :four_leaf_clover: [392. is subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/IsSubsequence.py)
   - :congratulations: [1345. jump game IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/JumpGameIV.py)
   - [0-1 knapsack problem](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/KnapsackProblem.py)
