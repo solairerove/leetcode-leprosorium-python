@@ -25,14 +25,15 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 57 easy \
+:four_leaf_clover: 56 easy \
 :accept: 131 medium \
 :congratulations: 29 hard \
-total 217
+total 218
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 33
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 34
+  - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
   - :accept: [11. container with most water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ContainerWithMostWater.py)
