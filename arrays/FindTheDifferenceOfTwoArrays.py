@@ -1,6 +1,13 @@
 from typing import List
 
 
+# O(n) time || O(n) space
+def find_difference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
+    s1, s2 = set(nums1), set(nums2)
+
+    return [list(s1 - s2), list(s2 - s1)]
+
+
 # O(m + n) time || O(m + n) space
 def find_difference_naive(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
     set1, set2 = set(nums1), set(nums2)
