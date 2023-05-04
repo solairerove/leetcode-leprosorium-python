@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 58 easy \
-:accept: 131 medium \
+:accept: 132 medium \
 :congratulations: 29 hard \
-total 220
+total 221
 
 ### Python 3
 
@@ -165,8 +165,9 @@ total 220
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
   - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
   - :congratulations: [839. similar string groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/SimilarStringGroups.py)
-- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 6
+- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 7
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
+  - :accept: [649. dota 2 senate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/Dota2Senate.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
   - :accept: [55. jump game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGame.py)
   - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGameII.py)
