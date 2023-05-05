@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 58 easy \
-:accept: 132 medium \
+:accept: 133 medium \
 :congratulations: 29 hard \
-total 221
+total 222
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 35
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 36
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -51,6 +51,7 @@ total 221
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
+  - :accept: [1456. maximum number of vowels is in a substring of given length](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MaximumNumberOfVowelsInASubstringOfGivenLength.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
   - :accept: [56. merge intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeIntervals.py)
   - :four_leaf_clover: [1768. merge strings alternately](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeStringsAlternately.py)
