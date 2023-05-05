@@ -2,7 +2,7 @@ from collections import Counter
 from typing import List
 
 
-# O(n) time || O() space
+# O(n) time || O(1) space
 def majority_element_boyer_moore_voting(self, nums: List[int]) -> int:
     cnt, res = 0, None
     for num in nums:
