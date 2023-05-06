@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 58 easy \
-:accept: 133 medium \
+:accept: 134 medium \
 :congratulations: 29 hard \
-total 222
+total 223
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 36
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 37
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -57,6 +57,7 @@ total 222
   - :four_leaf_clover: [1768. merge strings alternately](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeStringsAlternately.py)
   - :accept: [2439. minimize maximum of array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MinimizeMaximumOfArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
+  - :accept: [1498. number of subsequences that satisfy the given sum condition](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfSubsequencesThatSatisfyTheGivenSumCondition.py)
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
