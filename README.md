@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 58 easy \
 :accept: 134 medium \
-:congratulations: 29 hard \
-total 223
+:congratulations: 30 hard \
+total 224
 
 ### Python 3
 
@@ -70,10 +70,11 @@ total 223
   - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
   - :four_leaf_clover: [125. valid palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidPalindrome.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 11
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 12
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
   - :four_leaf_clover: [744. find smallest letter greater than target](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/FindSmallestLetterGreaterThanTarget.py)
+  - :congratulations: [1964. find the longest valid obstacle course at each position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/FindTheLongestValidObstacleCourseAtEachPosition.py)
   - :accept: [875. koko eating bananas](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KokoEatingBananas.py)
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
   - :congratulations: [774. minimize max distance to gas station](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimizeMaxDistanceToGasStation.py)
