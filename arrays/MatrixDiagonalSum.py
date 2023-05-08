@@ -11,8 +11,6 @@ def diagonal_sum(self, mat: List[List[int]]) -> int:
             if i == j:
                 res += mat[i][j]
 
-    for i in range(n):
-        for j in range(n):
             if n - i - 1 == n - j - 1:
                 res += mat[i][n - j - 1]
 
