@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 58 easy \
+:four_leaf_clover: 59 easy \
 :accept: 134 medium \
 :congratulations: 30 hard \
-total 224
+total 225
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 37
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 38
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -51,6 +51,7 @@ total 224
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
+  - :four_leaf_clover: [1572. matrix diagonal sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MatrixDiagonalSum.py)
   - :accept: [1456. maximum number of vowels is in a substring of given length](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MaximumNumberOfVowelsInASubstringOfGivenLength.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
   - :accept: [56. merge intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeIntervals.py)
