@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 134 medium \
+:accept: 135 medium \
 :congratulations: 30 hard \
-total 225
+total 226
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 38
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 39
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -63,6 +63,7 @@ total 225
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
+  - :accept: [54. spiral of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrix.py)
   - :four_leaf_clover: [977. squares of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SquaresOfASortedArray.py)
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :accept: [15. tree sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ThreeSum.py)
