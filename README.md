@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 135 medium \
+:accept: 136 medium \
 :congratulations: 30 hard \
-total 226
+total 227
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 39
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 40
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -63,7 +63,8 @@ total 226
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
-  - :accept: [54. spiral of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrix.py)
+  - :accept: [54. spiral matrix](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrix.py)
+  - :accept: [59. spiral matrix ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrixII.py)
   - :four_leaf_clover: [977. squares of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SquaresOfASortedArray.py)
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :accept: [15. tree sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ThreeSum.py)
