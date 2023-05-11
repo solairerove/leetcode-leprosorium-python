@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 136 medium \
+:accept: 137 medium \
 :congratulations: 30 hard \
-total 227
+total 228
 
 ### Python 3
 
@@ -86,7 +86,7 @@ total 227
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 66
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 67
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -149,6 +149,7 @@ total 227
   - :congratulations: [42. trapping rain water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TrappingRainWater.py)
   - :accept: [120. triangle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/Triangle.py)
   - :accept: [264. ugly number II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UglyNumberII.py)
+  - :accept: [1035. uncrossed lines](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UncrossedLines.py)
   - :accept: [96. unique binary search trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniqueBinarySearchTrees.py)
   - :accept: [62. unique paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePaths.py)
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
