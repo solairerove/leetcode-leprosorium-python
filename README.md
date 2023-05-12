@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 137 medium \
+:accept: 138 medium \
 :congratulations: 30 hard \
-total 228
+total 229
 
 ### Python 3
 
@@ -86,7 +86,7 @@ total 228
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 67
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 68
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -145,6 +145,7 @@ total 228
   - :congratulations: [1402. reducing dishes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ReducingDishes.py)
   - :congratulations: [1416. restore the array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/RestoreTheArray.py)
   - :congratulations: [87. scramble string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ScrambleString.py)
+  - :accept: [2140. solving questions with brainpower](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/SolvingQuestionsWithBrainpower.py)
   - :accept: [494. target sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TargetSum.py)
   - :congratulations: [42. trapping rain water](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/TrappingRainWater.py)
   - :accept: [120. triangle](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/Triangle.py)
