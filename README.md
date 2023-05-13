@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 138 medium \
+:accept: 139 medium \
 :congratulations: 30 hard \
-total 229
+total 230
 
 ### Python 3
 
@@ -86,7 +86,7 @@ total 229
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 68
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 69
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -99,6 +99,7 @@ total 229
   - :accept: [518. coin change II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CoinChangeII.py)
   - :accept: [377. combination sum IV](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CombinationSumIV.py)
   - :four_leaf_clover: [338. counting bits](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CountingBits.py)
+  - :accept: [2466. count ways to build good strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/CountWaysToBuildGoodStrings.py)
   - :accept: [91. decode ways](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DecodeWays.py)
   - :accept: [740. delete and earn](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DeleteAndEarn.py)
   - :congratulations: [72. edit distance](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/EditDistance.py)
