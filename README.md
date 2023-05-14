@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 59 easy \
 :accept: 139 medium \
-:congratulations: 30 hard \
-total 230
+:congratulations: 31 hard \
+total 231
 
 ### Python 3
 
@@ -86,7 +86,7 @@ total 230
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 69
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 70
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -117,6 +117,7 @@ total 230
   - :accept: [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - :accept: [1314. matrix block sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MatrixBlockSum.py)
   - :accept: [221. maximal square](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximalSquare.py)
+  - :congratulations: [1799. maximize score after n operations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximizeScoreAfterNOperations.py)
   - :accept: [1567. maximum length of subarray with positive product](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumLengthOfSubarrayWithPositiveProduct.py)
   - :accept: [152. maximum product subarray](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumProductSubarray.py)
   - :congratulations: [1770. maximum score from performing multiplication operations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximumScoreFromPerformingMultiplicationOperations.py)
