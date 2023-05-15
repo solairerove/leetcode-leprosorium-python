@@ -5,14 +5,15 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def swap_nodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-    a, b, curr = None, None, head
+    start, end, curr = None, None, head
     while curr:
         k -= 1
-        b = None if not b else b.next
+        end = None if not end else end.next
         if k == 0:
-            a = curr
-            b = head
+            start, end = curr, head
+
         curr = curr.next
-    a.val, b.val = b.val, a.val
+
+    start.val, end.val = end.val, start.val
 
     return head
