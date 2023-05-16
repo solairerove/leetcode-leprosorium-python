@@ -5,12 +5,14 @@ from linked_list.ListNode import ListNode
 
 # O(n) time || O(1) space
 def swap_pairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    if not head:
+        return head
+
     sentinel = ListNode(-1, head)
     prev, curr = sentinel, head
-
     while curr and curr.next:
-        nxt_pair, sec = curr.next.next, curr.next
-        sec.next, curr.next, prev.next = curr, nxt_pair, sec
-        prev, curr = curr, nxt_pair
+        nxt, a, b = curr.next.next, curr, curr.next
+        b.next, a.next, prev.next = a, nxt, b
+        prev, curr = curr, nxt
 
     return sentinel.next
