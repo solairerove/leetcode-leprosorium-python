@@ -13,10 +13,10 @@ def pair_sum(self, head: Optional[ListNode]) -> int:
     while curr:
         curr.next, prev, curr = prev, curr, curr.next
 
-    sm = 0
-    first, second = head, prev
-    while second:
-        sm = max(sm, first.val + second.val)
-        first, second = first.next, second.next
+    max_sum = 0
+    a, b = head, prev
+    while b:
+        max_sum = max(max_sum, a.val + b.val)
+        a, b = a.next, b.next
 
-    return sm
+    return max_sum
