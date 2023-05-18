@@ -1,27 +1,26 @@
-import collections
 from typing import List
 
 
 # O(n + e) time || O(n + e) space
 def find_smallest_set_of_vertices(self, n: int, edges: List[List[int]]) -> List[int]:
-    def dfs(g, c, vis, res):
-        vis[c] = True
-        for adj in g[c]:
-            if not vis[adj]:
-                dfs(g, adj, vis, res)
-            elif adj in res:
-                res.remove(adj)
-
-    g = collections.defaultdict(list)
-    for e in edges:
-        u, v = e
-        g[u].append(v)
+    adj = {x: [] for x in range(n)}
+    for x, y in edges:
+        adj[x].append(y)
 
     res = set()
-    vis = [False] * n
+    visit = [False] * n
     for i in range(n):
-        if not vis[i]:
-            dfs(g, i, vis, res)
+        if not visit[i]:
             res.add(i)
+            dfs(self, i, adj, visit, res)
 
     return list(res)
+
+
+def dfs(self, node, adj, visit, res):
+    visit[node] = True
+    for neighbor in adj[node]:
+        if not visit[neighbor]:
+            dfs(self, neighbor, adj, visit, res)
+        elif neighbor in res:
+            res.remove(neighbor)
