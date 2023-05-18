@@ -2,6 +2,11 @@ import collections
 from typing import List
 
 
+# O(e) time || O(n) space
+def find_smallest_set_of_vertices(self, n: int, edges: List[List[int]]) -> List[int]:
+    return list(set(range(n)) - set(j for i, j in edges))
+
+
 # O(n + e) time || O(n + e) space
 def find_smallest_set_of_vertices_dfs(self, n: int, edges: List[List[int]]) -> List[int]:
     adj = {x: [] for x in range(n)}
