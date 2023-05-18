@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 139 medium \
+:accept: 140 medium \
 :congratulations: 31 hard \
-total 231
+total 232
 
 ### Python 3
 
@@ -158,13 +158,14 @@ total 231
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
   - :accept: [376. wiggle subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/WiggleSubsequence.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 16
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 17
   - :congratulations: [1697. checking existence of edge length limited paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CheckingExistenceOfEdgeLengthLimitedPaths.py)
   - :accept: [133. clone graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CloneGraph.py)
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
   - :congratulations: [1857. largest color value in a directed graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/LargestColorValueInADirectedGraph.py)
   - :congratulations: [2360. longest cycle in a graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/LongestCycleInAGraph.py)
   - :accept: [2477. minimum fuel cost to report to the capital](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumFuelCostToReportToTheCapital.py)
+  - :accept: [1557. minimum number of vertices to reach all nodes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumNumberOfVerticesToReachAllNodes.py)
   - :accept: [2492. minimum score of a path between two cities](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/MinimumScoreOfAPathBetweenTwoCities.py)
   - :accept: [1254. number of closed islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfClosedIslands.py)
   - :accept: [323. number of connected components in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfConnectedComponentsInAnUndirectedGraph.py)
