@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 59 easy \
-:accept: 142 medium \
+:accept: 143 medium \
 :congratulations: 31 hard \
-total 234
+total 235
 
 ### Python 3
 
@@ -158,7 +158,7 @@ total 234
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
   - :accept: [376. wiggle subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/WiggleSubsequence.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 19
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 20
   - :congratulations: [1697. checking existence of edge length limited paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CheckingExistenceOfEdgeLengthLimitedPaths.py)
   - :accept: [133. clone graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CloneGraph.py)
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
@@ -176,6 +176,7 @@ total 234
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :congratulations: [1579. remove max number of edges to keep graph fully traversable](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
+  - :accept: [934. shortest bridge](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestBridge.py)
   - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
   - :congratulations: [839. similar string groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/SimilarStringGroups.py)
 - :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 7
