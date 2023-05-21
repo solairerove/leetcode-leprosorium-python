@@ -11,16 +11,21 @@ def shortest_bridge(self, grid: List[List[int]]) -> int:
                 first_x, first_y = i, j
                 break
 
-    def dfs(x, y):
-        grid[x][y] = 2
-        bfs_queue.append((x, y))
-        for curr_x, curr_y in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
-            if 0 <= curr_x < n and 0 <= curr_y < n and grid[curr_x][curr_y] == 1:
-                dfs(curr_x, curr_y)
-
     bfs_queue = []
-    dfs(first_x, first_y)
+    dfs(self, grid, n, bfs_queue, first_x, first_y)
 
+    return bfs(self, grid, n, bfs_queue)
+
+
+def dfs(self, grid, n, bfs_queue, x, y):
+    grid[x][y] = 2
+    bfs_queue.append((x, y))
+    for curr_x, curr_y in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
+        if 0 <= curr_x < n and 0 <= curr_y < n and grid[curr_x][curr_y] == 1:
+            dfs(self, grid, n, bfs_queue, curr_x, curr_y)
+
+
+def bfs(self, grid, n, bfs_queue):
     distance = 0
     while bfs_queue:
         new_bfs = []
