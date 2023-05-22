@@ -6,6 +6,9 @@ from typing import List
 
 # O(n) time || O(n) space
 def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
+    if len(nums) == k:
+        return nums
+
     cnt = Counter(nums)
     unique = list(cnt.keys())
 
