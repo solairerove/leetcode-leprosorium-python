@@ -61,7 +61,6 @@ def top_k_frequent_linear(self, nums: List[int], k: int) -> List[int]:
 
     cnt = Counter(nums)
     freq = [[] for _ in range(len(nums) + 1)]
-
     for n, c in cnt.items():
         freq[c].append(n)
 
