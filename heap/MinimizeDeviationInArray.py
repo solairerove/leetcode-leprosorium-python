@@ -3,7 +3,7 @@ import math
 from typing import List
 
 
-# O(n * log(n)) time || O(n)
+# O(n * log(n)) time || O(n) space
 def minimum_deviation(self, nums: List[int]) -> int:
     res, min_so_far = math.inf, math.inf
     heap = []

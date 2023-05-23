@@ -2,7 +2,7 @@ import heapq
 from typing import List
 
 
-# O(n * log(n)) time || O(n)
+# O(n * log(n)) time || O(n) space
 def find_maximized_capital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
     heap = []
     projects = sorted(zip(profits, capital), key=lambda l: l[1])
