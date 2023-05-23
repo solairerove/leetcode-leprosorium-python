@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 59 easy \
+:four_leaf_clover: 60 easy \
 :accept: 143 medium \
 :congratulations: 31 hard \
-total 235
+total 236
 
 ### Python 3
 
@@ -190,8 +190,9 @@ total 235
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 4
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 5
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
+  - :four_leaf_clover: [703. kth largest element in a stream](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAStream.py)
   - :four_leaf_clover: [1046. last stone weight](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/LastStoneWeight.py)
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
   - :accept: [2336. smallest number infinite set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/SmallestNumberInInfiniteSet.py)
