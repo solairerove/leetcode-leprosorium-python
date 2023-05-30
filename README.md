@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 61 easy \
+:four_leaf_clover: 62 easy \
 :accept: 146 medium \
 :congratulations: 33 hard \
-total 242
+total 243
 
 ### Python 3
 
@@ -192,7 +192,8 @@ total 242
   - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGameII.py)
   - :accept: [2178. maximum split of positive even integers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MaximumSplitOfPositiveEvenIntegers.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
-- :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 2
+- :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 3
+  - :four_leaf_clover: [705. design hash set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignHashSet.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
 - :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 6
