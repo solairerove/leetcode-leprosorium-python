@@ -1,15 +1,19 @@
 from typing import List
 
 
+# numbers are in range of [1..n]
+# means we can swap element to their idx position
+# then return elements with no idx
+
 # O(n) time || O(1) space
 def find_disappeared_numbers(self, nums: List[int]) -> List[int]:
-    i = 0
-    while i < len(nums):
-        pos = nums[i] - 1
-        if nums[i] != nums[pos]:
-            nums[i], nums[pos] = nums[pos], nums[i]
+    idx = 0
+    while idx < len(nums):
+        pos = nums[idx] - 1
+        if nums[idx] != nums[pos]:
+            nums[idx], nums[pos] = nums[pos], nums[idx]
         else:
-            i += 1
+            idx += 1
 
     res = []
     for i in range(len(nums)):
