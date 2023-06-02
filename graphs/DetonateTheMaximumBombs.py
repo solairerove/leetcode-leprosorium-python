@@ -22,7 +22,7 @@ def maximum_detonation(self, bombs: List[List[int]]) -> int:
 
 
 def dfs(self, node, adj, visit):
+    visit.add(node)
     for neighbor in adj[node]:
         if neighbor not in visit:
-            visit.add(neighbor)
             dfs(self, neighbor, adj, visit)
