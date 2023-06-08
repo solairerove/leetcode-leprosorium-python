@@ -12,3 +12,23 @@ def count_negatives(self, grid: List[List[int]]) -> int:
             c += 1
 
     return cnt
+
+
+# O(m * log(n)) time || O(1) space
+def count_negatives_bs(self, grid: List[List[int]]) -> int:
+    def bs(row):
+        low, high = 0, len(row)
+        while low < high:
+            mid = low + (high - low) // 2
+            if row[mid] < 0:
+                high = mid
+            else:
+                low = mid + 1
+
+        return len(row) - low
+
+    cnt = 0
+    for row in grid:
+        cnt += bs(row)
+
+    return cnt
