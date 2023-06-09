@@ -1,6 +1,7 @@
 import bisect
 from typing import List
 
+# classic binary search
 
 # O(log(n)) time || O(1) space
 def next_greatest_letter(self, letters: List[str], target: str) -> str:
