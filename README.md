@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 67 easy \
+:four_leaf_clover: 68 easy \
 :accept: 150 medium \
 :congratulations: 33 hard \
 total 250
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 40
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 41
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -67,6 +67,7 @@ total 250
   - :accept: [59. spiral matrix ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrixII.py)
   - :four_leaf_clover: [977. squares of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SquaresOfASortedArray.py)
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
+  - :four_leaf_clover: [228. summary ranges](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SummaryRanges.py)
   - :accept: [15. tree sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ThreeSum.py)
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
