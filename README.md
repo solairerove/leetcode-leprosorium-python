@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 69 easy \
-:accept: 150 medium \
+:accept: 151 medium \
 :congratulations: 33 hard \
-total 251
+total 252
 
 ### Python 3
 
@@ -270,7 +270,7 @@ total 251
   - :accept: [71. simplify path](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/SimplifyPath.py)
   - :accept: [946. validate stack sequences](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidateStackSequences.py)
   - :four_leaf_clover: [20. valid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidParentheses.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 22
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 23
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
@@ -283,6 +283,7 @@ total 251
   - :four_leaf_clover: [226. invert binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/InvertBinaryTree.py)
   - :accept: [1372. longest zig zag path in a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/LongestZigZagPathInABinaryTree.py)
   - :four_leaf_clover: [104. maximum depth of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MaximumDepthOfBinaryTree.py)
+  - :accept: [1161. maximum level sum of a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MaximumLevelSumOfABinaryTree.py)
   - :accept: [662. maximum width of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MaximumWidthOfBinaryTree.py)
   - :four_leaf_clover: [617. merge two binary trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MergeTwoBinaryTrees.py)
   - :four_leaf_clover: [530. minimum absolute difference in bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumAbsoluteDifferenceInBST.py)
