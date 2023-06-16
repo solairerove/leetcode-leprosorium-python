@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 69 easy \
 :accept: 151 medium \
-:congratulations: 33 hard \
-total 252
+:congratulations: 34 hard \
+total 253
 
 ### Python 3
 
@@ -270,7 +270,7 @@ total 252
   - :accept: [71. simplify path](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/SimplifyPath.py)
   - :accept: [946. validate stack sequences](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidateStackSequences.py)
   - :four_leaf_clover: [20. valid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidParentheses.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 23
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 24
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
@@ -289,6 +289,7 @@ total 252
   - :four_leaf_clover: [530. minimum absolute difference in bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumAbsoluteDifferenceInBST.py)
   - :four_leaf_clover: [111. minimum depth of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDepthOfBinaryTree.py)
   - :four_leaf_clover: [783. minimum distance between bst nodes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDistanceBetweenBSTNodes.py)
+  - :congratulations: [1569. number of ways to reorder array to get same bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/NumberOfWaysToReorderArrayToGetSameBST.py)
   - :four_leaf_clover: [112. path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/PathSum.py)
   - :four_leaf_clover: [100. same tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SameTree.py)
   - :four_leaf_clover: [572. subtree of another tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SubtreeOfAnotherTree.py)
