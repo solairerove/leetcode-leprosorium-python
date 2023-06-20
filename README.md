@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 70 easy \
-:accept: 151 medium \
+:accept: 152 medium \
 :congratulations: 35 hard \
-total 255
+total 256
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 43
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 44
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -50,6 +50,7 @@ total 255
   - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :accept: [1306. jump game III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/JumpGameIII.py)
   - :four_leaf_clover: [1431. kids with the greatest number of candies](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KidsWithTheGreatestNumberOfCandies.py)
+  - :accept: [2090. k radius subarray averages](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KRadiusSubarrayAverages.py)
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
