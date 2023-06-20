@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 69 easy \
+:four_leaf_clover: 70 easy \
 :accept: 151 medium \
 :congratulations: 34 hard \
-total 253
+total 254
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 42
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 43
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [605. can place flowers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CanPlaceFlowers.py)
@@ -45,6 +45,7 @@ total 253
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
   - :four_leaf_clover: [2215. find the difference of two arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheDifferenceOfTwoArrays.py)
+  - :four_leaf_clover: [1732. find the highest altitude](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheHighestAltitude.py)
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
   - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :accept: [1306. jump game III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/JumpGameIII.py)
