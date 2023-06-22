@@ -1,11 +1,11 @@
 from typing import List
 
 
-# O(n) time || O(n) space
+# O(n) time || O(1) space
 def max_profit(self, prices: List[int], fee: int) -> int:
-    cash, hold = 0, -prices[0]
+    res, hold = 0, -prices[0]
     for i in range(1, len(prices)):
-        cash = max(cash, hold + prices[i] - fee)
-        hold = max(hold, cash - prices[i])
+        res = max(res, hold + prices[i] - fee)
+        hold = max(hold, res - prices[i])
 
-    return cash
+    return res
