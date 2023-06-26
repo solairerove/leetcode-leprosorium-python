@@ -2,7 +2,7 @@ from heapq import heappush, heappop
 from typing import List
 
 
-# O(k * log(n)) time || O(k * log(n)) space
+# O((k + c) * log(n)) time || O(c) space
 def total_cost(self, costs: List[int], k: int, candidates: int) -> int:
     heap = []
     low, high = 0, len(costs) - 1
