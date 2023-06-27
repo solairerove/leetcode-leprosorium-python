@@ -3,6 +3,9 @@ from typing import Optional
 from linked_list.ListNode import ListNode
 
 
+# traverse list1 and list2, link lower to prev.next, link remain part of list in the end
+
+
 # O(n) time || O(1) space
 def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     if not list1 or not list2:
