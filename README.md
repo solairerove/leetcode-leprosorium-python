@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 70 easy \
-:accept: 154 medium \
+:accept: 155 medium \
 :congratulations: 36 hard \
-total 259
+total 260
 
 ### Python 3
 
@@ -207,7 +207,8 @@ total 259
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 7
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 8
+  - :accept: [373. find k pairs with smallest sums](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindKPairsWithSmallestSums.py)
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
   - :four_leaf_clover: [703. kth largest element in a stream](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAStream.py)
   - :four_leaf_clover: [1046. last stone weight](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/LastStoneWeight.py)
