@@ -1,4 +1,5 @@
 import collections
+import heapq
 from typing import List
 
 
@@ -21,3 +22,26 @@ def max_probability_bellman_ford(self, n: int, edges: List[List[int]], succ_prob
                 dq.append(neighbor)
 
     return res[end]
+
+
+# O((n + e) * log(e)) time || O(n + e) space
+def max_probability_dijkstra(self, n: int, edges: List[List[int]], succ_prob: List[float], start: int,
+                             end: int) -> float:
+    p, g = [0.0] * n, collections.defaultdict(list)
+    for index, (a, b) in enumerate(edges):
+        g[a].append((b, index))
+        g[b].append((a, index))
+
+    p[start] = 1.0
+    heap = [(-p[start], start)]
+    while heap:
+        prob, curr = heapq.heappop(heap)
+        if curr == end:
+            return -prob
+
+        for neighbor, index in g.get(curr, []):
+            if -prob * succ_prob[index] > p[neighbor]:
+                p[neighbor] = -prob * succ_prob[index]
+                heapq.heappush(heap, (-p[neighbor], neighbor))
+
+    return 0.0
