@@ -3,6 +3,8 @@ from typing import Optional
 from linked_list.ListNode import ListNode
 
 
+# find middle node, reverse the second part, merge with reordering
+
 # O(n) time || O(1) space
 def reorder_list(self, head: Optional[ListNode]) -> None:
     if not head.next:
