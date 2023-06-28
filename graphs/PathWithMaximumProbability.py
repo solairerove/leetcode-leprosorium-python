@@ -2,8 +2,8 @@ import collections
 from typing import List
 
 
-# O(n * m) time || O(n * m) space
-def max_probability(self, n: int, edges: List[List[int]], succ_prob: List[float], start: int, end: int) -> float:
+# O(n * e) time || O(n + e) space
+def max_probability_bellman_ford(self, n: int, edges: List[List[int]], succ_prob: List[float], start: int, end: int) -> float:
     g, dq = collections.defaultdict(list), collections.deque([start])
     for i, (a, b) in enumerate(edges):
         g[a].append([b, i])
