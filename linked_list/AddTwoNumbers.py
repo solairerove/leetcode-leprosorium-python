@@ -3,6 +3,8 @@ from typing import Optional
 from linked_list.ListNode import ListNode
 
 
+# calculate in column like in school. use on hold var.
+
 # O(max(n, m)) time || O(max(n, m) + 1) space
 def add_two_numbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
     sentinel = ListNode()
