@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 71 easy \
-:accept: 157 medium \
+:accept: 158 medium \
 :congratulations: 36 hard \
-total 263
+total 264
 
 ### Python 3
 
@@ -274,6 +274,8 @@ total 263
   - :accept: [1318. minimum flips to make a or b equal to c](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/MinimumFlipsToMakeAORBEqualToC.py)
   - :four_leaf_clover: [1822. sign of the product of an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SignOfTheProductOfAnArray.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
+- :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 1
+  - :accept: [1493. longest subarray of ones after deleting one element](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestSubarrayOfOnesAfterDeletingOneElement.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 5
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
   - :accept: [2390. removing stars from a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/RemovingStarsFromAString.py)
