@@ -4,6 +4,8 @@ from typing import Optional
 from trees.TreeNode import TreeNode
 
 
+# need to understand how to traverse trees
+
 # O(n) time || O(max(n, log(n)) space
 def min_depth_recursive(self, root: Optional[TreeNode]) -> int:
     if not root:
