@@ -25,13 +25,14 @@ ___
 ### Problems
 
 :four_leaf_clover: 71 easy \
-:accept: 164 medium \
+:accept: 165 medium \
 :congratulations: 36 hard \
-total 270
+total 271
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 45
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 46
+  - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
   - :four_leaf_clover: [859. buddy strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BuddyStrings.py)
