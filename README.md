@@ -25,9 +25,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 71 easy \
-:accept: 165 medium \
+:accept: 166 medium \
 :congratulations: 36 hard \
-total 271
+total 272
 
 ### Python 3
 
@@ -94,7 +94,7 @@ total 271
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 77
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 78
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
   - :four_leaf_clover: [121. best time to buy and sell stock](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestTimeToBuyAndSellStock.py)
@@ -145,6 +145,7 @@ total 271
   - :accept: [837. new 21 game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/New21Game.py)
   - :four_leaf_clover: [1137. n-th tribonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NthTribonacciNumber.py)
   - :congratulations: [2328. number of increasing paths in a grid](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfIncreasingPathsInAGrid.py)
+  - :accept: [673. number of longest increasing subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfLongestIncreasingSubsequence.py)
   - :congratulations: [1444. number of ways of cutting a pizza](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfWaysOfCuttingAPizza.py)
   - :congratulations: [1639. number of ways to form a target string given a dictionary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/NumberOfWaysToFormATargetStringGivenADictionary.py)
   - :accept: [474. ones and zeros](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/OnesAndZeroes.py)
