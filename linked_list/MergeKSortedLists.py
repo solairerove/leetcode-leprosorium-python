@@ -5,6 +5,10 @@ from linked_list.ListNode import ListNode
 from linked_list.MergeTwoSortedLists import merge_two_lists
 
 
+# i like the first solution because i can write it)
+# need to implement merge_two_lists from problem 21
+# use interval to increase performance(like merge sort)
+
 # O(Nlog(k)) time | O(1) space
 # N - is total number of nodes
 # k - is number of linked lists
