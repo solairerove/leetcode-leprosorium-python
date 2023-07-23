@@ -1,7 +1,28 @@
 import collections
+from functools import lru_cache
 
 
 # O(K*N^2) time || O(K*N^2) space
+def knight_probability_top_down(self, n: int, k: int, row: int, column: int) -> float:
+    @lru_cache(None)
+    def dp(x, y, total):
+        if not (0 <= x < n and 0 <= y < n):
+            return 0
+
+        if total == 0:
+            return 1
+
+        res = 0
+
+        for dx, dy in [(-1, -2), (-2, -1), (-2, 1), (-1, 2), (1, 2), (2, 1), (2, -1), (1, -2)]:
+            res += dp(x + dx, y + dy, total - 1)
+
+        return res
+
+    return dp(row, column, k) / 8 ** k
+
+
+# O(8*K*N^2) time || O(N^2) space
 def knight_probability_bfs(self, n: int, k: int, row: int, column: int) -> float:
     q = {(row, column): 1}
     level = 0
