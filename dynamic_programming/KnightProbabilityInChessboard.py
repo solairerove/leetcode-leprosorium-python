@@ -1,7 +1,8 @@
 import collections
 
 
-def knight_probability(self, n: int, k: int, row: int, column: int) -> float:
+# O(K*N^2) time || O(K*N^2) space
+def knight_probability_bfs(self, n: int, k: int, row: int, column: int) -> float:
     q = {(row, column): 1}
     level = 0
     dirs = {(dx, dy) for dx in (-2, -1, 1, 2) for dy in (-2, -1, 1, 2) if abs(dx) + abs(dy) == 3}
