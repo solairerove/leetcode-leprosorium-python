@@ -25,9 +25,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 70 easy \
-:accept: 171 medium \
+:accept: 172 medium \
 :congratulations: 36 hard \
-total 276
+total 277
 
 ### Python 3
 
@@ -79,7 +79,7 @@ total 276
   - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
   - :four_leaf_clover: [125. valid palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidPalindrome.py)
-- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 15
+- :scissors: [binary search](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/binary_search) 16
   - :four_leaf_clover: [704. binary search](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/BinarySearch.py)
   - :accept: [1011. capacity to ship packages within d days](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CapacityToShipPackagesWithinDDays.py)
   - :four_leaf_clover: [1351. count negative numbers in a sorted matrix](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/CountNegativeNumbersInASortedMatrix.py)
@@ -89,6 +89,7 @@ total 276
   - :four_leaf_clover: [1539. kth missing positive number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/KthMissingPositiveNumber.py)
   - :congratulations: [774. minimize max distance to gas station](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimizeMaxDistanceToGasStation.py)
   - :congratulations: [2448. minimum cost to make array equal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimumCostToMakeArrayEqual.py)
+  - :accept: [1870. minimum speed to arrive on time](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimumSpeedToArriveOnTime.py)
   - :accept: [2187. minimum time to complete trips](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/MinimumTimeToCompleteTrips.py)
   - :accept: [852. peak index in a mountain array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/PeakIndexInAMountainArray.py)
   - :four_leaf_clover: [35. search insert position](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SearchInsertPosition.py)
