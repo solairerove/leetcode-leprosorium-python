@@ -25,13 +25,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 70 easy \
-:accept: 174 medium \
+:accept: 175 medium \
 :congratulations: 36 hard \
-total 279
+total 280
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 47
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 48
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -53,6 +53,7 @@ total 279
   - :four_leaf_clover: [1431. kids with the greatest number of candies](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KidsWithTheGreatestNumberOfCandies.py)
   - :accept: [2090. k radius subarray averages](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KRadiusSubarrayAverages.py)
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
+  - :accept: [17. letter combinations of a phone number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LetterCombinationsOfAPhoneNumber.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
   - :four_leaf_clover: [1572. matrix diagonal sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MatrixDiagonalSum.py)
