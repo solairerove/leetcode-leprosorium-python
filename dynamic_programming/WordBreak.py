@@ -1,11 +1,13 @@
 from functools import lru_cache
-from typing import List, FrozenSet
+from typing import List
 
+
+# n^2 recursive traverse of substrings looking for entry in set of words
 
 # O(n^3) time || O(n) space
 def word_break_top_down(self, s: str, word_dict: List[str]) -> bool:
     @lru_cache(None)
-    def dp(words: FrozenSet[str], i: int):
+    def dp(words, i):
         if i == len(s):
             return True
 
