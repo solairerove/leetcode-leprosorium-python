@@ -25,9 +25,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 70 easy \
-:accept: 175 medium \
+:accept: 176 medium \
 :congratulations: 36 hard \
-total 280
+total 281
 
 ### Python 3
 
@@ -98,7 +98,7 @@ total 280
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 81
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 82
   - :accept: [894. all possible full binary trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/AllPossibleFullBinaryTrees.py)
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
@@ -117,6 +117,7 @@ total 280
   - :accept: [740. delete and earn](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/DeleteAndEarn.py)
   - :congratulations: [72. edit distance](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/EditDistance.py)
   - :accept: [509. fibonacci number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/FibonacciNumber.py)
+  - :accept: [22. generate parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/GenerateParentheses.py)
   - :accept: [198. house robber](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobber.py)
   - :accept: [213. house robber II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberII.py)
   - :accept: [337. house robber III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/HouseRobberIII.py)
