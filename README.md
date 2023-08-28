@@ -24,10 +24,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 70 easy \
+:four_leaf_clover: 71 easy \
 :accept: 176 medium \
 :congratulations: 36 hard \
-total 281
+total 282
 
 ### Python 3
 
@@ -291,7 +291,8 @@ total 281
   - :accept: [1493. longest subarray of ones after deleting one element](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestSubarrayOfOnesAfterDeletingOneElement.py)
   - :accept: [2024. maximize the confusion of an exam](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MaximizeTheConfusionOfAnExam.py)
   - :accept: [209. minimum size subarray sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MinimumSizeSubarraySum.py)
-- :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 5
+- :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 6
+  - :four_leaf_clover: [225. implement stack using queues](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ImplementStackUsingQueues.py)
   - :accept: [155. min stack](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/MinStack.py)
   - :accept: [2390. removing stars from a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/RemovingStarsFromAString.py)
   - :accept: [71. simplify path](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/SimplifyPath.py)
