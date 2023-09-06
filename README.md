@@ -25,9 +25,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 71 easy \
-:accept: 176 medium \
+:accept: 177 medium \
 :congratulations: 36 hard \
-total 282
+total 283
 
 ### Python 3
 
@@ -231,7 +231,7 @@ total 282
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
   - :accept: [2336. smallest number infinite set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/SmallestNumberInInfiniteSet.py)
   - :accept: [2462. total cost to hire k workers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TotalCostToHireKWorkers.py)
-- :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 43
+- :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 44
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
   - :accept: [445. add two numbers II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbersII.py)
   - :accept: [138. copy list with random pointer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/CopyListWithRandomPointer.py)
@@ -273,6 +273,7 @@ total 282
   - :congratulations: [25. reverse nodes in k group](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/ReverseNodesInKGroup.py)
   - :accept: [61. rotate list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/RotateList.py)
   - :accept: [148. sort list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SortList.py)
+  - :accept: [725. split linked list in parts](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SplitLinkedListInParts.py)
   - :accept: [24. swap nodes in pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwapNodesInPairs.py)
   - :accept: [1721. swapping nodes in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwappingNodesInALinkedList.py)
 - :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 11
