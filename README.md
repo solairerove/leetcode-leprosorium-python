@@ -25,9 +25,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 71 easy \
-:accept: 177 medium \
+:accept: 178 medium \
 :congratulations: 36 hard \
-total 283
+total 284
 
 ### Python 3
 
@@ -207,7 +207,7 @@ total 283
   - :accept: [1091. shortest path in binary matrix](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathInBinaryMatrix.py)
   - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
   - :congratulations: [839. similar string groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/SimilarStringGroups.py)
-- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 9
+- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 10
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
   - :four_leaf_clover: [1603. design parking system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/DesignParkingSystem.py)
   - :accept: [649. dota 2 senate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/Dota2Senate.py)
@@ -215,6 +215,7 @@ total 283
   - :accept: [55. jump game](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGame.py)
   - :accept: [1306. jump game II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/JumpGameII.py)
   - :accept: [2178. maximum split of positive even integers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MaximumSplitOfPositiveEvenIntegers.py)
+  - :accept: [1647. minimum deletions to make character frequencies unique](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MinimumDeletionsToMakeCharacterFrequenciesUnique.py)
   - :accept: [435. non overlapping intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/NonOverlappingIntervals.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
 - :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 4
