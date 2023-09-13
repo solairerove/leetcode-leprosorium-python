@@ -26,8 +26,8 @@ ___
 
 :four_leaf_clover: 71 easy \
 :accept: 178 medium \
-:congratulations: 36 hard \
-total 284
+:congratulations: 37 hard \
+total 286
 
 ### Python 3
 
@@ -207,8 +207,9 @@ total 284
   - :accept: [1091. shortest path in binary matrix](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathInBinaryMatrix.py)
   - :accept: [1129. shortest path with alternating colors using bfs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestPathWithAlternatingColors.py)
   - :congratulations: [839. similar string groups](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/SimilarStringGroups.py)
-- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 10
+- :parking: [greedy](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/greedy) 11
   - :accept: [881. boats to save people](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/BoatsToSavePeople.py)
+  - :congratulations: [135. candy](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/Candy.py)
   - :four_leaf_clover: [1603. design parking system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/DesignParkingSystem.py)
   - :accept: [649. dota 2 senate](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/Dota2Senate.py)
   - :accept: [1775. equal sum arrays with minimum number of operations (M)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/EqualSumArraysWithMinimumNumberOfOperations.py)
