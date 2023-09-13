@@ -9,23 +9,21 @@ def reverse_between(self, head: Optional[ListNode], left: int, right: int) -> Op
         return head
 
     sentinel = ListNode(-1)
-    prev, curr = sentinel, head
-    i = 1
+    prev, curr, i = sentinel, head, 1
     while curr:
         if i == left:
             prev.next = reverse_k_times(self, curr, right - left + 1)
             break
+
         prev.next = curr
-        prev = prev.next
-        curr = curr.next
-        i += 1
+        prev, curr, i = prev.next, curr.next, i + 1
 
     return sentinel.next
 
 
 def reverse_k_times(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
     prev, curr = None, head
-    for i in range(k):
+    for _ in range(k):
         curr.next, prev, curr = prev, curr, curr.next
 
     head.next = curr
