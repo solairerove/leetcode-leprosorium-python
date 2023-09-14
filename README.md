@@ -26,8 +26,8 @@ ___
 
 :four_leaf_clover: 71 easy \
 :accept: 178 medium \
-:congratulations: 37 hard \
-total 286
+:congratulations: 38 hard \
+total 287
 
 ### Python 3
 
@@ -182,7 +182,7 @@ total 286
   - :accept: [63. unique paths ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/UniquePathsII.py)
   - :accept: [376. wiggle subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/WiggleSubsequence.py)
   - :accept: [139. word break](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/PalindromicSubstrings.py)
-- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 24
+- :ferris_wheel: [graphs](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/graphs) 25
   - :congratulations: [1697. checking existence of edge length limited paths](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CheckingExistenceOfEdgeLengthLimitedPaths.py)
   - :accept: [133. clone graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CloneGraph.py)
   - :accept: [2316. count unreachable pairs of nodes in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/CountUnreachablePairsOfNodesInAnUndirectedGraph.py)
@@ -201,6 +201,7 @@ total 286
   - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1514. path with maximum probability](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/PathWithMaximumProbability.py)
+  - :congratulations: [332. reconstruct itinerary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReconstructItinerary.py)
   - :congratulations: [1579. remove max number of edges to keep graph fully traversable](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable.py)
   - :accept: [1466. reorder routes to make all path lead to the city zero](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReorderRoutesToMakeAllPathsLeadToTheCityZero.py)
   - :accept: [934. shortest bridge](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ShortestBridge.py)
