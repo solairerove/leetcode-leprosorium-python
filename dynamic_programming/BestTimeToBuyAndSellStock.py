@@ -3,9 +3,9 @@ from typing import List
 
 # O(n) time || O(1) space
 def max_profit(self, prices: List[int]) -> int:
-    profit, min_price = 0, prices[0]
-    for i in range(1, len(prices)):
-        profit = max(profit, prices[i] - min_price)
-        min_price = min(min_price, prices[i])
+    min_price, max_profit = float('inf'), 0
+    for price in prices:
+        min_price = min(min_price, price)
+        max_profit = max(max_profit, price - min_price)
 
-    return profit
+    return max_profit
