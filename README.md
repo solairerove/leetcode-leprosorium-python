@@ -16,6 +16,7 @@ ___
 
 ### Links
 
+[grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&grouping=weeks&hours=6)
 [leetcode patterns](https://seanprashad.com/leetcode-patterns/) \
 [leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
 [neetcode](https://neetcode.io/practice)
