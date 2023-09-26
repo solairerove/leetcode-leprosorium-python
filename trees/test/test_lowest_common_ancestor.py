@@ -1,6 +1,6 @@
 import unittest
 
-from trees.LowestCommonAncestorOfABinarySearchTree import lowest_common_ancestor
+from trees.LowestCommonAncestorOfABinarySearchTree import lowest_common_ancestor, lowest_common_ancestor_dfs
 from trees.TreeNode import TreeNode
 
 
@@ -29,6 +29,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(6, lowest_common_ancestor(self, root, p, q).val)
+        self.assertEqual(6, lowest_common_ancestor_dfs(self, root, p, q).val)
 
     def test_lowest_common_ancestor_1(self):
         q = TreeNode(
@@ -54,6 +55,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(2, lowest_common_ancestor(self, root, p, q).val)
+        self.assertEqual(2, lowest_common_ancestor_dfs(self, root, p, q).val)
 
 
 if __name__ == '__main__':
