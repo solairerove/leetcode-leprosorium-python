@@ -1,61 +1,59 @@
 import unittest
 
-from trees.LowestCommonAncestorOfABinarySearchTree import lowest_common_ancestor, lowest_common_ancestor_dfs
+from trees.LowestCommonAncestorOfABinaryTree import lowest_common_ancestor
 from trees.TreeNode import TreeNode
 
 
 class MyTestCase(unittest.TestCase):
     def test_lowest_common_ancestor(self):
         p = TreeNode(
-            val=2,
-            left=TreeNode(0),
+            val=5,
+            left=TreeNode(6),
             right=TreeNode(
-                val=4,
-                left=TreeNode(3),
-                right=TreeNode(5)
+                val=2,
+                left=TreeNode(7),
+                right=TreeNode(4)
             )
         )
 
         q = TreeNode(
-            val=8,
-            left=TreeNode(7),
-            right=TreeNode(9)
+            val=1,
+            left=TreeNode(0),
+            right=TreeNode(8)
         )
 
         root = TreeNode(
-            val=6,
+            val=3,
             left=p,
             right=q
         )
 
-        self.assertEqual(6, lowest_common_ancestor(self, root, p, q).val)
-        self.assertEqual(6, lowest_common_ancestor_dfs(self, root, p, q).val)
+        self.assertEqual(3, lowest_common_ancestor(self, root, p, q).val)
 
     def test_lowest_common_ancestor_1(self):
-        q = TreeNode(
-            val=4,
-            left=TreeNode(3),
-            right=TreeNode(5)
-        )
+        q = TreeNode(4)
 
         p = TreeNode(
-            val=2,
-            left=TreeNode(0),
-            right=q
-        )
-
-        root = TreeNode(
-            val=6,
-            left=p,
+            val=5,
+            left=TreeNode(6),
             right=TreeNode(
-                val=8,
+                val=2,
                 left=TreeNode(7),
-                right=TreeNode(9)
+                right=q
             )
         )
 
-        self.assertEqual(2, lowest_common_ancestor(self, root, p, q).val)
-        self.assertEqual(2, lowest_common_ancestor_dfs(self, root, p, q).val)
+        root = TreeNode(
+            val=3,
+            left=p,
+            right=TreeNode(
+                val=1,
+                left=TreeNode(0),
+                right=TreeNode(8)
+            )
+        )
+
+        self.assertEqual(5, lowest_common_ancestor(self, root, p, q).val)
 
 
 if __name__ == '__main__':
