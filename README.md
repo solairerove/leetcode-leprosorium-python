@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 72 easy \
+:four_leaf_clover: 73 easy \
 :accept: 180 medium \
 :congratulations: 38 hard \
-total 290
+total 291
 
 ### Python 3
 
@@ -304,9 +304,10 @@ total 290
   - :accept: [71. simplify path](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/SimplifyPath.py)
   - :accept: [946. validate stack sequences](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidateStackSequences.py)
   - :four_leaf_clover: [20. valid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidParentheses.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 27
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 28
   - :accept: [863. all nodes distance k in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AllNodesDistanceKInBinaryTree.py)
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
+  - :four_leaf_clover: [110. balanced binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BalancedBinaryTree.py)
   - :four_leaf_clover: [94. binary tree inorder traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeInorderTraversal.py)
   - :accept: [103. binary tree zigzag level order traversal](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BinaryTreeZigzagLevelOrderTraversal.py)
   - :accept: [958. check completeness of a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/CheckCompletenessOfABinaryTree.py)
