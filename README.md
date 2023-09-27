@@ -18,9 +18,9 @@ ___
 
 [blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) \
 [grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&grouping=weeks&hours=6) \
-[leetcode patterns 169](https://seanprashad.com/leetcode-patterns/) \
+[leetcode patterns 180](https://seanprashad.com/leetcode-patterns/) \
+[neetcode 442](https://neetcode.io/practice) \
 [leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
-[neetcode](https://neetcode.io/practice) \
 [python debug visualization](https://pythontutor.com/visualize.html#mode=display)
 
 ### Problems
