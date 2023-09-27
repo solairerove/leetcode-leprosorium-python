@@ -5,18 +5,21 @@ from trees.TreeNode import TreeNode
 
 # O(h) time || O(h) space
 def lowest_common_ancestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> Optional[TreeNode]:
-    if not root:
-        return None
+    def dfs(node):
+        if not node:
+            return None
 
-    if root == p or root == q:
-        return root
+        if node == p or node == q:
+            return node
 
-    left, right = lowest_common_ancestor(self, root.left, p, q), lowest_common_ancestor(self, root.right, p, q)
+        left, right = dfs(node.left), dfs(node.right)
 
-    if not left:
-        return right
+        if not left:
+            return right
 
-    if not right:
-        return left
+        if not right:
+            return left
 
-    return root
+        return node
+
+    return dfs(root)
