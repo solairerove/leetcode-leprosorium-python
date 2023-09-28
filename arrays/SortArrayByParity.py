@@ -15,3 +15,11 @@ def sort_array_by_parity(self, nums: List[int]) -> List[int]:
             high -= 1
 
     return nums
+
+
+# O(n) time || O(n) space
+def sort_array_by_parity_two_pass(self, nums: List[int]) -> List[int]:
+    return (
+            [x for x in nums if x % 2 == 0] +
+            [x for x in nums if x % 2 == 1]
+    )
