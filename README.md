@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 74 easy \
+:four_leaf_clover: 75 easy \
 :accept: 180 medium \
 :congratulations: 38 hard \
-total 292
+total 293
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 49
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 50
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -72,6 +72,7 @@ total 292
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [137. single number II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumberII.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
+  - :accept: [905. sort array by parity](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortArrayByParity.py)
   - :accept: [54. spiral matrix](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrix.py)
   - :accept: [59. spiral matrix ii](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SpiralMatrixII.py)
   - :four_leaf_clover: [977. squares of a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SquaresOfASortedArray.py)
