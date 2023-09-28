@@ -23,3 +23,10 @@ def sort_array_by_parity_two_pass(self, nums: List[int]) -> List[int]:
             [x for x in nums if x % 2 == 0] +
             [x for x in nums if x % 2 == 1]
     )
+
+
+# O(n * log(n)) time || O(n) space
+def sort_array_by_parity_sort(self, nums: List[int]) -> List[int]:
+    nums.sort(key=lambda x: x % 2)
+
+    return nums
