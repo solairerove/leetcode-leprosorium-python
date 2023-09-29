@@ -31,12 +31,12 @@ def maximum_identical_adjacent_distance(self, s: str) -> int:
     if len(s) == 2:
         return -1
 
-    pair_to_first_idx, distance = {}, -1
+    pair_to_idx, distance = {}, -1
     for i in range(len(s) - 1):
         pair = s[i] + s[i + 1]
-        if pair in pair_to_first_idx:
-            distance = max(distance, i - pair_to_first_idx[pair])
+        if pair in pair_to_idx:
+            distance = max(distance, i - pair_to_idx[pair])
         else:
-            pair_to_first_idx[pair] = i
+            pair_to_idx[pair] = i
 
     return distance
