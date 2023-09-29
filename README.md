@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 75 easy \
+:four_leaf_clover: 76 easy \
 :accept: 180 medium \
 :congratulations: 38 hard \
-total 293
+total 294
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 50
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 51
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -65,6 +65,7 @@ total 293
   - :four_leaf_clover: [1768. merge strings alternately](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeStringsAlternately.py)
   - :accept: [2439. minimize maximum of array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MinimizeMaximumOfArray.py)
   - :four_leaf_clover: [268. missing number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MissingNumber.py)
+  - :four_leaf_clover: [896. monotonic array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MonotonicArray.py)
   - :accept: [1498. number of subsequences that satisfy the given sum condition](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfSubsequencesThatSatisfyTheGivenSumCondition.py)
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
   - :accept: [46. permutations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Permutations.py)
