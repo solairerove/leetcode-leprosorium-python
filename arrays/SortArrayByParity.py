@@ -5,6 +5,7 @@ from typing import List
 def sort_array_by_parity(self, nums: List[int]) -> List[int]:
     low, high = 0, len(nums) - 1
     while low < high:
+        # odd -> even swap
         if nums[low] % 2 > nums[high] % 2:
             nums[low], nums[high] = nums[high], nums[low]
 
