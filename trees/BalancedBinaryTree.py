@@ -3,9 +3,9 @@ from typing import Optional
 from trees.TreeNode import TreeNode
 
 
-# O(n * log(n)) time || O(n) space
+# O(n) time || O(n) space
 def is_balanced(self, root: Optional[TreeNode]) -> bool:
-    def dfs(node) -> (bool, int):
+    def dfs(node):
         if not node:
             return True, -1
 
@@ -18,8 +18,8 @@ def is_balanced(self, root: Optional[TreeNode]) -> bool:
             return False, 0
 
         return (
-            (abs(l_height - r_height) < 2),
-            (1 + max(l_height, r_height))
+            abs(l_height - r_height) < 2,
+            1 + max(l_height, r_height)
         )
 
     return dfs(root)[0]
