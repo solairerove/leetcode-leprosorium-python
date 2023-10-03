@@ -28,7 +28,7 @@ def climb_stairs_top_down(self, n: int) -> int:
 
 # O(n) time || O(n) space
 def climb_stairs_bottom_up(self, n: int) -> int:
-    if n <= 2:
+    if n < 3:
         return n
 
     dp = [0] * (n + 1)
@@ -36,4 +36,4 @@ def climb_stairs_bottom_up(self, n: int) -> int:
     for i in range(3, n + 1):
         dp[i] = dp[i - 1] + dp[i - 2]
 
-    return dp[n]
+    return dp[-1]
