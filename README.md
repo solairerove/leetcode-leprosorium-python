@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 78 easy \
+:four_leaf_clover: 79 easy \
 :accept: 180 medium \
 :congratulations: 38 hard \
-total 296
+total 297
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 52
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 53
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -71,6 +71,7 @@ total 296
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
   - :accept: [46. permutations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Permutations.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
+  - :four_leaf_clover: [383. ransom note](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/RansomNote.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [137. single number II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumberII.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
