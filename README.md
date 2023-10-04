@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 79 easy \
+:four_leaf_clover: 80 easy \
 :accept: 180 medium \
 :congratulations: 38 hard \
-total 297
+total 298
 
 ### Python 3
 
@@ -227,7 +227,8 @@ total 297
   - :accept: [1647. minimum deletions to make character frequencies unique](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/MinimumDeletionsToMakeCharacterFrequenciesUnique.py)
   - :accept: [435. non overlapping intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/NonOverlappingIntervals.py)
   - :accept: [2405. optimal partition of string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/greedy/OptimalPartitionOfString.py)
-- :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 4
+- :hash: [hash table](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/hash_table) 5
+  - :four_leaf_clover: [706. design hash map](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignHashMap.py)
   - :four_leaf_clover: [705. design hash set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignHashSet.py)
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
