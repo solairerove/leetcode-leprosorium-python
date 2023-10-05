@@ -25,14 +25,14 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 80 easy \
+:four_leaf_clover: 81 easy \
 :accept: 181 medium \
 :congratulations: 38 hard \
-total 299
+total 300
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 54
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 55
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -57,6 +57,7 @@ total 299
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [17. letter combinations of a phone number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LetterCombinationsOfAPhoneNumber.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
+  - :four_leaf_clover: [409. longest palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestPalindrome.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
   - :accept: [229. majority elements II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElementII.py)
   - :four_leaf_clover: [1572. matrix diagonal sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MatrixDiagonalSum.py)
