@@ -5,16 +5,16 @@ from typing import List
 # O(n * w + n) time || O(n * w) space
 def knapsack_top_down(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
     @lru_cache(None)
-    def dp(ith: int, free_space: int) -> int:
-        if ith >= n - 1 or free_space < 0:
+    def dp(i, free_space):
+        if i >= n - 1 or free_space < 0:
             return 0
 
-        if weights[ith + 1] > free_space:
-            return dp(ith + 1, free_space)
+        if weights[i + 1] > free_space:
+            return dp(i + 1, free_space)
 
         return max(
-            dp(ith + 1, free_space),
-            dp(ith + 1, free_space - weights[ith + 1]) + items[ith + 1]
+            dp(i + 1, free_space),
+            dp(i + 1, free_space - weights[i + 1]) + items[i + 1]
         )
 
     return dp(-1, capacity)
