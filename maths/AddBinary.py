@@ -1,5 +1,14 @@
-# O(max(n, m)) time || O(max(n, m)) space
+# O(n + m) time || O(max(n, m)) space
 def add_binary(self, a: str, b: str) -> str:
+    x, y = int(a, 2), int(b, 2)
+    while y:
+        x, y = x ^ y, (x & y) << 1
+
+    return bin(x)[2:]
+
+
+# O(max(n, m)) time || O(max(n, m)) space
+def add_binary_naive(self, a: str, b: str) -> str:
     res = ""
     n, m = len(a) - 1, len(b) - 1
     carry = 0
