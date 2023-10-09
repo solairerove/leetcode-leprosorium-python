@@ -5,21 +5,21 @@ from trees.TreeNode import TreeNode
 
 # O(n) time || O(max(n, log(n)) space
 def diameter_of_binary_tree_recursive_dfs(self, root: Optional[TreeNode]) -> int:
-    diameter = 0
+    res = 0
 
-    def longest_path(node):
+    def dfs(node):
         if not node:
             return 0
 
-        nonlocal diameter
-        left_path, right_path = longest_path(node.left), longest_path(node.right)
-        diameter = max(diameter, left_path + right_path)
+        nonlocal res
+        left, right = dfs(node.left), dfs(node.right)
+        res = max(res, left + right)
 
-        return max(left_path, right_path) + 1
+        return 1 + max(left, right)
 
-    longest_path(root)
+    dfs(root)
 
-    return diameter
+    return res
 
 
 # O(n) time || O(max(n, log(n)) space
