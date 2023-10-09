@@ -21,16 +21,18 @@ def knapsack_top_down(self, items: List[int], weights: List[int], n: int, capaci
 
 
 # O(n * capacity) time || O(n * capacity) space
-def knapsack_2d_dp(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
+def knapsack_bottom_up(self, items: List[int], weights: List[int], n: int, capacity: int) -> int:
     dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]
-
     for item_id in range(1, n + 1):
         for weight in range(1, capacity + 1):
             curr_weight = weights[item_id - 1]
             curr_max = dp[item_id - 1][weight]
 
             if curr_weight <= weight:
-                dp[item_id][weight] = max(curr_max, dp[item_id - 1][weight - curr_weight] + items[item_id - 1])
+                dp[item_id][weight] = max(
+                    curr_max,
+                    items[item_id - 1] + dp[item_id - 1][weight - curr_weight]
+                )
             else:
                 dp[item_id][weight] = curr_max
 
