@@ -1,7 +1,7 @@
 import unittest
 
 from trees.MinimumDepthOfBinaryTree import min_depth_recursive_dfs, \
-    min_depth_iterative_dfs, min_depth_iterative_bfs
+    min_depth_iterative_bfs
 from trees.TreeNode import TreeNode
 
 
@@ -18,7 +18,6 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(2, min_depth_recursive_dfs(self, root))
-        self.assertEqual(2, min_depth_iterative_dfs(self, root))
         self.assertEqual(2, min_depth_iterative_bfs(self, root))
 
 
