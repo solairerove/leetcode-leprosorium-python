@@ -1,10 +1,23 @@
+from functools import lru_cache
 from typing import Optional
 
 from trees.TreeNode import TreeNode
 
 
+# O(n) time || O(max(n, log(n))) space
+def max_depth_recursive_dfs(self, root: Optional[TreeNode]) -> int:
+    @lru_cache(None)
+    def dfs(node):
+        if not node:
+            return 0
+
+        return 1 + max(dfs(node.left), dfs(node.right))
+
+    return dfs(root)
+
+
 # O(n) time || O(log(n)) space
-def max_depth_dfs(self, root: Optional[TreeNode]) -> int:
+def max_depth_iterative_dfs(self, root: Optional[TreeNode]) -> int:
     if not root:
         return 0
     else:
@@ -19,11 +32,3 @@ def max_depth_dfs(self, root: Optional[TreeNode]) -> int:
             stack.append([depth + 1, node.right])
 
     return res
-
-
-# O(n) time || O(max(n, log(n))) space
-def max_depth_rec(self, root: Optional[TreeNode]) -> int:
-    if not root:
-        return 0
-
-    return max(max_depth_rec(self, root.left), max_depth_rec(self, root.right)) + 1
