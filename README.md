@@ -14,9 +14,8 @@ ___
 - Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
 - French tele company January 23 (fail :x: , two med dp, have those here)
 
-### Links
+### The way to prepare
 
-[blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) \
 [grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&grouping=weeks&hours=6) \
 [leetcode patterns 180](https://seanprashad.com/leetcode-patterns/) \
 [neetcode 442](https://neetcode.io/practice) \
