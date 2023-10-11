@@ -20,15 +20,13 @@ def max_depth_recursive_dfs(self, root: Optional[TreeNode]) -> int:
 def max_depth_iterative_dfs(self, root: Optional[TreeNode]) -> int:
     if not root:
         return 0
-    else:
-        stack = [[1, root]]
-        res = 0
 
+    res, stack = 0, [[1, root]]
     while stack:
         depth, node = stack.pop()
         if node:
-            res = max(res, depth)
             stack.append([depth + 1, node.left])
             stack.append([depth + 1, node.right])
+            res = max(res, depth)
 
     return res
