@@ -6,25 +6,43 @@ from trees.TreeNode import TreeNode
 
 # need to understand how to traverse trees
 
-# O(n) time || O(max(n, log(n)) space
-def min_depth_recursive(self, root: Optional[TreeNode]) -> int:
+# O(n) time || O(n) space
+def min_depth_iterative_bfs(self, root: Optional[TreeNode]) -> int:
     if not root:
         return 0
+    else:
+        dq = collections.deque([(1, root)])
 
-    children = [root.left, root.right]
-    if not any(children):
-        return 1
+    while dq:
+        depth, node = dq.popleft()
+        nodes = [node.left, node.right]
+        if not any(nodes):
+            return depth
 
-    min_depth = float('inf')
-    for child in children:
-        if child:
-            min_depth = min(min_depth_recursive(self, child), min_depth)
+        for node in nodes:
+            if node:
+                dq.append((depth + 1, node))
 
-    return min_depth + 1
+
+# O(n) time || O(max(n, log(n)) space
+def min_depth_recursive_dfs(self, root: Optional[TreeNode]) -> int:
+    def dfs(node):
+        if not node:
+            return 0
+
+        left, right = dfs(node.left), dfs(node.right)
+        if not left:
+            return right + 1
+        elif not right:
+            return left + 1
+
+        return 1 + min(left, right)
+
+    return dfs(root)
 
 
 # O(n) time || O(n) space
-def min_depth_dfs(self, root: Optional[TreeNode]) -> int:
+def min_depth_iterative_dfs(self, root: Optional[TreeNode]) -> int:
     if not root:
         return 0
     else:
@@ -41,21 +59,3 @@ def min_depth_dfs(self, root: Optional[TreeNode]) -> int:
                 stack.append((depth + 1, node))
 
     return min_depth
-
-
-# O(n) time || O(n) space
-def min_depth_bfs(self, root: Optional[TreeNode]) -> int:
-    if not root:
-        return 0
-    else:
-        dq = collections.deque([(1, root)])
-
-    while dq:
-        depth, node = dq.popleft()
-        nodes = [node.left, node.right]
-        if not any(nodes):
-            return depth
-
-        for node in nodes:
-            if node:
-                dq.append((depth + 1, node))
