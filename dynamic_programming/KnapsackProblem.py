@@ -25,11 +25,10 @@ def knapsack_bottom_up(self, items: List[int], weights: List[int], n: int, capac
     dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]
     for i in range(1, n + 1):
         for j in range(1, capacity + 1):
-            curr_max, weight = dp[i - 1][j], weights[i - 1]
-            if weight <= j:
-                dp[i][j] = max(curr_max, items[i - 1] + dp[i - 1][j - weight])
+            if weights[i - 1] > j:
+                dp[i][j] = dp[i - 1][j]
             else:
-                dp[i][j] = curr_max
+                dp[i][j] = max(dp[i - 1][j], items[i - 1] + dp[i - 1][j - weights[i - 1]])
 
     return dp[-1][-1]
 
