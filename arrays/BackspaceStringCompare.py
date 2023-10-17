@@ -43,3 +43,10 @@ def backspace_compare_stack(self, s: str, t: str) -> bool:
         return "".join(stack)
 
     return trim(s) == trim(t)
+
+
+# O(n + m) time || O(1) space
+def backspace_compare_lambda(self, s: str, t: str) -> bool:
+    trim = lambda stack, c: stack[:-1] if c == '#' else stack + c
+
+    return reduce(trim, s, "") == reduce(trim, t, "")
