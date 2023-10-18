@@ -1,8 +1,6 @@
-import heapq
 from typing import List, Optional
 
 from linked_list.ListNode import ListNode
-from linked_list.MergeTwoSortedLists import merge_two_lists
 
 
 # i like the first solution because i can write it)
@@ -23,36 +21,26 @@ def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
     while interval < len(lists):
         i = 0
         while i + interval < len(lists):
-            lists[i] = merge_two_lists(self, lists[i], lists[i + interval])
+            lists[i] = merge(self, lists[i], lists[i + interval])
             i += interval * 2
         interval *= 2
 
     return lists[0]
 
 
-# O(Nlog(k)) time | O(k) space
-# N - is total number of nodes
-# k - is number of linked lists
-def merge_k_lists_heap(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-    if not lists:
-        return None
+# 21. Merge Two Sorted Lists
+def merge(self, l1, l2):
+    sentinel = ListNode()
+    prev = sentinel
+    curr1, curr2 = l1, l2
+    while curr1 and curr2:
+        if curr1.val < curr2.val:
+            prev.next, curr1 = curr1, curr1.next
+        else:
+            prev.next, curr2 = curr2, curr2.next
 
-    if len(lists) == 1:
-        return lists[0]
-
-    sentinel = prev = ListNode(0)
-    heap = []
-    for i in range(len(lists)):
-        if lists[i]:
-            heapq.heappush(heap, (lists[i].val, i))
-            lists[i] = lists[i].next
-
-    while heap:
-        val, i = heapq.heappop(heap)
-        prev.next = ListNode(val)
         prev = prev.next
-        if lists[i]:
-            heapq.heappush(heap, (lists[i].val, i))
-            lists[i] = lists[i].next
+
+    prev.next = curr1 or curr2
 
     return sentinel.next
