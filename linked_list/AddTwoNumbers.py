@@ -5,7 +5,7 @@ from linked_list.ListNode import ListNode
 
 # calculate in column like in school. use on hold var.
 
-# O(max(n, m)) time || O(max(n, m) + 1) space
+# O(max(n, m)) time || O(1) space
 def add_two_numbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
     sentinel = ListNode()
     prev = sentinel
@@ -25,7 +25,7 @@ def add_two_numbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Opt
         prev.next, hold = ListNode(curr_sum % 10), curr_sum // 10
         prev = prev.next
 
-    if hold != 0:
+    if hold:
         prev.next = ListNode(hold)
 
     return sentinel.next
