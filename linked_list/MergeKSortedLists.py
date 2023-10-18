@@ -3,12 +3,11 @@ from typing import List, Optional
 from linked_list.ListNode import ListNode
 
 
-# i like the first solution because i can write it)
 # need to implement merge_two_lists from problem 21
 # use interval to increase performance(like merge sort)
 
-# O(Nlog(k)) time | O(1) space
-# N - is total number of nodes
+# O(n * log(k)) time | O(1) space
+# n - is total number of nodes
 # k - is number of linked lists
 def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
     if not lists:
@@ -19,10 +18,8 @@ def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
     interval = 1
     while interval < len(lists):
-        i = 0
-        while i + interval < len(lists):
-            lists[i] = merge(self, lists[i], lists[i + interval])
-            i += interval * 2
+        for i in range(0, len(lists) - interval, interval * 2):
+            lists[i] = self.merge(lists[i], lists[i + interval])
         interval *= 2
 
     return lists[0]
