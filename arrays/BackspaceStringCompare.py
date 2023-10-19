@@ -2,7 +2,7 @@ import itertools
 from functools import reduce
 
 
-# O(n+m) time || O(1) space
+# O(n + m) time || O(1) space
 def backspace_compare_two_pointers(self, s: str, t: str) -> bool:
     def trim(to_trim):
         skip = 0
