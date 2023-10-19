@@ -16,11 +16,11 @@ def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
     if len(lists) == 1:
         return lists[0]
 
-    interval = 1
-    while interval < len(lists):
-        for i in range(0, len(lists) - interval, interval * 2):
-            lists[i] = merge(self, lists[i], lists[i + interval])
-        interval *= 2
+    offset = 1
+    while offset < len(lists):
+        for i in range(0, len(lists) - offset, offset * 2):
+            lists[i] = merge(self, lists[i], lists[i + offset])
+        offset *= 2
 
     return lists[0]
 
