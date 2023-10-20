@@ -6,12 +6,11 @@ def search(self, nums: List[int], target: int) -> int:
     low, high = 0, len(nums) - 1
     while low <= high:
         mid = low + (high - low) // 2
-        curr = nums[mid]
-        if curr < target:
-            low = mid + 1
-        elif curr > target:
+        if target == nums[mid]:
+            return mid
+        elif target < nums[mid]:
             high = mid - 1
         else:
-            return mid
+            low = mid + 1
 
     return -1
