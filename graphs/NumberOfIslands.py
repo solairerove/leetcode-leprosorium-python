@@ -1,6 +1,8 @@
 from typing import List
 
 
+# TODO: create topic dfs/bfs?
+
 # O(n * m) time || O(n * m) space
 def num_islands_dfs(self, grid: List[List[str]]) -> int:
     if not grid:
