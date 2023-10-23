@@ -6,8 +6,8 @@ from typing import List
 
 # O(n) time || O(1) space
 def single_number(self, nums: List[int]) -> int:
-    a = 0
-    for i in nums:
-        a ^= i
+    res = 0
+    for n in nums:
+        res ^= n
 
-    return a
+    return res

@@ -1,6 +1,6 @@
 import unittest
 
-from arrays.SingleNumber import single_number
+from maths.SingleNumber import single_number
 
 
 class MyTestCase(unittest.TestCase):
