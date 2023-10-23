@@ -31,7 +31,7 @@ total 307
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 55
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 54
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -73,7 +73,6 @@ total 307
   - :accept: [46. permutations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Permutations.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [383. ransom note](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/RansomNote.py)
-  - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumber.py)
   - :accept: [137. single number II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumberII.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
   - :accept: [905. sort array by parity](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortArrayByParity.py)
@@ -294,7 +293,7 @@ total 307
   - :accept: [725. split linked list in parts](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SplitLinkedListInParts.py)
   - :accept: [24. swap nodes in pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwapNodesInPairs.py)
   - :accept: [1721. swapping nodes in a linked list](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/SwappingNodesInALinkedList.py)
-- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 12
+- :mortar_board: [math](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/maths) 13
   - :four_leaf_clover: [67. add binary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddBinary.py)
   - :four_leaf_clover: [258. add digits](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddDigits.py)
   - :four_leaf_clover: [989. add to array form of integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/AddToArrayFormOfInteger.py)
@@ -306,6 +305,7 @@ total 307
   - :accept: [50. pow(x, n)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/PowXN.py)
   - :four_leaf_clover: [13. roman to integer](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/RomanToInteger.py)
   - :four_leaf_clover: [1822. sign of the product of an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SignOfTheProductOfAnArray.py)
+  - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SingleNumber.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
 - :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 3
   - :accept: [1493. longest subarray of ones after deleting one element](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestSubarrayOfOnesAfterDeletingOneElement.py)
