@@ -5,17 +5,18 @@ from typing import List
 def ship_within_days(self, weights: List[int], days: int) -> int:
     low, high = max(weights), sum(weights)
     while low <= high:
-        mid, need, curr = low + (high - low) // 2, 1, 0
+        mid = low + (high - low) // 2
+        days_required, curr_weight = 1, 0
 
-        for w in weights:
-            if curr + w > mid:
-                need += 1
-                curr = 0
-            curr += w
+        for weight in weights:
+            if curr_weight + weight <= mid:
+                curr_weight += weight
+            else:
+                days_required, curr_weight = days_required + 1, weight
 
-        if need > days:
-            low = mid + 1
-        else:
+        if days_required <= days:
             high = mid - 1
+        else:
+            low = mid + 1
 
     return low
