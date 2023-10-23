@@ -1,3 +1,4 @@
+import functools
 from typing import List
 
 
@@ -11,3 +12,8 @@ def single_number(self, nums: List[int]) -> int:
         res ^= n
 
     return res
+
+
+# O(n) time || O(1) space
+def single_number_reduce(self, nums: List[int]) -> int:
+    return functools.reduce(lambda x, y: x ^ y, nums)
