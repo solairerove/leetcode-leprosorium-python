@@ -25,13 +25,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 186 medium \
+:accept: 187 medium \
 :congratulations: 38 hard \
-total 307
+total 308
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 54
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 55
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -49,6 +49,7 @@ total 307
   - :four_leaf_clover: [1732. find the highest altitude](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheHighestAltitude.py)
   - :accept: [28. find the index of the first occurrence in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindTheIndexOfTheFirstOccurrenceInAString.py)
   - :four_leaf_clover: [733. flood fill](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FloodFill.py)
+  - :accept: [18. four sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FourSum.py)
   - :accept: [49. group anagrams](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/GroupAnagrams.py)
   - :accept: [1306. jump game III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/JumpGameIII.py)
   - :four_leaf_clover: [1431. kids with the greatest number of candies](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KidsWithTheGreatestNumberOfCandies.py)
