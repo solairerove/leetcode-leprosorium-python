@@ -16,11 +16,15 @@ def group_anagrams(self, strs: List[str]) -> List[List[str]]:
 # m - number of strings
 # n - average number of letters
 def group_anagrams_count_approach(self, strs: List[str]) -> List[List[str]]:
+    def get_key(s):
+        cnt = [0] * 26
+        for c in s:
+            cnt[ord(c) - ord('a')] += 1
+
+        return tuple(cnt)
+
     dic = collections.defaultdict(list)
     for s in strs:
-        cnt = [0] * 26
-        for char in s:
-            cnt[ord(char) - ord('a')] += 1
-        dic[tuple(cnt)].append(s)
+        dic[get_key(s)].append(s)
 
     return list(dic.values())
