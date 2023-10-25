@@ -7,7 +7,6 @@ def ship_within_days(self, weights: List[int], days: int) -> int:
     while low <= high:
         mid = low + (high - low) // 2
         days_required, curr_weight = 1, 0
-
         for weight in weights:
             if curr_weight + weight <= mid:
                 curr_weight += weight
