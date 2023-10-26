@@ -1,7 +1,7 @@
 from typing import List
 
 
-# O(n) time || O(n) space
+# O(n) time || O(1) space
 def sorted_squares(self, nums: List[int]) -> List[int]:
     n = len(nums)
     res = [0] * n

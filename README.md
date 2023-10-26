@@ -212,7 +212,7 @@ total 309
   - :accept: [1254. number of closed islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfClosedIslands.py)
   - :accept: [323. number of connected components in an undirected graph](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfConnectedComponentsInAnUndirectedGraph.py)
   - :accept: [1020. number of enclaves](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfEnclaves.py)
-  - :accept: [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
+  - :accept: NOT GRAPH [200. number of islands](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfIslands.py)
   - :accept: [1319. number of operations to make network connected](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/NumberOfOperationsToMakeNetworkConnected.py)
   - :accept: [1514. path with maximum probability](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/PathWithMaximumProbability.py)
   - :congratulations: [332. reconstruct itinerary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/graphs/ReconstructItinerary.py)
