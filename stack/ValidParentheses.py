@@ -1,11 +1,13 @@
 # O(n) time || O(n) space
 def is_valid(self, s: str) -> bool:
     close_to_open, stack = {")": "(", "]": "[", "}": "{"}, []
-    for br in s:
-        if br in close_to_open:
-            if not stack or close_to_open[br] != stack.pop():
+    for c in s:
+        if c not in close_to_open:
+            stack.append(c)
+        elif stack:
+            if stack.pop() != close_to_open[c]:
                 return False
         else:
-            stack.append(br)
+            return False
 
     return not stack
