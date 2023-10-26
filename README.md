@@ -26,12 +26,12 @@ ___
 
 :four_leaf_clover: 83 easy \
 :accept: 188 medium \
-:congratulations: 38 hard \
-total 309
+:congratulations: 39 hard \
+total 310
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 55
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 56
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -74,6 +74,7 @@ total 309
   - :accept: [46. permutations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Permutations.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [383. ransom note](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/RansomNote.py)
+  - :congratulations: [301. remove invalid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/RemoveInvalidParentheses.py)
   - :accept: [137. single number II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SingleNumberII.py)
   - :accept: [912. sort an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortAnArray.py)
   - :accept: [905. sort array by parity](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SortArrayByParity.py)
