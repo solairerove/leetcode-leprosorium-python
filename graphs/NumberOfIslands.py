@@ -61,14 +61,14 @@ def num_islands_bfs(self, grid: List[List[str]]) -> int:
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
     def bfs(i, j):
-        dq = collections.deque([(i, j)])
-        while dq:
-            x, y = dq.popleft()
+        stack = [(i, j)]
+        while stack:
+            x, y = stack.pop()
             for dx, dy in directions:
                 nx, ny = x + dx, y + dy
                 if 0 <= nx < n and 0 <= ny < m and grid[nx][ny] == "1":
                     grid[nx][ny] = "0"
-                    dq.append((nx, ny))
+                    stack.append((nx, ny))
 
     for i in range(n):
         for j in range(m):
