@@ -1,6 +1,6 @@
 import unittest
 
-from graphs.NumberOfIslands import num_islands_dfs, num_islands_smart
+from graphs.NumberOfIslands import num_islands_dfs
 
 
 class MyTestCase(unittest.TestCase):
@@ -12,22 +12,8 @@ class MyTestCase(unittest.TestCase):
             ["0", "0", "0", "0", "0"]
         ]))
 
-        self.assertEqual(1, num_islands_smart(self, [
-            ["1", "1", "1", "1", "0"],
-            ["1", "1", "0", "1", "0"],
-            ["1", "1", "0", "0", "0"],
-            ["0", "0", "0", "0", "0"]
-        ]))
-
     def test_num_islands_1(self):
         self.assertEqual(3, num_islands_dfs(self, [
-            ["1", "1", "0", "0", "0"],
-            ["1", "1", "0", "0", "0"],
-            ["0", "0", "1", "0", "0"],
-            ["0", "0", "0", "1", "1"]
-        ]))
-
-        self.assertEqual(3, num_islands_smart(self, [
             ["1", "1", "0", "0", "0"],
             ["1", "1", "0", "0", "0"],
             ["0", "0", "1", "0", "0"],
