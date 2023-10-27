@@ -1,6 +1,6 @@
 # leetcode-leprosorium-python
 
-Leetcode playground using python3
+the hateful leetcode playground using python3
 ___
 
 ### Attempts
@@ -16,11 +16,12 @@ ___
 
 ### The way to prepare
 
-[grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&grouping=weeks&hours=6) \
-[leetcode patterns 180](https://seanprashad.com/leetcode-patterns/) \
-[neetcode 442](https://neetcode.io/practice) \
-[leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) \
-[python debug visualization](https://pythontutor.com/visualize.html#mode=display)
+[ChatGPT](https://chat.openai.com) can explain better than a human \
+[grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&grouping=weeks&hours=6) good list of leetcode problems, cover mostly of topics \
+[leetcode patterns 180](https://seanprashad.com/leetcode-patterns/) a little bit of different list of popular problems \
+[neetcode 442](https://neetcode.io/practice) best site with codebase and the biggest list which is good pool of problems \
+[leetcode post related to dp categories](https://leetcode.com/discuss/study-guide/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months./900006) i have issue with dp, so here's list of 200 dp problems \
+[solairerove.github.io](https://solairerove.github.io/posts/) my personal pool of problems to prepare
 
 ### Problems
 
