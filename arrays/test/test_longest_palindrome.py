@@ -1,14 +1,14 @@
 import unittest
 
-from arrays.LongestPalindrome import longest_palindrome
+from arrays.LongestPalindromicSubstring import longest_palindrome
 
 
 class MyTestCase(unittest.TestCase):
     def test_longest_palindrome(self):
-        self.assertEqual(7, longest_palindrome(self, "abccccdd"))
+        self.assertEqual("bab", longest_palindrome(self, "babad"))
 
     def test_longest_palindrome_1(self):
-        self.assertEqual(1, longest_palindrome(self, "a"))
+        self.assertEqual("bb", longest_palindrome(self, "cbbd"))
 
 
 if __name__ == '__main__':
