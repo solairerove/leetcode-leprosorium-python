@@ -31,7 +31,7 @@ total 310
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 56
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 57
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -58,6 +58,7 @@ total 310
   - :accept: [17. letter combinations of a phone number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LetterCombinationsOfAPhoneNumber.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [409. longest palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestPalindrome.py)
+  - :accept: [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestPalindromicSubstring.py)
   - :four_leaf_clover: [169. majority elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElement.py)
   - :accept: [229. majority elements II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MajorityElementII.py)
   - :four_leaf_clover: [1572. matrix diagonal sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MatrixDiagonalSum.py)
@@ -113,7 +114,7 @@ total 310
   - :accept: [540. single element in a sorted array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SingleElementInASortedArray.py)
   - :congratulations: [410. split array largest sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SplitArrayLargestSum.py)
   - :accept: [2300. successful pairs of spells and potions](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/binary_search/SuccessfulPairsOfSpellsAndPotions.py)
-- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 82
+- :two_men_holding_hands: [dynamic programming](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/dynamic_programming) 81
   - :accept: [894. all possible full binary trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/AllPossibleFullBinaryTrees.py)
   - :accept: [413. arithmetic slices](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/ArithmeticSlices.py)
   - :accept: [1014. best sightseeing pair](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/BestSightseeingPair.py)
@@ -146,7 +147,6 @@ total 310
   - :accept: [1143. longest common subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestCommonSubsequence.py)
   - :accept: [300. longest increasing subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestIncreasingSubsequence.py)
   - :accept: [516. longest palindromic subsequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubsequence.py)
-  - :accept: [5. longest palindromic substring](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/LongestPalindromicSubstring.py)
   - :accept: [1314. matrix block sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MatrixBlockSum.py)
   - :accept: [221. maximal square](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximalSquare.py)
   - :congratulations: [1799. maximize score after n operations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/dynamic_programming/MaximizeScoreAfterNOperations.py)
