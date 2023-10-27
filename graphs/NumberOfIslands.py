@@ -1,4 +1,3 @@
-import collections
 from typing import List
 
 
@@ -6,9 +5,6 @@ from typing import List
 
 # O(n * m) time || O(n * m) space
 def num_islands_dfs(self, grid: List[List[str]]) -> int:
-    if not grid:
-        return 0
-
     n, m = len(grid), len(grid[0])
 
     def dfs(i, j):
@@ -31,9 +27,6 @@ def num_islands_dfs(self, grid: List[List[str]]) -> int:
 
 # O(n * m) time || O(n * m) space
 def num_islands_dfs_shorter(self, grid: List[List[str]]) -> int:
-    if not grid:
-        return 0
-
     n, m = len(grid), len(grid[0])
 
     def dfs(i, j):
@@ -53,12 +46,8 @@ def num_islands_dfs_shorter(self, grid: List[List[str]]) -> int:
 
 # O(n * m) time || O(min(n, m)) space
 def num_islands_bfs(self, grid: List[List[str]]) -> int:
-    if not grid:
-        return 0
-
     n, m = len(grid), len(grid[0])
-    res = 0
-    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    directions = [(-1, 0), (1, 0), (0, -1), (0, +1)]
 
     def bfs(i, j):
         stack = [(i, j)]
@@ -70,10 +59,10 @@ def num_islands_bfs(self, grid: List[List[str]]) -> int:
                     grid[nx][ny] = "0"
                     stack.append((nx, ny))
 
+    res = 0
     for i in range(n):
         for j in range(m):
             if grid[i][j] == "1":
-                grid[i][j] = "0"
                 res += 1
                 bfs(i, j)
 
