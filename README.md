@@ -1,7 +1,6 @@
 # leetcode-leprosorium-python
 
 Leetcode playground using python3
-
 ___
 
 ### Attempts
@@ -13,6 +12,7 @@ ___
 - Amazon June 22 (fail :x: , arrays, dp)
 - Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
 - French tele company January 23 (fail :x: , two med dp, have those here)
+- Yandex Oct 23, preparing for interview, they sent list of leetcode links, most popular topics, no dp
 
 ### The way to prepare
 
