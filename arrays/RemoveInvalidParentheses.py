@@ -18,18 +18,19 @@ def remove_invalid_parentheses(self, s: str) -> List[str]:
 
         return cnt == 0
 
-    res, stack, visited, found = [], [s], {s}, False
+    res = []
+    stack, visited, found = [s], {s}, False
     while stack and not found:
         for curr_str in stack:
             if is_valid(curr_str):
                 found = True
                 res.append(curr_str)
             elif not found:
-                for j in range(len(curr_str)):
-                    if curr_str[j] not in ['(', ')']:
+                for i in range(len(curr_str)):
+                    if curr_str[i] not in ['(', ')']:
                         continue
 
-                    new_str = curr_str[:j] + curr_str[j + 1:]
+                    new_str = curr_str[:i] + curr_str[i + 1:]
                     if new_str not in visited:
                         visited.add(new_str)
                         stack.append(new_str)
