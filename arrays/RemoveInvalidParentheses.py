@@ -20,7 +20,7 @@ def remove_invalid_parentheses(self, s: str) -> List[str]:
         return cnt == 0
 
     res = []
-    dq, visited, found = collections.deque([s]), {str}, False
+    dq, visited, found = collections.deque([s]), set(), False
     while dq:
         curr_str = dq.popleft()
         if curr_str not in visited:
