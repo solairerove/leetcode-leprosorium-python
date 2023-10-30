@@ -1,3 +1,4 @@
+import heapq
 from typing import List
 
 
@@ -17,3 +18,18 @@ def min_meeting_rooms(self, intervals: List[List[int]]) -> int:
         res, start = res + 1, start + 1
 
     return res
+
+
+# O(n * log(n)) time || O(n) space
+def min_meeting_rooms_heap(self, intervals: List[List[int]]) -> int:
+    intervals.sort(key=lambda x: x[0])
+
+    heap = []
+    heapq.heappush(heap, intervals[0][1])
+    for interval in intervals[1:]:
+        if interval[0] >= heap[0]:
+            heapq.heappop(heap)
+
+        heapq.heappush(heap, interval[1])
+
+    return len(heap)
