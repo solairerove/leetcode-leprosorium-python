@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 188 medium \
+:accept: 189 medium \
 :congratulations: 39 hard \
-total 310
+total 311
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 57
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 58
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -65,6 +65,7 @@ total 310
   - :four_leaf_clover: [1572. matrix diagonal sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MatrixDiagonalSum.py)
   - :accept: [1456. maximum number of vowels is in a substring of given length](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MaximumNumberOfVowelsInASubstringOfGivenLength.py)
   - :four_leaf_clover: [252. meeting rooms](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRooms.py)
+  - :accept: [253. meeting rooms II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MeetingRoomsII.py)
   - :accept: [56. merge intervals](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeIntervals.py)
   - :four_leaf_clover: [1768. merge strings alternately](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MergeStringsAlternately.py)
   - :accept: [2439. minimize maximum of array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/MinimizeMaximumOfArray.py)
