@@ -1,6 +1,8 @@
 from typing import List
 
 
+# TODO: sorting topic?
+
 # O(n * log(n)) time || O(n) space
 def merge(self, intervals: List[List[int]]) -> List[List[int]]:
     intervals.sort(key=lambda x: x[0])
