@@ -1,7 +1,5 @@
 import collections
 import heapq
-import random
-from collections import Counter
 from typing import List
 
 
@@ -10,42 +8,39 @@ def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
     if len(nums) == k:
         return nums
 
-    cnt = Counter(nums)
-    unique = list(cnt.keys())
+    freq_dict = collections.Counter(nums)
+    unique_items = list(freq_dict.items())
 
-    def partition(low, high, idx):
-        freq = cnt[unique[idx]]
-        unique[idx], unique[high] = unique[high], unique[idx]
+    kth_pair = quickselect(self, unique_items, 0, len(unique_items) - 1, k - 1)
+    kth_freq = kth_pair[1]
 
-        store_idx = low
-        for i in range(low, high):
-            if cnt[unique[i]] < freq:
-                unique[store_idx], unique[i] = unique[i], unique[store_idx]
-                store_idx += 1
+    return [item[0] for item in unique_items if item[1] >= kth_freq]
 
-        unique[high], unique[store_idx] = unique[store_idx], unique[high]
 
-        return store_idx
+def quickselect(self, arr, low, high, k):
+    if low == high:
+        return arr[low]
 
-    def quick_select(low, high, k_smallest):
-        if low == high:
-            return
+    pivot_idx = partition(self, arr, low, high)
+    if k == pivot_idx:
+        return arr[k]
+    elif k < pivot_idx:
+        return quickselect(self, arr, low, pivot_idx - 1, k)
+    else:
+        return quickselect(self, arr, pivot_idx + 1, high, k)
 
-        pivot_idx = random.randint(low, high)
-        pivot_idx = partition(low, high, pivot_idx)
 
-        if k_smallest == pivot_idx:
-            return
-        elif k_smallest < pivot_idx:
-            quick_select(low, pivot_idx - 1, k_smallest)
-        else:
-            quick_select(pivot_idx + 1, high, k_smallest)
+def partition(self, arr, low, high):
+    pivot = arr[high][1]
+    i = low
+    for j in range(low, high):
+        if arr[j][1] > pivot:
+            arr[i], arr[j] = arr[j], arr[i]
+            i += 1
 
-    n = len(unique)
+    arr[i], arr[high] = arr[high], arr[i]
 
-    quick_select(0, n - 1, n - k)
-
-    return unique[n - k:]
+    return i
 
 
 # O(n) time || O(n) space
