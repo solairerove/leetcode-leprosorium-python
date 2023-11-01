@@ -6,7 +6,6 @@ from typing import List
 # O(n) time || O(n) space
 def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
     unique = list(collections.Counter(nums).items())  # (number, frequency) pairs list
-
     quickselect(self, unique, 0, len(unique) - 1, k - 1)
 
     return [pair[0] for pair in unique[:k]]
