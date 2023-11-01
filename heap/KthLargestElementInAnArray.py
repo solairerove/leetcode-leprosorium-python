@@ -37,5 +37,5 @@ def find_kth_largest(self, nums: List[int], k: int) -> int:
 
 
 # O(n * log(k)) time || O(k) space
-def find_kth_largest_using_heap(self, nums: List[int], k: int) -> int:
+def find_kth_largest_heap(self, nums: List[int], k: int) -> int:
     return heapq.nlargest(k, nums)[-1]
