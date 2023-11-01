@@ -1,3 +1,4 @@
+import collections
 import heapq
 import random
 from collections import Counter
@@ -59,18 +60,18 @@ def top_k_frequent_heap(self, nums: List[int], k: int) -> List[int]:
 
 # O(n) time || O(n) space
 def top_k_frequent_linear(self, nums: List[int], k: int) -> List[int]:
-    if len(nums) == k:
+    if k == len(nums):
         return nums
 
-    cnt = Counter(nums)
+    cnt = collections.Counter(nums)
     freq = [[] for _ in range(len(nums) + 1)]
-    for n, c in cnt.items():
-        freq[c].append(n)
+    for key, val in cnt.items():
+        freq[val].append(key)
 
     res = []
     for i in range(len(freq) - 1, 0, -1):
-        for n in freq[i]:
-            res.append(n)
+        for num in freq[i]:
+            res.append(num)
 
             if len(res) == k:
                 return res

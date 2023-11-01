@@ -1,6 +1,6 @@
 import unittest
 
-from arrays.TopKFrequentElements import top_k_frequent_heap, top_k_frequent_linear, top_k_frequent_quickselect
+from heap.TopKFrequentElements import top_k_frequent_heap, top_k_frequent_linear, top_k_frequent_quickselect
 
 
 class MyTestCase(unittest.TestCase):
