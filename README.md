@@ -32,7 +32,7 @@ total 311
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 58
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 57
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -87,7 +87,6 @@ total 311
   - :accept: [443. string compression](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/StringCompression.py)
   - :four_leaf_clover: [228. summary ranges](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/SummaryRanges.py)
   - :accept: [15. tree sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ThreeSum.py)
-  - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TopKFrequentElements.py)
   - :four_leaf_clover: [1. two sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSum.py)
   - :accept: [167. two sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/TwoSumII.py)
   - :four_leaf_clover: [242. valid anagram](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ValidAnagram.py)
@@ -243,7 +242,7 @@ total 311
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 8
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 9
   - :accept: [373. find k pairs with smallest sums](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindKPairsWithSmallestSums.py)
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
   - :four_leaf_clover: [703. kth largest element in a stream](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAStream.py)
@@ -251,6 +250,7 @@ total 311
   - :accept: [2542. maximum subsequence score](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MaximumSubsequenceScore.py)
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
   - :accept: [2336. smallest number infinite set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/SmallestNumberInInfiniteSet.py)
+  - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TopKFrequentElements.py)
   - :accept: [2462. total cost to hire k workers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TotalCostToHireKWorkers.py)
 - :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 44
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
