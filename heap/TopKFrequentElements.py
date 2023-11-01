@@ -48,6 +48,25 @@ def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
     return unique[n - k:]
 
 
+# O(n) time || O(n) space
+def top_k_frequent_linear(self, nums: List[int], k: int) -> List[int]:
+    if len(nums) == k:
+        return nums
+
+    cnt = collections.Counter(nums)
+    buckets = [[] for _ in range(len(nums) + 1)]
+    for num, freq in cnt.items():
+        buckets[freq].append(num)
+
+    res = []
+    for i in range(len(nums), 0, -1):
+        for num in buckets[i]:
+            res.append(num)
+
+            if len(res) == k:
+                return res
+
+
 # O(n * log(k)) time || O(n + k) space
 def top_k_frequent_heap(self, nums: List[int], k: int) -> List[int]:
     if len(nums) == k:
@@ -56,22 +75,3 @@ def top_k_frequent_heap(self, nums: List[int], k: int) -> List[int]:
     cnt = collections.Counter(nums)
 
     return heapq.nlargest(k, cnt.keys(), key=cnt.get)
-
-
-# O(n) time || O(n) space
-def top_k_frequent_linear(self, nums: List[int], k: int) -> List[int]:
-    if len(nums) == k:
-        return nums
-
-    cnt = collections.Counter(nums)
-    freq = [[] for _ in range(len(nums) + 1)]
-    for key, val in cnt.items():
-        freq[val].append(key)
-
-    res = []
-    for i in range(len(freq) - 1, 0, -1):
-        for num in freq[i]:
-            res.append(num)
-
-            if len(res) == k:
-                return res
