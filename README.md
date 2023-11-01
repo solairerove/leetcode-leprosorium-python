@@ -32,7 +32,7 @@ total 311
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 57
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 56
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -55,7 +55,6 @@ total 311
   - :accept: [1306. jump game III](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/JumpGameIII.py)
   - :four_leaf_clover: [1431. kids with the greatest number of candies](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KidsWithTheGreatestNumberOfCandies.py)
   - :accept: [2090. k radius subarray averages](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KRadiusSubarrayAverages.py)
-  - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/KthLargestElementInAnArray.py)
   - :accept: [17. letter combinations of a phone number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LetterCombinationsOfAPhoneNumber.py)
   - :accept: [128. longest consecutive sequence](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestConsecutiveSequence.py)
   - :four_leaf_clover: [409. longest palindrome](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/LongestPalindrome.py)
@@ -242,9 +241,10 @@ total 311
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 9
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 10
   - :accept: [373. find k pairs with smallest sums](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindKPairsWithSmallestSums.py)
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
+  - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAnArray.py)
   - :four_leaf_clover: [703. kth largest element in a stream](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAStream.py)
   - :four_leaf_clover: [1046. last stone weight](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/LastStoneWeight.py)
   - :accept: [2542. maximum subsequence score](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MaximumSubsequenceScore.py)
