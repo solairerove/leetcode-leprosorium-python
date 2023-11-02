@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 189 medium \
+:accept: 190 medium \
 :congratulations: 39 hard \
-total 311
+total 312
 
 ### Python 3
 
@@ -241,8 +241,9 @@ total 311
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 10
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 11
   - :accept: [373. find k pairs with smallest sums](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindKPairsWithSmallestSums.py)
+  - :accept: [1985. find the kth largest integer in the array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindTheKthLargestIntegerInTheArray.py)
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
   - :accept: [215. kth largest element in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAnArray.py)
   - :four_leaf_clover: [703. kth largest element in a stream](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/KthLargestElementInAStream.py)
