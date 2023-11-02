@@ -17,22 +17,22 @@ def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
 
         return i
 
-    def quickselect(arr, low, high):
+    def quickselect(arr, low, high, k):
         if low == high:
             return arr[low]
 
         i = partition(arr, low, high)
-        if k == i:
-            return arr[k]
-        elif k < i:
-            return quickselect(arr, low, i - 1)
+        if i == k:
+            return arr[i]
+        elif i < k:
+            return quickselect(arr, i + 1, high, k)
         else:
-            return quickselect(arr, i + 1, high)
+            return quickselect(arr, low, i - 1, k)
 
-    unique = list(collections.Counter(nums).items())  # (number, frequency) pairs list
-    quickselect(unique, 0, len(unique) - 1)
+    pairs = list(collections.Counter(nums).items())  # [(key, freq)]
+    quickselect(pairs, 0, len(pairs) - 1, k)
 
-    return [pair[0] for pair in unique[:k]]
+    return [pair[0] for pair in pairs[:k]]
 
 
 # O(n) time || O(n) space
