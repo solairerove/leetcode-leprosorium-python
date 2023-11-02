@@ -4,36 +4,38 @@ from typing import List
 
 
 # O(max(n, n^2) time || O(1) space
-def find_kth_largest(self, nums: List[int], k: int) -> int:
-    def partition(low, high, pivot_idx):
-        pivot = nums[pivot_idx]
-        nums[pivot_idx], nums[high] = nums[high], nums[pivot_idx]
+def find_kth_largest_quickselect(self, nums: List[int], k: int) -> int:
+    return quickselect(nums, 0, len(nums) - 1, len(nums) - k)  # nums[len(nums) - k]
 
-        store_idx = low
-        for i in range(low, high):
-            if nums[i] < pivot:
-                nums[store_idx], nums[i] = nums[i], nums[store_idx]
-                store_idx += 1
 
-        nums[high], nums[store_idx] = nums[store_idx], nums[high]
+def quickselect(arr, low, high, k):
+    if low == high:
+        return arr[low]
 
-        return store_idx
+    pivot_idx = random.randint(low, high)
+    lt, gt = partition(arr, low, high, pivot_idx)
+    if k < lt:
+        return quickselect(arr, low, lt - 1, k)
+    elif k <= gt:
+        return arr[k]
+    else:
+        return quickselect(arr, gt + 1, high, k)
 
-    def select(low, high, k_smallest):
-        if low == high:
-            return nums[low]
 
-        pivot_idx = random.randint(low, high)
-        pivot_idx = partition(low, high, pivot_idx)
-
-        if k_smallest == pivot_idx:
-            return nums[k_smallest]
-        elif k_smallest < pivot_idx:
-            return select(low, pivot_idx - 1, k_smallest)
+def partition(arr, low, high, pivot_idx):
+    pivot = arr[pivot_idx]
+    lt, i, gt = low, low, high
+    while i <= gt:
+        if arr[i] < pivot:
+            arr[lt], arr[i] = arr[i], arr[lt]
+            lt, i = lt + 1, i + 1
+        elif arr[i] > pivot:
+            arr[gt], arr[i] = arr[i], arr[gt]
+            gt -= 1
         else:
-            return select(pivot_idx + 1, high, k_smallest)
+            i += 1
 
-    return select(0, len(nums) - 1, len(nums) - k)
+    return lt, gt
 
 
 # O(n * log(k)) time || O(k) space
