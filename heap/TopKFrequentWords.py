@@ -22,3 +22,28 @@ def top_k_frequent_heap(self, words: List[str], k: int) -> List[str]:
     heapq.heapify(heap)
 
     return [heapq.heappop(heap)[1] for _ in range(k)]
+
+
+# O(n + m * log(m)) time || O(n + m) space
+# n is number of words in list
+# m is number of unique words
+# k is number of top freq words
+def top_k_frequent_bucket(self, words: List[str], k: int) -> List[str]:
+    cnt = collections.Counter(words)
+
+    buckets = collections.defaultdict(list)
+    for word, freq in cnt.items():
+        buckets[freq].append(word)
+
+    for freq in buckets:
+        buckets[freq].sort()
+
+    res = []
+    for freq in range(len(words), 0, -1):
+        if freq in buckets:
+            for word in buckets[freq]:
+                res.append(word)
+                if len(res) == k:
+                    return res
+
+    return res
