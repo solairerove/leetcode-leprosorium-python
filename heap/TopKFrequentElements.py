@@ -5,34 +5,36 @@ from typing import List
 
 # O(n) time || O(n) space
 def top_k_frequent_quickselect(self, nums: List[int], k: int) -> List[int]:
-    def partition(arr, low, high):
-        pivot = arr[high][1]
-        i = low
-        for j in range(low, high):
-            if arr[j][1] > pivot:
-                arr[i], arr[j] = arr[j], arr[i]
-                i += 1
-
-        arr[i], arr[high] = arr[high], arr[i]
-
-        return i
-
-    def quickselect(arr, low, high):
-        if low == high:
-            return
-
-        i = partition(arr, low, high)
-        if i == k:
-            return
-        elif i < k:
-            quickselect(arr, i + 1, high)
-        else:
-            quickselect(arr, low, i - 1)
-
-    pairs = list(collections.Counter(nums).items())  # [(key, freq)]
-    quickselect(pairs, 0, len(pairs) - 1)
+    pairs = list(collections.Counter(nums).items())  # [(num, freq)]
+    quickselect(pairs, 0, len(pairs) - 1, k)
 
     return [pair[0] for pair in pairs[:k]]
+
+
+def quickselect(arr, low, high, k):
+    if low == high:
+        return
+
+    i = partition(arr, low, high)
+    if i == k:
+        return
+    elif i < k:
+        quickselect(arr, i + 1, high, k)
+    else:
+        quickselect(arr, low, i - 1, k)
+
+
+def partition(arr, low, high):
+    pivot = arr[high][1]
+    i = low
+    for j in range(low, high):
+        if arr[j][1] > pivot:
+            arr[j], arr[i] = arr[i], arr[j]
+            i += 1
+
+    arr[i], arr[high] = arr[high], arr[i]
+
+    return i
 
 
 # O(n) time || O(n) space
