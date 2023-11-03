@@ -3,6 +3,29 @@ import heapq
 from typing import List
 
 
+class Pair:
+    def __init__(self, word, freq):
+        self.word = word
+        self.freq = freq
+
+    def __lt__(self, pair):
+        return self.freq < pair.freq or (self.freq == pair.freq and self.word > pair.word)
+
+
+# O(n * log(k)) time || O(n) space
+# n is number of words in list
+# k is number of top freq words
+def top_k_frequent_min_heap(self, words: List[str], k: int) -> List[str]:
+    cnt = collections.Counter(words)
+    heap = []
+    for word, freq in cnt.items():
+        heapq.heappush(heap, Pair(word, freq))
+        if len(heap) > k:
+            heapq.heappop(heap)
+
+    return [pair.word for pair in sorted(heap, reverse=True)]
+
+
 # O(n + m * log(m)) time || O(m) space
 # n is number of words in list
 # m is number of unique words
