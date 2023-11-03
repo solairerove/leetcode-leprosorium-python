@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 191 medium \
+:accept: 192 medium \
 :congratulations: 39 hard \
-total 313
+total 314
 
 ### Python 3
 
@@ -242,7 +242,7 @@ total 313
   - :accept: [1396. design underground system](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/DesignUndergroundSystem.py)
   - :accept: [380. insert delete get random O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandom.py)
   - :accept: [381. insert delete get random duplicates allowed O(1)](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/hash_table/InsertDeleteGetRandomDuplicatesAllowed.py)
-- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 11
+- :ship: [heap](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/heap) 12
   - :accept: [373. find k pairs with smallest sums](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindKPairsWithSmallestSums.py)
   - :accept: [1985. find the kth largest integer in the array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/FindTheKthLargestIntegerInTheArray.py)
   - :congratulations: [502. ipo](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/IPO.py)
@@ -253,6 +253,7 @@ total 313
   - :congratulations: [1675. minimize deviation in array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/MinimizeDeviationInArray.py)
   - :accept: [2336. smallest number infinite set](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/SmallestNumberInInfiniteSet.py)
   - :accept: [347. top k frequent elements](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TopKFrequentElements.py)
+  - :accept: [692. top k frequent words](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TopKFrequentWords.py)
   - :accept: [2462. total cost to hire k workers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/heap/TotalCostToHireKWorkers.py)
 - :link: [linked list](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/linked_list) 44
   - :accept: [2. add two numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/linked_list/AddTwoNumbers.py)
