@@ -58,9 +58,6 @@ def top_k_frequent_linear(self, nums: List[int], k: int) -> List[int]:
 
 # O(n * log(k)) time || O(n + k) space
 def top_k_frequent_heap(self, nums: List[int], k: int) -> List[int]:
-    if len(nums) == k:
-        return nums
-
     cnt = collections.Counter(nums)
 
     return heapq.nlargest(k, cnt.keys(), key=cnt.get)
