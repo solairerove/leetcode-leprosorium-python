@@ -1,7 +1,7 @@
 from typing import List
 
 
-# O(n) time || O(n) space
+# O(n) time || O(1) space
 def partition_labels(self, s: str) -> List[int]:
     last_occurrence = {c: i for i, c in enumerate(s)}
     res = []
