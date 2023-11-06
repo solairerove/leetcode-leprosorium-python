@@ -1,5 +1,6 @@
 from typing import List
 
+# TODO: two pointers
 
 # O(n) time || O(1) space
 def max_area(self, height: List[int]) -> int:
