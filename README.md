@@ -26,13 +26,13 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 192 medium \
+:accept: 193 medium \
 :congratulations: 39 hard \
-total 314
+total 315
 
 ### Python 3
 
-- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 57
+- :1234: [array](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/arrays) 58
   - :accept: [735. asteroid collision](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AsteroidCollision.py)
   - :four_leaf_clover: [1491. average salary excluding the minimum and maximum salary](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/AverageSalaryExcludingTheMinimumAndMaximumSalary.py)
   - :four_leaf_clover: [844. backspace string compare](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/BackspaceStringCompare.py)
@@ -73,6 +73,7 @@ total 314
   - :four_leaf_clover: [1512. number of good pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfGoodPairs.py)
   - :accept: [1498. number of subsequences that satisfy the given sum condition](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfSubsequencesThatSatisfyTheGivenSumCondition.py)
   - :accept: [2348. number of zero filled sub arrays](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/NumberOfZeroFilledSubarrays.py)
+  - :accept: [763. partition labels](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/PartitionLabels.py)
   - :accept: [46. permutations](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Permutations.py)
   - :accept: [238. product of array except self](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/ProductOfArrayExceptSelf.py)
   - :four_leaf_clover: [383. ransom note](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/RansomNote.py)
