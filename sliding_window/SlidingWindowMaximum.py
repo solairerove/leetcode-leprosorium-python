@@ -10,7 +10,7 @@ def max_sliding_window(self, nums: List[int], k: int) -> List[int]:
         while dq and dq[0] <= i - k:
             dq.popleft()
 
-        while dq and nums[dq[-1]] < n:
+        while dq and nums[dq[-1]] <= n:
             dq.pop()
 
         dq.append(i)
