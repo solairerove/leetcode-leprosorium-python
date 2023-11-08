@@ -4,8 +4,8 @@ from typing import List
 
 # O(n) time | O(k) space
 def max_sliding_window(self, nums: List[int], k: int) -> List[int]:
-    dq = collections.deque()
     res = []
+    dq = collections.deque()
     for i, n in enumerate(nums):
         if dq and dq[0] < i - k + 1:
             dq.popleft()
