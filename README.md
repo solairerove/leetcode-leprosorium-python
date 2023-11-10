@@ -27,8 +27,8 @@ ___
 
 :four_leaf_clover: 83 easy \
 :accept: 193 medium \
-:congratulations: 41 hard \
-total 317
+:congratulations: 42 hard \
+total 318
 
 ### Python 3
 
@@ -316,12 +316,13 @@ total 317
   - :four_leaf_clover: [1822. sign of the product of an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SignOfTheProductOfAnArray.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SingleNumber.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
-- :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 5
+- :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 6
   - :accept: [438. find all anagrams in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/FindAllAnagramsInAString.py)
   - :accept: [1493. longest subarray of ones after deleting one element](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestSubarrayOfOnesAfterDeletingOneElement.py)
   - :accept: [2024. maximize the confusion of an exam](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MaximizeTheConfusionOfAnExam.py)
   - :accept: [209. minimum size subarray sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MinimumSizeSubarraySum.py)
   - :congratulations: [239. sliding window maximum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/SlidingWindowMaximum.py)
+  - :congratulations: [480. sliding window median](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/SlidingWindowMedian.py)
 - :potable_water: [stack](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/stack) 7
   - :four_leaf_clover: [232. implement queue using stacks](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ImplementQueueUsingStacks.py)
   - :four_leaf_clover: [225. implement stack using queues](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ImplementStackUsingQueues.py)
