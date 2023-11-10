@@ -26,9 +26,9 @@ ___
 ### Problems
 
 :four_leaf_clover: 83 easy \
-:accept: 193 medium \
+:accept: 194 medium \
 :congratulations: 42 hard \
-total 318
+total 319
 
 ### Python 3
 
@@ -316,8 +316,9 @@ total 318
   - :four_leaf_clover: [1822. sign of the product of an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SignOfTheProductOfAnArray.py)
   - :four_leaf_clover: [136. single number](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SingleNumber.py)
   - :congratulations: [483. smallest good base](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/maths/SmallestGoodBase.py)
-- :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 6
+- :mountain_cableway: [sliding window](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/sliding_window) 7
   - :accept: [438. find all anagrams in a string](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/FindAllAnagramsInAString.py)
+  - :accept: [424. longest repeating character replacement](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestRepeatingCharacterReplacement.py)
   - :accept: [1493. longest subarray of ones after deleting one element](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/LongestSubarrayOfOnesAfterDeletingOneElement.py)
   - :accept: [2024. maximize the confusion of an exam](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MaximizeTheConfusionOfAnExam.py)
   - :accept: [209. minimum size subarray sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/sliding_window/MinimumSizeSubarraySum.py)
