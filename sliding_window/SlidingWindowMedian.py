@@ -4,72 +4,69 @@ from typing import List
 
 
 class MedianFinder:
-
     def __init__(self):
         self.small, self.large = [], []
+        self.lazy = collections.defaultdict(int)
+        self.balance = 0
 
-    def add_num(self, num):
+    def add(self, num):
         if not self.small or num <= -self.small[0]:
             heapq.heappush(self.small, -num)
+            self.balance -= 1
         else:
             heapq.heappush(self.large, num)
+            self.balance += 1
 
-        self.balance()
+        self.rebalance()
 
-    def balance(self):
-        if len(self.small) > len(self.large) + 1:
-            heapq.heappush(self.large, -heapq.heappop(self.small))
-
-        if len(self.small) < len(self.large):
-            heapq.heappush(self.small, -heapq.heappop(self.large))
-
-    def find_median(self, heap_size):
-        if heap_size % 2 == 1:
-            return -self.small[0]
-
-        return (-self.small[0] + self.large[0]) / 2
-
-
-# O((n - k) + n * log(k)) time || O(n + k) space
-def median_sliding_window(self, nums: List[int], k: int) -> List[float]:
-    lazy_remove = collections.defaultdict(float)
-    median_finder = MedianFinder()
-    res = []
-
-    # can be shorter
-    for i in range(k):
-        median_finder.add_num(nums[i])
-
-    median = median_finder.find_median(k)
-    res.append(median)
-
-    for i in range(k, len(nums)):
-        head_of_window = nums[i - k]
-        lazy_remove[head_of_window] += 1
-
-        balance = -1 if head_of_window <= median else 1
-
-        if nums[i] <= median:
-            balance += 1
-            heapq.heappush(median_finder.small, -nums[i])
+    def remove(self, num):
+        self.lazy[num] += 1
+        if num <= -self.small[0]:
+            self.balance += 1
         else:
-            balance -= 1
-            heapq.heappush(median_finder.large, nums[i])
+            self.balance -= 1
 
-        if balance < 0:
-            heapq.heappush(median_finder.small, -heapq.heappop(median_finder.large))
-        elif balance > 0:
-            heapq.heappush(median_finder.large, -heapq.heappop(median_finder.small))
+        self.rebalance()
+        self.lazy_remove()
 
-        while median_finder.small and lazy_remove[-median_finder.small[0]] > 0:
-            lazy_remove[-median_finder.small[0]] -= 1
-            heapq.heappop(median_finder.small)
+    def find_median(self):
+        if self.balance == 0:
+            return (-self.small[0] + self.large[0]) / 2
+        elif self.balance < 0:
+            return -self.small[0]
+        else:
+            return self.large[0]
 
-        while median_finder.large and lazy_remove[median_finder.large[0]] > 0:
-            lazy_remove[median_finder.large[0]] -= 1
-            heapq.heappop(median_finder.large)
+    def rebalance(self):
+        while self.balance < 0:
+            heapq.heappush(self.large, -heapq.heappop(self.small))
+            self.balance += 2
 
-        median = median_finder.find_median(k)
-        res.append(median)
+        while self.balance > 0:
+            heapq.heappush(self.small, -heapq.heappop(self.large))
+            self.balance -= 2
+
+    def lazy_remove(self):
+        while self.small and self.lazy[-self.small[0]] > 0:
+            self.lazy[-self.small[0]] -= 1
+            heapq.heappop(self.small)
+
+        while self.large and self.lazy[self.large[0]] > 0:
+            self.lazy[self.large[0]] -= 1
+            heapq.heappop(self.large)
+
+
+# O(n * log(k)) time || O(n) space
+def median_sliding_window(self, nums: List[int], k: int) -> List[float]:
+    res = []
+    median_finder = MedianFinder()
+    for i, num in enumerate(nums):
+        median_finder.add(num)
+
+        if i >= k:
+            median_finder.remove(nums[i - k])
+
+        if i >= k - 1:
+            res.append(median_finder.find_median())
 
     return res
