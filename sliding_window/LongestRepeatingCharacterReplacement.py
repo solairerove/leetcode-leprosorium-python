@@ -1,7 +1,7 @@
-# O(n) time | O(1) space
 import collections
 
 
+# O(n) time | O(1) space
 def character_replacement(self, s: str, k: int) -> int:
     freq, max_freq, res = collections.defaultdict(int), 0, 0
     low = 0
