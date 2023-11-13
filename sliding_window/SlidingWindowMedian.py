@@ -30,14 +30,17 @@ class MedianFinder:
         self.lazy_remove()
 
     def find_median(self):
-        if self.balance == 0:
-            return (-self.small[0] + self.large[0]) / 2
-        elif self.balance < 0:
+        if self.balance < 0:
             return -self.small[0]
-        else:
+        elif self.balance > 0:
             return self.large[0]
 
+        return (-self.small[0] + self.large[0]) / 2.0
+
     def rebalance(self):
+        if self.balance == -1:
+            return
+
         while self.balance < 0:
             heapq.heappush(self.large, -heapq.heappop(self.small))
             self.balance += 2
