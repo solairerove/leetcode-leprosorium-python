@@ -1,13 +1,11 @@
+import collections
 from typing import Optional
 
 from trees.TreeNode import TreeNode
 
 
 # O(n) time || O(n) space
-def is_symmetric(self, root: Optional[TreeNode]) -> bool:
-    if not root:
-        return True
-
+def is_symmetric_dfs(self, root: Optional[TreeNode]) -> bool:
     stack = [(root.left, root.right)]
     while stack:
         left, right = stack.pop()
@@ -15,34 +13,42 @@ def is_symmetric(self, root: Optional[TreeNode]) -> bool:
         if not left and not right:
             continue
 
-        if not left or not right:
+        if not left or not right or left.val != right.val:
             return False
 
-        if left.val == right.val:
-            stack.append((left.left, right.right))
-            stack.append((left.right, right.left))
-        else:
+        stack.append((left.left, right.right))
+        stack.append((left.right, right.left))
+
+    return True
+
+
+# O(n) time || O(n) space
+def is_symmetric_bfs(self, root: Optional[TreeNode]) -> bool:
+    dq = collections.deque([(root.left, root.right)])
+    while dq:
+        left, right = dq.popleft()
+
+        if not left and not right:
+            continue
+
+        if not left or not right or left.val != right.val:
             return False
+
+        dq.append((left.left, right.right))
+        dq.append((left.right, right.left))
 
     return True
 
 
 # O(n) time || O(n) space
 def is_symmetric_rec(self, root: Optional[TreeNode]) -> bool:
-    if not root:
-        return True
-    else:
-        return is_mirror(self, root.left, root.right)
+    def is_mirror_tree(node1, node2):
+        if not node1 and not node2:
+            return True
 
+        if not node1 or not node2 or node1.val != node2.val:
+            return False
 
-def is_mirror(self, left, right):
-    if not left and not right:
-        return True
+        return is_mirror_tree(node1.left, node2.right) and is_mirror_tree(node1.right, node2.left)
 
-    if not left or not right:
-        return False
-
-    if left.val == right.val:
-        return is_mirror(self, left.left, right.right) and is_mirror(self, left.right, right.left)
-    else:
-        return False
+    return is_mirror_tree(root.left, root.right)

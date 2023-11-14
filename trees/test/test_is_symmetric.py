@@ -1,6 +1,6 @@
 import unittest
 
-from trees.SymmetricTree import is_symmetric_rec, is_symmetric
+from trees.SymmetricTree import is_symmetric_rec, is_symmetric_dfs, is_symmetric_bfs
 from trees.TreeNode import TreeNode
 
 
@@ -20,7 +20,8 @@ class MyTestCase(unittest.TestCase):
             )
         )
 
-        self.assertEqual(True, is_symmetric(self, root))
+        self.assertEqual(True, is_symmetric_dfs(self, root))
+        self.assertEqual(True, is_symmetric_bfs(self, root))
         self.assertEqual(True, is_symmetric_rec(self, root))
 
     def test_is_symmetric_1(self):
@@ -36,7 +37,8 @@ class MyTestCase(unittest.TestCase):
             )
         )
 
-        self.assertEqual(False, is_symmetric(self, root))
+        self.assertEqual(False, is_symmetric_dfs(self, root))
+        self.assertEqual(False, is_symmetric_bfs(self, root))
         self.assertEqual(False, is_symmetric_rec(self, root))
 
 
