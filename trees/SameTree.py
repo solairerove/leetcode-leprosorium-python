@@ -38,14 +38,14 @@ def is_same_tree_bfs(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool
     dq = collections.deque([(p, q)])
     while dq:
         node1, node2 = dq.popleft()
+
         if not node1 and not node2:
             continue
-        elif None in [node1, node2]:
+
+        if not node1 or not node2 or node1.val != node2.val:
             return False
-        else:
-            if node1.val != node2.val:
-                return False
-            dq.append((node1.left, node2.left))
-            dq.append((node1.right, node2.right))
+
+        dq.append((node1.left, node2.left))
+        dq.append((node1.right, node2.right))
 
     return True
