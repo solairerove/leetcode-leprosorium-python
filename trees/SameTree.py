@@ -6,10 +6,13 @@ from trees.TreeNode import TreeNode
 
 # O(n) time || O(h) space
 def is_same_tree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-    if p and q:
-        return p.val == q.val and is_same_tree(self, p.left, q.left) and is_same_tree(self, p.right, q.right)
+    if not p and not q:
+        return True
 
-    return p is q
+    if not p or not q or p.val != q.val:
+        return False
+
+    return is_same_tree(self, p.left, q.left) and is_same_tree(self, p.right, q.right)
 
 
 # O(n) time || O(h) space
