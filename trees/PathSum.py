@@ -27,16 +27,17 @@ def has_path_sum_dfs(self, root: Optional[TreeNode], target_sum: int) -> bool:
     if not root:
         return False
 
-    stack = [(root, target_sum - root.val)]
+    stack = [(root, root.val)]
     while stack:
         node, curr_sum = stack.pop()
-        if not node.left and not node.right and curr_sum == 0:
+
+        if not node.left and not node.right and curr_sum == target_sum:
             return True
 
-        if node.right:
-            stack.append((node.right, curr_sum - node.right.val))
-
         if node.left:
-            stack.append((node.left, curr_sum - node.left.val))
+            stack.append((node.left, curr_sum + node.left.val))
+
+        if node.right:
+            stack.append((node.right, curr_sum + node.right.val))
 
     return False
