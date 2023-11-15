@@ -7,19 +7,11 @@ from trees.TreeNode import TreeNode
 def is_balanced(self, root: Optional[TreeNode]) -> bool:
     def dfs(node):
         if not node:
-            return True, -1
+            return 0, True
 
-        l_balanced, l_height = dfs(node.left)
-        if not l_balanced:
-            return False, 0
+        l_height, l_balanced = dfs(node.left)
+        r_height, r_balanced = dfs(node.right)
 
-        r_balanced, r_height = dfs(node.right)
-        if not r_balanced:
-            return False, 0
+        return max(l_height, r_height) + 1, l_balanced and r_balanced and abs(l_height - r_height) <= 1
 
-        return (
-            abs(l_height - r_height) < 2,
-            1 + max(l_height, r_height)
-        )
-
-    return dfs(root)[0]
+    return dfs(root)[1]
