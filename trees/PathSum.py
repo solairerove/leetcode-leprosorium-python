@@ -4,15 +4,22 @@ from trees.TreeNode import TreeNode
 
 
 # O(n) time || O(max(n, log(n)) space
-def has_path_sum_recursive(self, root: Optional[TreeNode], target_sum: int) -> bool:
+def has_path_sum_rec(self, root: Optional[TreeNode], target_sum: int) -> bool:
     if not root:
         return False
 
-    target_sum -= root.val
-    if not root.left and not root.right:
-        return target_sum == 0
+    def dfs(node, curr_sum):
+        if not node:
+            return False
 
-    return has_path_sum_recursive(self, root.left, target_sum) or has_path_sum_recursive(self, root.right, target_sum)
+        curr_sum += node.val
+
+        if not node.left and not node.right:
+            return curr_sum == target_sum
+
+        return dfs(node.left, curr_sum) or dfs(node.right, curr_sum)
+
+    return dfs(root, 0)
 
 
 # O(n) time || O(max(n, log(n)) space
