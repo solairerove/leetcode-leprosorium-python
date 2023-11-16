@@ -1,6 +1,6 @@
 import unittest
 
-from trees.BalancedBinaryTree import is_balanced
+from trees.BalancedBinaryTree import is_balanced_rec, is_balanced_dfs
 from trees.TreeNode import TreeNode
 
 
@@ -15,7 +15,8 @@ class MyTestCase(unittest.TestCase):
                 right=TreeNode(7)
             )
         )
-        self.assertEqual(True, is_balanced(self, root))
+        self.assertEqual(True, is_balanced_rec(self, root))
+        self.assertEqual(True, is_balanced_dfs(self, root))
 
     def test_is_balanced_1(self):
         root = TreeNode(
@@ -31,7 +32,8 @@ class MyTestCase(unittest.TestCase):
             ),
             right=TreeNode(2)
         )
-        self.assertEqual(False, is_balanced(self, root))
+        self.assertEqual(False, is_balanced_rec(self, root))
+        self.assertEqual(False, is_balanced_dfs(self, root))
 
 
 if __name__ == '__main__':
