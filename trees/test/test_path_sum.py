@@ -1,6 +1,6 @@
 import unittest
 
-from trees.PathSumII import path_sum
+from trees.PathSumII import path_sum_rec, path_sum_dfs
 from trees.TreeNode import TreeNode
 
 
@@ -26,7 +26,8 @@ class MyTestCase(unittest.TestCase):
                 )
             )
         )
-        self.assertEqual([[5, 4, 11, 2], [5, 8, 4, 5]], path_sum(self, root, 22))
+        self.assertEqual([[5, 4, 11, 2], [5, 8, 4, 5]], path_sum_rec(self, root, 22))
+        self.assertEqual([[5, 8, 4, 5], [5, 4, 11, 2]], path_sum_dfs(self, root, 22))
 
     def test_path_sum_1(self):
         root = TreeNode(
@@ -35,7 +36,8 @@ class MyTestCase(unittest.TestCase):
             right=TreeNode(3)
         )
 
-        self.assertEqual([], path_sum(self, root, 0))
+        self.assertEqual([], path_sum_rec(self, root, 0))
+        self.assertEqual([], path_sum_dfs(self, root, 0))
 
 
 if __name__ == '__main__':
