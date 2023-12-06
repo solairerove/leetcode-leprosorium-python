@@ -12,6 +12,7 @@ def three_sum(self, nums: List[int]) -> List[List[int]]:
         low, high = i + 1, len(nums) - 1
         while low < high:
             _sum = nums[i] + nums[low] + nums[high]
+
             if _sum == 0:
                 res.append([nums[i], nums[low], nums[high]])
                 low, high = low + 1, high - 1
