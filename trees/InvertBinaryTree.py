@@ -13,17 +13,17 @@ def invert_tree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 # O(n) time || O(h) space
 def invert_tree_stack(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
     if not root:
-        return None
+        return root
 
     stack = [root]
     while stack:
-        curr = stack.pop()
-        curr.left, curr.right = curr.right, curr.left
+        node = stack.pop()
+        node.left, node.right = node.right, node.left
 
-        if curr.left:
-            stack.append(curr.left)
+        if node.left:
+            stack.append(node.left)
 
-        if curr.right:
-            stack.append(curr.right)
+        if node.right:
+            stack.append(node.right)
 
     return root
