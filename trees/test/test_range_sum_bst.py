@@ -1,6 +1,6 @@
 import unittest
 
-from trees.RangeSumOfBST import range_sum_bst
+from trees.RangeSumOfBST import range_sum_bst, range_sum_bst_iterative
 from trees.TreeNode import TreeNode
 
 
@@ -20,6 +20,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(32, range_sum_bst(self, root, 7, 15))
+        self.assertEqual(32, range_sum_bst_iterative(self, root, 7, 15))
 
     def test_range_sum_bst_1(self):
         root = TreeNode(
@@ -37,6 +38,7 @@ class MyTestCase(unittest.TestCase):
         )
 
         self.assertEqual(23, range_sum_bst(self, root, 6, 10))
+        self.assertEqual(23, range_sum_bst_iterative(self, root, 6, 10))
 
 
 if __name__ == '__main__':

@@ -16,3 +16,24 @@ def range_sum_bst(self, root: Optional[TreeNode], low: int, high: int) -> int:
         return range_sum_bst(self, root.left, low, high)
 
     return root.val + range_sum_bst(self, root.left, low, high) + range_sum_bst(self, root.right, low, high)
+
+
+# O(n) time || O(h) space
+def range_sum_bst_iterative(self, root: Optional[TreeNode], low: int, high: int) -> int:
+    if not root:
+        return 0
+
+    stack, res = [root], 0
+    while stack:
+        node = stack.pop()
+        if node:
+            if node.val > low:
+                stack.append(node.left)
+
+            if node.val < high:
+                stack.append(node.right)
+
+            if low <= node.val <= high:
+                res += node.val
+
+    return res
