@@ -25,10 +25,10 @@ ___
 
 ### Problems
 
-:four_leaf_clover: 82 easy \
-:accept: 196 medium \
+:four_leaf_clover: 84 easy \
+:accept: 198 medium \
 :congratulations: 42 hard \
-total 320
+total 323
 
 ### Python 3
 
@@ -43,6 +43,7 @@ total 320
   - :four_leaf_clover: [2022. convert 1d array into 2d array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/Convert1DArrayInto2DArray.py)
   - :congratulations: [2444. count sub arrays with fixed bounds](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/CountSubarraysWithFixedBounds.py)
   - :accept: [271. encode and decode strings](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EncodeAndDecodeStrings.py)
+  - :accept: [2352. equal row and column pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EqualRowAndColumnPairs.py)
   - :accept: [2352. equal row and column pairs](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/EqualRowAndColumnPairs.py)
   - :accept: [442. find all duplicates in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllDuplicatesInAnArray.py)
   - :four_leaf_clover: [448. find all numbers disappeared in an array](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/arrays/FindAllNumbersDisappearedInAnArray.py)
@@ -333,7 +334,7 @@ total 320
   - :accept: [71. simplify path](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/SimplifyPath.py)
   - :accept: [946. validate stack sequences](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidateStackSequences.py)
   - :four_leaf_clover: [20. valid parentheses](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/stack/ValidParentheses.py)
-- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 28
+- :deciduous_tree: [trees](https://github.com/solairerove/leetcode-leprosorium-python/tree/master/trees) 31
   - :accept: [863. all nodes distance k in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AllNodesDistanceKInBinaryTree.py)
   - :four_leaf_clover: [637. average of levels in binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/AverageOfLevelsInBinaryTree.py)
   - :four_leaf_clover: [110. balanced binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/BalancedBinaryTree.py)
@@ -346,6 +347,7 @@ total 320
   - :four_leaf_clover: [543. diameter of binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/DiameterOfBinaryTree.py)
   - :accept: [652. find duplicates subtrees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/FindDuplicateSubtrees.py)
   - :four_leaf_clover: [226. invert binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/InvertBinaryTree.py)
+  - :four_leaf_clover: [872. leaf similar trees](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/LeafSimilarTrees.py)
   - :accept: [1372. longest zig zag path in a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/LongestZigZagPathInABinaryTree.py)
   - :accept: [235. lowest common ancestor of a binary search tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/LowestCommonAncestorOfABinarySearchTree.py)
   - :accept: [236. lowest common ancestor of a binary tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/LowestCommonAncestorOfABinaryTree.py)
@@ -358,6 +360,8 @@ total 320
   - :four_leaf_clover: [783. minimum distance between bst nodes](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/MinimumDistanceBetweenBSTNodes.py)
   - :congratulations: [1569. number of ways to reorder array to get same bst](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/NumberOfWaysToReorderArrayToGetSameBST.py)
   - :four_leaf_clover: [112. path sum](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/PathSum.py)
+  - :accept: [113. path sum II](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/PathSumII.py)
+  - :four_leaf_clover: [872. range sum of BST](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/RangeSumOfBST.py)
   - :four_leaf_clover: [100. same tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SameTree.py)
   - :four_leaf_clover: [572. subtree of another tree](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SubtreeOfAnotherTree.py)
   - :accept: [129. sum root to leaf numbers](https://github.com/solairerove/leetcode-leprosorium-python/blob/master/trees/SumRootToLeafNumbers.py)
