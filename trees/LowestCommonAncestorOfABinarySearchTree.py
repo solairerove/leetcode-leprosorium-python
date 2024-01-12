@@ -19,14 +19,15 @@ def lowest_common_ancestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> Op
 
 # O(h) time || O(h) space
 def lowest_common_ancestor_dfs(self, root: TreeNode, p: TreeNode, q: TreeNode) -> Optional[TreeNode]:
-    mn, mx = min(p.val, q.val), max(p.val, q.val)
-
     def dfs(node):
-        if node.val > mx:
-            return dfs(node.left)
+        if not node:
+            return None
 
-        if node.val < mn:
+        if node.val < p.val and node.val < q.val:
             return dfs(node.right)
+
+        if node.val > p.val and node.val > q.val:
+            return dfs(node.left)
 
         return node
 
