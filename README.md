@@ -5,6 +5,8 @@ ___
 
 ### Attempts
 
+- belarussian crazy batshit autsources, banks 2015-2018 fail :x:
+- bunch of russian companies, banks 2019 fail :x:
 - Yandex February 20 (fail :x: , graphs, dp)
 - German eco smart house Summer 21 (fail :x:, arrays, dp)
 - Ennabl Irish insurance invoices bigdata Autumn 21 (pass :white_check_mark:, greedy and number of islands dfs from leetcode)
@@ -13,6 +15,9 @@ ___
 - Microsoft December 22 (fail :x:,  easy string, easy array, two med/hard dp, have those here)
 - French tele company January 23 (fail :x: , two med dp, have those here)
 - Yandex Oct 23, preparing for interview, they sent list of leetcode links, most popular topics, no dp
+- Both Microsoft and Goofle Autmn 24 fail :x:
+- 2025 fail :x:
+- 2026 no more leetcode...
 
 ### The way to prepare
 
